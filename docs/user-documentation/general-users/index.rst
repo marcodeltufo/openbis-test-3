@@ -3,7 +3,6 @@ General Users
 
 .. toctree::
    :maxdepth: 4
-   :hidden:
 
    general-overview
    inventory-of-materials-and-methods
