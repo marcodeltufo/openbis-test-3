@@ -230,15 +230,3 @@ extension](https://www.npmjs.com/package/jupyterlab-openbis)
 
 
 Updated on April 25, 2023
- 
-MATLAB toolbox
-----
-
-
-
-  
-The MATLAB toolbox for openBIS allows to access data stored in openBIS
-directly from MATALB. Full documentation can be found here: [MATLAB
-API](https://sissource.ethz.ch/sispub/openbis/-/tree/master/api-openbis-matlab)
-
-Updated on April 17, 2023

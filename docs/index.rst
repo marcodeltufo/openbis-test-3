@@ -1,13 +1,10 @@
-OpenBIS Documentation
-=====================
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: User Documentation
-
-   /user-documentation/general-users/index
-   /user-documentation/general-admin-users/index
-   /user-documentation/advance-features/index
-   /user-documentation/legacy-advance-features/index
-
+   general-overview
+   inventory-of-materials-and-methods
+   managing-storage-of-samples
+   barcodes
+   lab-notebook
+   data-upload
+   data-export
+   data-archiving
+   search
+   additional-functionalities
