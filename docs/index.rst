@@ -2,7 +2,7 @@ OpenBIS Documentation
 =====================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :hidden:
    :caption: User Documentation
 
