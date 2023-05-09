@@ -1,10 +1,9 @@
-   general-overview
-   inventory-of-materials-and-methods
-   managing-storage-of-samples
-   barcodes
-   lab-notebook
-   data-upload
-   data-export
-   data-archiving
-   search
-   additional-functionalities
+OpenBIS Documentation
+=====================
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: User Documentation
+
+   /user-documentation/general-users/index
