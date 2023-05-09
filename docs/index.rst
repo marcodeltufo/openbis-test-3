@@ -4,7 +4,7 @@ Read the Docs: documentation simplified
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 🚀 Area1
+   :caption: User Documentation
 
    /area1/index
    /area1/userdoc-general-users
