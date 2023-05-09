@@ -1,20 +1,13 @@
-Read the Docs: documentation simplified
-=======================================
+OpenBIS Documentation
+=====================
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: User Documentation
 
-   /area1/index
-   /area1/userdoc-general-users
-   /area1/userdoc-general-admin-users
-   /area1/userdoc-advanced-features
-   /area1/userdoc-legacy-af
+   /user-documentation/general-users/index
+   /user-documentation/general-admin-users/index
+   /user-documentation/advance-features/index
+   /user-documentation/legacy-advance-features/index
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: 🚀 Area2
-
-   /area2/index
