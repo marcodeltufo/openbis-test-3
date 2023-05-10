@@ -1,5 +1,6 @@
+#####################
 OpenBIS Documentation
-=====================
+#####################
 
 .. toctree::
    :maxdepth: 4
@@ -7,3 +8,7 @@ OpenBIS Documentation
    :caption: User Documentation
 
    General Users </user-documentation/general-users/index>
+
+User Documentation
+==================
+   :doc:`General Users </user-documentation/general-users/index>`.
