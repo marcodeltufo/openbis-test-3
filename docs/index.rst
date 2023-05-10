@@ -11,4 +11,6 @@ OpenBIS Documentation
 
 User Documentation
 ==================
-   :doc:`General Users </user-documentation/general-users/index>`.
+   - :doc:`General Users </user-documentation/general-users/index>`.
+   - General Admin Users
+   - Advanced Features
