@@ -1,6 +1,4 @@
-#####################
-OpenBIS Documentation
-#####################
+# OpenBIS Documentation
 
 The complete solution for managing your research data.
 
@@ -11,23 +9,20 @@ The complete solution for managing your research data.
 
    General Users </user-documentation/general-users/index>
 
-User Documentation
-------------------
+### User Documentation
    - :doc:`General Users </user-documentation/general-users/index>`
    - General Admin Users
    - Advanced Features
    - Legacy Advance Features
 
-Software Developer Documentation
---------------------------------
+### Software Developer Documentation
    - Development Environment
    - APIS
    - Server-side Extensions
    - Client-side Extensions
    - Legacy Server-side Extensions
    
-System Admin Documentation
---------------------------
+### System Admin Documentation
    - Installation
    - Docker Installation
    - Advanced Features
