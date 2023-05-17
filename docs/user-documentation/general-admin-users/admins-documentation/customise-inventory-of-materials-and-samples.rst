@@ -24,19 +24,14 @@ another folder, called *Project*, in the **Materials** inventory.
 For example, if we want to create a collection of raw samples, we need
 to adopt the following steps:
 
-1.  Create an *Object* *type* called <span
-    style="color: #3366ff;">Sample. This can only be done by an
+#.  Create an *Object* *type* called Sample. This can only be done by an
     *Instance admin*, from the admin interface, as explained here: [New
     Entity Type
     Registration](https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/)
-2.  Create a first folder called <span
-    style="color: #3366ff;">Samples <span
-    style="color: #333399;">inside the
-    **Materials** folder <span
-    style="color: #000000;">*(Project)*
-3.  Create a second folder called Raw
-    Samples<span
-    style="color: #3366ff;">** ***(Collection)*
+#.  Create a first folder called Samples inside the
+    **Materials** folder *(Project)*
+#.  Create a second folder called Raw
+    Samples** ***(Collection)*
 
  
 
