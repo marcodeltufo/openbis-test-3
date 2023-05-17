@@ -20,7 +20,7 @@ only, or metadata and data (up to 10 GBs). 
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/export-space.png
+..image:: /img/export-space.png
 
  
 
@@ -35,7 +35,7 @@ Object and Datasets* (see below).
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/exported-space-1024x302.png
+..image:: /img/exported-space-1024x302.png
 
   
 A link to download the zip file is sent via email to the user. Email
@@ -69,7 +69,7 @@ email, as described above.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/export-to-zip.png
+..image:: /img/export-to-zip.png
 
 Updated on April 25, 2023
  
@@ -101,7 +101,7 @@ account. You also need to create a **personal access token.** This can
 be done from the **Applications** under **Settings** in Zenodo, as shown
 below:
 
-.. image:: https://openbis.ch/wp-content/uploads/2019/09/generate-zenodo-token-1024x498.png
+..image:: /img/generate-zenodo-token-1024x498.png
 
 Save Zenodo Personal Access Token in openBIS
 ^^^^
@@ -117,7 +117,7 @@ stored in openBIS, with the following procedure:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/user-profile-session-token.png
+..image:: /img/user-profile-session-token.png
 
  
 -
@@ -140,7 +140,7 @@ To export data to Zenodo:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/export-to-zenodo-1024x862.png
+..image:: /img/export-to-zenodo-1024x862.png
 
  
 
@@ -153,6 +153,63 @@ minutes.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/publications-collection.png
+..image:: /img/publications-collection.png
+
+Updated on April 25, 2023
+ 
+Export to ETH Research Collection
+----
+
+
+
+ 
+
+The [ETH Research Collection](https://www.research-collection.ethz.ch/)
+is a FAIR repository for publications and research data provided by ETH
+Zurich to its scientists.
+
+ 
+
+Data can be uploaded to the ETH Research Collection **only by members of
+ETH Zurich**. This export feature is only available to ETHZ members.
+
+ 
+
+To export data to the ETH Research Collection:
+
+..image:: /img/export-to-research-collection-1024x818.png
+
+1.  Go to **Utilities** -&gt; **Exports** -&gt; **Export to Research
+    Collection**.
+2.  Select what to export from the tree.
+3.  Select the **Submission Type** from the available list: *Data
+    collection, Dataset, Image, Model, Sound, Video, Other Research
+    Data*.
+4.  Select the **Retention Period** that will be used in the ETH
+    Research Collection: *10 years, 15 years, indefinite.* This is time
+    for which the data will be preserved in the Research Collection.
+5.  Click the **Export Selected** button on top of the page.
+6.  The selected data are transferred as zip file to the ETH Research
+    Collection. You will be redirected to the ETH Research Collection
+    and will need to complete the submission process there.
+
+ 
+
+..image:: /img/publications-collection.png
+
+ 
+
+A new entry with the details of this submission will be created in the
+**Publications** folder in the **Inventory** after the submission
+process in complete. This may take a few minutes.
+
+ 
+
+The size limit for one single export to the ETH Research Collection is
+10GB.
+
+ 
+
+ 
 
 Updated on April 25, 2023

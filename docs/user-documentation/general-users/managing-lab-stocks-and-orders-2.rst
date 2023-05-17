@@ -14,7 +14,7 @@ person responsible for purchases in the lab. The orders created with
 openBIS contain the information that can be sent to the suppliers.
 
   
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-navigation-menu.png
+..image:: /img/stock-navigation-menu.png
 
  
 
@@ -65,7 +65,7 @@ the lab:
 >
 >  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-supplier.png
+..image:: /img/stock-new-supplier.png
 
 To register several suppliers at once, follow the steps described in
 [Batch register entries in a
@@ -86,7 +86,7 @@ To build the catalog of all products purchased in the lab:
  
 -
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-product-1.png
+..image:: /img/stock-new-product-1.png
 ^^^^
 
 >  
@@ -100,7 +100,7 @@ To build the catalog of all products purchased in the lab:
 >
 >  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-product.png
+..image:: /img/stock-new-product.png
 ^^^^
 
  
@@ -127,7 +127,7 @@ ordered:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-request-1.png
+..image:: /img/stock-new-request-1.png
 
 >        3. When you fill in the form the
 > following information needs to be provided:
@@ -163,7 +163,7 @@ Please note that only 1 product can be added to 1 request.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-request.png
+..image:: /img/stock-new-request.png
 
 > 4. <span
 > style="color: #000000;">Click **Save** on top of the form.
@@ -193,7 +193,7 @@ To create orders of products from requests created in the Stock Catalog:
 > 2.  Click the **+ New Order** button in
 >     the *Collection* page.
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-1.png
+..image:: /img/stock-new-order-1.png
 
 >  
 >
@@ -204,7 +204,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-identification-info.png
+..image:: /img/stock-new-order-identification-info.png
 
  
 
@@ -212,7 +212,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-code.png
+..image:: /img/stock-new-order-code.png
 
  
 
@@ -229,7 +229,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/create-new-order.png
+..image:: /img/create-new-order.png
 
 > 4\. Enter the **Order Status.** This field is mandatory. Available
 > options are **Delivered**, **Paid**,
@@ -245,7 +245,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/02/order-form-1-1024x556.png
+..image:: /img/order-form-1-1024x556.png
 
 If the price information is available in the products, the total cost of
 the order is calculated by openBIS and displayed in the order form, as

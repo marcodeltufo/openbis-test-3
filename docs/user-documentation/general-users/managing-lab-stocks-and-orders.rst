@@ -145,7 +145,7 @@ here directly from the user.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/06/Screenshot-2022-06-28-at-10.15.39.png
+..image:: /img/Screenshot-2022-06-28-at-10.15.39.png
 
  
 
@@ -154,7 +154,7 @@ here, from the **Change Password** option under the **More..** dropdown.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/06/change-pwd.png
+..image:: /img/change-pwd.png
 
 Updated on June 28, 2022
  
@@ -170,7 +170,7 @@ Space** for that user in the lab notebook, as shown below.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/09/menu-my-space.png
+..image:: /img/menu-my-space.png
 
  
 
@@ -188,7 +188,7 @@ shown below.
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/09/home-space-admin-ui-1024x359.png
+..image:: /img/home-space-admin-ui-1024x359.png
 
  
 

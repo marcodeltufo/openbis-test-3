@@ -31,7 +31,7 @@ There are different types of printer drivers. The two types we can
 define as generic are **PS** (PostScript) (recommended) and **PCL**
 (Printer Command Language). Printers with these drivers are likely to
 print PDF documents and other types of documents with embedded fonts,
-images, etc…
+..image:: /img/
 
 The printer paper type needs to be configured for each printer. Two
 layouts are supported:
