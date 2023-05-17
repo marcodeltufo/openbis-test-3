@@ -190,38 +190,38 @@ the **Settings**, under **Utilities**.
   
 **How to fill in Storage Form:**
 
-> #.  **Code**. It is advisable to provide
->     a meaningful code for the storage, rather than using the default,
->     because this information is needed when registering storage
->     positions in Batch mode. For example <span
->     style="color: #3366ff;"> MINUS80\_ROOM\_A1
-> #.  **Name**. The name is what is shown
->     in most parts of the ELN. E.g. 
->     Minus 80°C in Room A1
-> #.  **Number of rows**. This is the
->     number of shelves.
-> #.  **Number of columns**. This is the
->     number of racks per shelf.
-> #.  **Allowed number of boxes in a
->     rack**. This is the maximum number per rack. Enter a very high
->     number if this is not important.
-> #.  **Rack space warning**. Enter space
->     as percentage. E.g. 80, means
->     that the system will give a warning when 80% of a rack is
->     occupied.
-> #.  **Box space warning**. Enter space
->     as percentage. E.g. 80, means
->     that the system will give a warning when 80% of a box is
->     occupied.
-> #.  **Validation level**. This is the
->     minimum level of information required about the storage:
->     #.  **Rack validation**. The
->         position in the shelf and rack needs to be specified.
->     #.  **Box validation**. In addition
->         to **a**, a box name needs to be specified.
->     #.  **Box position validation**. In
->         addition to **a** and **b**, the position in the box needs to
->         be specified.
+#.  **Code**. It is advisable to provide
+    a meaningful code for the storage, rather than using the default,
+    because this information is needed when registering storage
+    positions in Batch mode. For example <span
+    style="color: #3366ff;"> MINUS80\_ROOM\_A1
+#.  **Name**. The name is what is shown
+    in most parts of the ELN. E.g. 
+    Minus 80°C in Room A1
+#.  **Number of rows**. This is the
+    number of shelves.
+#.  **Number of columns**. This is the
+    number of racks per shelf.
+#.  **Allowed number of boxes in a
+    rack**. This is the maximum number per rack. Enter a very high
+    number if this is not important.
+#.  **Rack space warning**. Enter space
+    as percentage. E.g. 80, means
+    that the system will give a warning when 80% of a rack is
+    occupied.
+#.  **Box space warning**. Enter space
+    as percentage. E.g. 80, means
+    that the system will give a warning when 80% of a box is
+    occupied.
+#.  **Validation level**. This is the
+    minimum level of information required about the storage:
+    #.  **Rack validation**. The
+        position in the shelf and rack needs to be specified.
+    #.  **Box validation**. In addition
+        to **a**, a box name needs to be specified.
+    #.  **Box position validation**. In
+        addition to **a** and **b**, the position in the box needs to
+        be specified.
 
 Updated on April 26, 2023
  
