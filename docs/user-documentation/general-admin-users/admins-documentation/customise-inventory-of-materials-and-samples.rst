@@ -39,10 +39,9 @@ to adopt the following steps:
 
 To create the *Project* folder:
 
- #.  Click on the
+#.  Click on the
      **Materials** folder
-
- #.  Click the **+ New Project** button
+#.  Click the **+ New Project** button
      in the form. 
 
 .. image:: img/create-project-materials-1024x286.png
@@ -66,24 +65,24 @@ To create the *Project* folder:
 To register the *Collection* folder,
 inside the *Project* folder:
 
-> 1.  Click on the *Project* folder, in
->     this case **Samples**. 
-> 2.  Click the **+ New** button in the
->     main form and choose **Collection** from the dropdown.
+ #.  Click on the *Project* folder, in
+     this case **Samples**. 
+ #.  Click the **+ New** button in the
+     main form and choose **Collection** from the dropdown.
 .. image:: img/create-collection-materials-1024x403.png
-> 3.  Replace the automatically generated
->     **Code** with something pertinent to the collection (e.g <span
->     style="color: #3366ff;">RAW\_SAMPLES)
-> 4.  Fill in the **Name** field (e.g.
->     Raw Samples). Note that by
->     default, the navigation menu on the left shows the name. If the
->     name is not provided, the code is shown.
-> 5.  Select the **Default object type**
->     from the list of available types. This is the *Object* for which
->     the *Collection* is used. In this case, **Sample**.
-> 6.  Select the **Default collection view** (see **[Customise
->     Collection
->     View](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/customise-collection-view/))**
+ #.  Replace the automatically generated
+     **Code** with something pertinent to the collection (e.g <span
+     style="color: #3366ff;">RAW\_SAMPLES)
+ #.  Fill in the **Name** field (e.g.
+     Raw Samples). Note that by
+     default, the navigation menu on the left shows the name. If the
+     name is not provided, the code is shown.
+ #.  Select the **Default object type**
+     from the list of available types. This is the *Object* for which
+     the *Collection* is used. In this case, **Sample**.
+ #.  Select the **Default collection view** (see **[Customise
+     Collection
+     View](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/customise-collection-view/))**
 
  
 
