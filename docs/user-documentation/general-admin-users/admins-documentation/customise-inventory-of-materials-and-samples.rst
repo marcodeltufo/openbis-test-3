@@ -44,21 +44,21 @@ to adopt the following steps:
 
 To create the *Project* folder:
 
-> 1.  Click on the
->     **Materials** folder
->
-> 2.  Click the **+ New Project** button
->     in the form. 
->
+ #.  Click on the
+     **Materials** folder
+
+ #.  Click the **+ New Project** button
+     in the form. 
+
 .. image:: img/create-project-materials-1024x286.png
->
-> 3.  Provide a description, if wanted.
->     This is not mandatory.
->
-> 4.  Enter the **Code**. This will be the
->     name of the folder, in this case <span
->     style="color: #333399;">SAMPLES. Codes only take
->     alphanumeric characters and no spaces. 
+
+ #.  Provide a description, if wanted.
+     This is not mandatory.
+
+ #.  Enter the **Code**. This will be the
+     name of the folder, in this case <span
+     style="color: #333399;">SAMPLES. Codes only take
+     alphanumeric characters and no spaces. 
 
  
 
