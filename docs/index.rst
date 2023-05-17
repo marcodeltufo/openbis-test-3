@@ -10,6 +10,7 @@ The complete solution for managing your research data.
    :caption: User Documentation
 
    General Users </user-documentation/general-users/index>
+   General Admin Users </user-documentation/general-admin-users/index>
 
 User Documentation
 ^^^^^^^^^^^^^^^^^^
