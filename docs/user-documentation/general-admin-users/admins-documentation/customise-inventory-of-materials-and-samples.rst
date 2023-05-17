@@ -215,6 +215,7 @@ the **Settings**, under **Utilities**.
     occupied.
 #.  **Validation level**. This is the
     minimum level of information required about the storage:
+    
     #.  **Rack validation**. The
         position in the shelf and rack needs to be specified.
     #.  **Box validation**. In addition
