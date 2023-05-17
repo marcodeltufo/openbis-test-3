@@ -50,7 +50,7 @@ To create the *Project* folder:
 > 2.  Click the **+ New Project** button
 >     in the form. 
 >
-..image:: /img/create-project-materials-1024x286.png
+..image:: img/create-project-materials-1024x286.png
 >
 > 3.  Provide a description, if wanted.
 >     This is not mandatory.
