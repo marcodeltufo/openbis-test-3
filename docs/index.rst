@@ -14,7 +14,7 @@ The complete solution for managing your research data.
 User Documentation
 ^^^^^^^^^^^^^^^^^^
    - :doc:`General Users </user-documentation/general-users/index>`
-   - General Admin Users
+   - :doc:`General Admin Users </user-documentation/general-admin-users/index>`
    - Advanced Features
    - Legacy Advance Features
 
