@@ -20,10 +20,10 @@ server and launch Jupyter notebooks directly from the openBIS interface.
 This feature is not available by default, but needs to be enabled and
 configured by a *system admin*. JupyterHub docker containers are
 available from our download page: [openBIS
-download.](https://wiki-bsse.ethz.ch/display/bis/openBIS+Download+Page)<span
+..image:: img/openBIS+Download+Page)<span
 style="color: #000000;"> Further documentation can be found
 here: [JupyterHub for
-openBIS](https://unlimited.ethz.ch/display/openBISDoc2010/JupyterHub+for+openBIS)  
+..image:: img/JupyterHub+for+openBIS)
   
 
  
@@ -41,7 +41,7 @@ below.
 
  
 
-..image:: /img/Screenshot-2020-05-29-at-09.31.49-300x202.png
+..image:: img/Screenshot-2020-05-29-at-09.31.49-300x202.png
 
  
 
@@ -53,7 +53,7 @@ upgrade), because the user profile needs to be recreated.
 
  
 
-..image:: /img/Screenshot-2022-11-15-at-11.39.05.png
+..image:: img/Screenshot-2022-11-15-at-11.39.05.png
 
 If you go to the Jupyter workspace, the user profile is re-created on
 the server. After this, you can open a notebook from any entity of the
@@ -66,7 +66,7 @@ Dataset*).
  Jupyter notebooks can also be launched
 from the main menu, under **Utilities**, as shown below.
 
-..image:: /img/jupyter-navigation-menu.png
+..image:: img/jupyter-navigation-menu.png
 
  
 
@@ -95,7 +95,7 @@ to enter:
 4.  **Notebook name**. This is the name of
     the Jupyter notebook.
 
-..image:: /img/jupyter-1024x316.png
+..image:: img/jupyter-1024x316.png
 
 Jupyter notebooks can also be opened from a *Project*, *Experiment*,
 *Experimental Step* choosing the corresponding option in the **More**
@@ -111,14 +111,14 @@ Overview of Jupyter notebook opened from openBIS.
 
 The Jupyter notebooks running on the JupyterHub server for openBIS
 support the following kernels: *Bash, Octave, Python 2, Python 3, R,
-SoS* ([Script of Scripts).](https://vatlab.github.io/sos-docs/)
+..image:: img/)
 
 When you open a Jupyter notebook from openBIS, the default kernel used
 is Python 3, but you can change to another language as shown below.
 
  
 
-..image:: /img/jupyter-kernels.png
+..image:: img/jupyter-kernels.png
 
  
 
@@ -129,7 +129,7 @@ run. The information of two cells should be modified: **Name of the
 dataset** where the notebook will be stored and **Notes** (in red
 below).
 
-..image:: /img/jupyter-1.png
+..image:: img/jupyter-1.png
 
  
 
@@ -150,7 +150,7 @@ bottom of the  error message you can see:
 
  
 
-..image:: /img/invalid-session-token-error-1024x58.jpg
+..image:: img/invalid-session-token-error-1024x58.jpg
 
  
 
@@ -160,7 +160,7 @@ shown below:
  
 
            
-..image:: /img/manual-session-token-1024x135.png
+..image:: img/manual-session-token-1024x135.png
 
  
 
@@ -183,7 +183,7 @@ section named *Process your data here*, that contains one empty cell
 
  
 
-..image:: /img/jupyter-2-1024x470.png
+..image:: img/jupyter-2-1024x470.png
 
 After the analysis is done, the notebook
 can be saved back to openBIS, by running the last few cells which
@@ -192,7 +192,7 @@ shown below).
 
  
 
-..image:: /img/jupyter_notebook_save_dataset-1024x553.png
+..image:: img/jupyter_notebook_save_dataset-1024x553.png
 
  
 
@@ -219,11 +219,11 @@ adds 3 buttons to a default notebook: 
 
  
 
-..image:: /img/jupyter-notebook-buttons.png
+..image:: img/jupyter-notebook-buttons.png
 
 The JupyterLab openBIS extension is
 available from: [JupyterLab openBIS
-extension](https://www.npmjs.com/package/jupyterlab-openbis)
+..image:: img/jupyterlab-openbis)
 
  
 
@@ -239,6 +239,6 @@ MATLAB toolbox
   
 The MATLAB toolbox for openBIS allows to access data stored in openBIS
 directly from MATALB. Full documentation can be found here: [MATLAB
-API](https://sissource.ethz.ch/sispub/openbis/-/tree/master/api-openbis-matlab)
+..image:: img/api-openbis-matlab)
 
 Updated on April 17, 2023

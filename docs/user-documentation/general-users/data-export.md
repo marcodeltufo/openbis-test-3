@@ -20,7 +20,7 @@ only, or metadata and data (up to 10 GBs). 
 
  
 
-..image:: /img/export-space.png
+..image:: img/export-space.png
 
  
 
@@ -35,14 +35,14 @@ Object and Datasets* (see below).
 
  
 
-..image:: /img/exported-space-1024x302.png
+..image:: img/exported-space-1024x302.png
 
   
 A link to download the zip file is sent via email to the user. Email
 notification needs to be configured by a *system admin* during or after
 installation, as explained in [Configure Data Store
-Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
-[.](https://wiki-bsse.ethz.ch/display/openBISDoc1906/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
+..image:: img/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
+..image:: img/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
 
  
 -
@@ -69,7 +69,7 @@ email, as described above.
 
  
 
-..image:: /img/export-to-zip.png
+..image:: img/export-to-zip.png
 
 Updated on April 25, 2023
  
@@ -80,17 +80,17 @@ Export to Zenodo
 
   
 Currently openBIS offers an integration with the **Zenodo** data
-repository ([https://zenodo.org/).](https://zenodo.org/)
+..image:: img/)
 
   
 This enables data direct data transfer from openBIS to Zenodo. First of
 all the connection to Zenodo needs to be configured by a *system admin*
 in the DSS service.properties (see [How to configure the openBIS
-DSS)](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
+..image:: img/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
 If this is configured, a lab manager, who has admin rights for the
 **Settings,** needs to enable it in the ELN, as explained in [Enable
 Transfer to Data
-Repositories](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/enable-transfer-to-data-repositories/)**.**
+..image:: img/)**.**
 
  Create Zenodo Personal Access Token
 ^^^^
@@ -101,7 +101,7 @@ account. You also need to create a **personal access token.** This can
 be done from the **Applications** under **Settings** in Zenodo, as shown
 below:
 
-..image:: /img/generate-zenodo-token-1024x498.png
+..image:: img/generate-zenodo-token-1024x498.png
 
 Save Zenodo Personal Access Token in openBIS
 ^^^^
@@ -117,7 +117,7 @@ stored in openBIS, with the following procedure:
 
  
 
-..image:: /img/user-profile-session-token.png
+..image:: img/user-profile-session-token.png
 
  
 -
@@ -140,7 +140,7 @@ To export data to Zenodo:
 
  
 
-..image:: /img/export-to-zenodo-1024x862.png
+..image:: img/export-to-zenodo-1024x862.png
 
  
 
@@ -153,7 +153,7 @@ minutes.
 
  
 
-..image:: /img/publications-collection.png
+..image:: img/publications-collection.png
 
 Updated on April 25, 2023
  
@@ -164,7 +164,7 @@ Export to ETH Research Collection
 
  
 
-The [ETH Research Collection](https://www.research-collection.ethz.ch/)
+..image:: img/)
 is a FAIR repository for publications and research data provided by ETH
 Zurich to its scientists.
 
@@ -177,7 +177,7 @@ ETH Zurich**. This export feature is only available to ETHZ members.
 
 To export data to the ETH Research Collection:
 
-..image:: /img/export-to-research-collection-1024x818.png
+..image:: img/export-to-research-collection-1024x818.png
 
 1.  Go to **Utilities** -&gt; **Exports** -&gt; **Export to Research
     Collection**.
@@ -195,7 +195,7 @@ To export data to the ETH Research Collection:
 
  
 
-..image:: /img/publications-collection.png
+..image:: img/publications-collection.png
 
  
 

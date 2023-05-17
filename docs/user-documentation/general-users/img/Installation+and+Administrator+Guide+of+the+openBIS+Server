@@ -1,0 +1,1442 @@
+    
+
+<!DOCTYPE html>
+<html lang="en-GB" >
+<head>
+                            <title>Installation and Administrator Guide of the openBIS Server - openBIS Documentation Rel. 20.10 - Confluence</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://unlimited.ethz.ch">
+
+    <meta id="atlassian-token" name="atlassian-token" content="84c12f42b1cad91470ee1776e56012bbb7f923bb">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="openBISDoc2010">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1684321583250">
+        
+    
+        
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="648714ce17fa7d52f9a989833ba16e6">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat24">
+            <meta id="team-calendars-display-week-number" content="true">
+            <meta id="team-calendars-user-timezone" content="Europe/Zurich">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sep"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['(mathjax-inline(', ')mathjax-inline)' ] ], displayMath: [ ['(mathjax-block(', ')mathjax-block)' ] ], }, asciimath2jax: { delimiters: [ ['(mathjax-ascii-math(',')mathjax-ascii-math)'] ] } }); </script> <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            
+    
+    
+            <meta name="ajs-page-title" content="Installation and Administrator Guide of the openBIS Server">
+            <meta name="ajs-latest-published-page-title" content="Installation and Administrator Guide of the openBIS Server">
+            <meta name="ajs-space-name" content="openBIS Documentation Rel. 20.10">
+            <meta name="ajs-page-id" content="53745996">
+            <meta name="ajs-latest-page-id" content="53745996">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-parent-page-title" content="Guides">
+            <meta name="ajs-parent-page-id" content="53746006">
+            <meta name="ajs-space-key" content="openBISDoc2010">
+            <meta name="ajs-max-number-editors" content="12">
+            <meta name="ajs-macro-placeholder-timeout" content="5000">
+            <meta name="ajs-jira-metadata-count" content="0">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-can-remove-page-hierarchy" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="true">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://unlimited.ethz.ch">
+            <meta name="ajs-version-number" content="8.2.0">
+            <meta name="ajs-build-number" content="9004">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/s/v0cs71/9004/9r8qvy/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="157286400">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,site-wide.synchrony,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,http.session.registrar,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,confluence.efi.onboarding.rich.space.content,collaborative-audit-log,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,crowd.sync.nested.groups.group.membership.changes.batching.enabled,read.only.mode,graphql,previews.trigger-all-file-types,attachment.extracted.text.extractor,lucene.caching.filter,confluence.table.resizable,notification.batch,previews.sharing.pushstate,confluence-inline-comments-rich-editor,tc.tacca.dacca,site-wide.synchrony.opt-in,atlassian.webresource.twophase.js.i18n.disabled,confluence.denormalisedpermissions,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,confluence.search.improvements.ranking,crowd.event.transformer.directory.manager.cache,mobile.supported.version,pulp,crowd.sync.delete.user.memberships.batching.enabled,confluence-inline-comments,confluence-inline-comments-dangling-comment,quick-reload-inline-comments-flags,confluence.retention.rules">
+            <meta name="ajs-atl-token" content="84c12f42b1cad91470ee1776e56012bbb7f923bb">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="/s/-5iwf5w/9004/9r8qvy/8/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/s/-5iwf5w/9004/9r8qvy/8/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="Confluence"/>
+    
+                    
+            <meta name="ajs-create-issue-metadata-show-discovery" content="false">
+            
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible Project\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repository\u0022,\u0022stash.project\u0022:\u0022Stash Project\u0022,\u0022generic.entity\u0022:\u0022Generic Project\u0022,\u0022confluence.space\u0022:\u0022Confluence Space\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Project\u0022,\u0022jira.project\u0022:\u0022Jira Project\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible Projects\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repositories\u0022,\u0022stash.project\u0022:\u0022Stash Projects\u0022,\u0022generic.entity\u0022:\u0022Generic Projects\u0022,\u0022confluence.space\u0022:\u0022Confluence Spaces\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Projects\u0022,\u0022jira.project\u0022:\u0022Jira Projects\u0022}}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022Basic Access\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022Trusted Applications\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022View more recently visited\u0022,\u0022search.ui.search.results.empty\u0022:\u0022We couldn\u0027\u0027t find anything matching \u005C\u0022{0}\u005C\u0022.\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022Clear selected items\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022Show more app results...\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022Contributor\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022CURRENT\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022Clear text\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022clear your filters.\u0022,\u0022help.search.ui.link.title\u0022:\u0022Search tips\u0022,\u0022search.ui.container.close.text\u0022:\u0022Close\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022The past month\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022More results\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022Date\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022The past week\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022Team calendar\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022Last modified within\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022Find spaces...\u0022,\u0022search.ui.generic.error\u0022:\u0022Something went wrong. Refresh the page, or contact your admin if this keeps happening.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022Recent Spaces\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022Space\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022Find space categories...\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022Search archived spaces\u0022,\u0022search.ui.filter.label\u0022:\u0022filter\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022Any time\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022The past day\u0022,\u0022search.ui.filters.heading\u0022:\u0022Filter by\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022Find labels...\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022Start exploring. Your search results will appear here.\u0022,\u0022search.ui.input.label\u0022:\u0022Search\u0022,\u0022search.ui.input.aria.label\u0022:\u0022Search, when you type, your results will be displayed below.\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022Label\u0022,\u0022search.ui.container.clear.ariaLabel\u0022:\u0022Clear\u0022,\u0022search.ui.input.alert\u0022:\u0022Hit enter to search\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022We can\u0027\u0027t find anything matching your search\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022User profile\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022Find people...\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022Type\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022The past year\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022Advanced search\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022Space\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022Try a different search term or\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022Space category\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022We couldn\u0027\u0027t find anything matching your search.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022Show more settings and app results...\u0022,\u0022search.ui.recent.pages\u0022:\u0022Recently visited\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}. Have an account? {1}Log in{2} to expand your search.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022Start exploring. Pages and spaces you\u0027\u0027ve visited recently will appear here.\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022recent spaces\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022FishEye / Crucible\u0022,\u0022stash\u0022:\u0022Stash\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022Reference Application\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022Generic Application\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-090/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="/s/3906b0a9678c0e7366e2037031ee723f-CDN/-5iwf5w/9004/9r8qvy/88fd744a9e5c04fb75da4bef47308e85/_/download/contextbatch/css/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.css" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/0c56633e0aefa2b6661634c23890e5e1-CDN/-5iwf5w/9004/9r8qvy/874b773bd8d8c495dc5a9025eccfabcc/_/download/contextbatch/css/atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super/batch.css?cefp_collab_enabled=true&amp;cefp_ed_perm=false&amp;cefp_is_admin=false&amp;gatekeeper-ui-v2=true&amp;highlightactions=true" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/-5iwf5w/9004/9r8qvy/8/_/styles/custom.css" media="all">
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered>
+!function(){"use strict";if("PerformanceObserver"in window){const e=[];window.__observedResources=e;const r=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:e,name:r})=>{const n="script"===e||((e,r)=>"link"===e&&"css"===new URL(r).pathname.split(".").pop())(e,r),i=new URL(location.href).origin===new URL(r).origin;return n&&i})).forEach((({name:n,transferSize:i,encodedBodySize:s,initiatorType:o})=>{e.push([i,s,n,r(o)])}))})).observe({type:"resource"})}}();
+
+</script>
+<script src="/s/db7b93668ec3f1e28b20d5f4cb5aaf12-CDN/-5iwf5w/9004/9r8qvy/88fd744a9e5c04fb75da4bef47308e85/_/download/contextbatch/js/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.js?locale=en-GB" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/0341ac3c08eb7d3372fdf748f56002e3-CDN/-5iwf5w/9004/9r8qvy/874b773bd8d8c495dc5a9025eccfabcc/_/download/contextbatch/js/atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super/batch.js?cefp_collab_enabled=true&amp;cefp_ed_perm=false&amp;cefp_is_admin=false&amp;gatekeeper-ui-v2=true&amp;highlightactions=true&amp;locale=en-GB" data-wrm-key="atl.confluence.plugins.pagetree-desktop,main,viewcontent,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="Confluence" />
+            
+    <script>
+jQuery(document).ready(function() {
+    jQuery(".external-link").attr("target", "_blank");
+});
+</script>
+<script type="text/javascript">
+    AJS.toInit(function(){
+        if (AJS.params.remoteUser == ''){
+          AJS.$('#who-can-view-button-ak-button').hide();
+         
+        }
+    });
+</script>
+
+    
+                <link rel="canonical" href="https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server">
+        <link rel="shortlink" href="https://unlimited.ethz.ch/x/TBk0Aw">
+    <meta name="wikilink" content="[openBISDoc2010:Installation and Administrator Guide of the openBIS Server]">
+    <meta name="page-version" content="7">
+    <meta name="ajs-page-version" content="7">
+
+</head>
+
+    
+<body      id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default">
+
+        
+            <div id='stp-licenseStatus-banner'></div>
+            <meta name="ajs-is-scroll-viewport-available" content="true">
+    <div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+        
+
+
+
+
+
+<header id="header" role="banner">
+            <a class="aui-skip-link" href="https://unlimited.ethz.ch/login.action?os_destination=%2Fdisplay%2FopenBISDoc2010%2FInstallation%2Band%2BAdministrator%2BGuide%2Bof%2Bthe%2BopenBIS%2BServer" tabindex="1">Log in</a>
+        <nav class="aui-header aui-dropdown2-trigger-group" aria-label="Site"><div class="aui-header-inner"><div class="aui-header-before"><button class=" aui-dropdown2-trigger app-switcher-trigger aui-dropdown2-trigger-arrowless" aria-controls="app-switcher" aria-haspopup="true" role="button" data-aui-trigger href="#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></button><div id="app-switcher" class="aui-dropdown2 aui-style-default" role="menu" hidden data-is-user-admin="false" data-is-switcher="true"><div class="app-switcher-loading">Loading&hellip;</div></div></div><div class="aui-header-primary"><span id="logo" class="aui-header-logo aui-header-logo-custom"><a href="/" aria-label="Go to home page"><img src="/download/attachments/327682/atl.site.logo?version=1&amp;modificationDate=1563454119905&amp;api=v2" alt="Confluence" /></a></span><ul class="aui-nav">
+                            <li>
+            
+    
+        
+<a  id="space-directory-link" href="/spacedirectory/view.action"  class=" aui-nav-imagelink"   title="Spaces">
+            <span>Spaces</span>
+    </a>
+        </li>
+                                <li class="aui-buttons">
+                                <a href="#" id="create-page-button" class="aui-button aui-button-primary clc-create-dialog-btn" title = 'Create from template' tabindex="0"><span class="aui-icon aui-icon-small aui-iconfont-more">Create </span></a>
+            </li>
+</ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav">
+                        <li>
+        <div id="search-ui" class="aui-quicksearch dont-default-focus header-quicksearch"><button id="quick-search-query-button" aria-label="Search" aria-haspopup= "dialog" aria-controls="search_drawer" ></button><input id="quick-search-query" aria-label="Search" placeholder="Search" type="text" aria-haspopup= "dialog" aria-controls="search_drawer" /><div id="quick-search-alert" role="alert">Hit enter to search</div><aui-spinner size="small"></aui-spinner></div>
+    </li>
+        <li>
+            
+        <a id="help-menu-link" role="button" class="aui-nav-link aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" href="#" aria-haspopup="true" aria-owns="help-menu-link-content" title="Help">
+        <span class="aui-icon aui-icon-small aui-iconfont-question-filled">Help</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default" >
+                    <div class="aui-dropdown2-section">
+                                    <strong></strong>
+                                <ul role="menu"
+                     role="menu"                    aria-label="Help"                    id="help-menu-link-pages"                    class="aui-list-truncate section-pages first">
+                                            <li role="presentation">
+        
+            
+<a role="menuitem"  id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-82/" class="    "      title="Visit the Confluence documentation home"  target="_blank"
+>
+        Online Help
+</a>
+</li>
+                                            <li role="presentation">
+    
+                
+<a role="menuitem"  id="keyboard-shortcuts-link" href="#" class="    "      title="View available keyboard shortcuts" >
+        Keyboard Shortcuts
+</a>
+</li>
+                                            <li role="presentation">
+    
+            
+<a role="menuitem"  id="feed-builder-link" href="/dashboard/configurerssfeed.action" class="    "      title="Create your custom RSS feed." >
+        Feed Builder
+</a>
+</li>
+                                            <li role="presentation">
+    
+            
+<a role="menuitem"  id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+8.2+Release+Notes" class="    "      title="" >
+        What’s new
+</a>
+</li>
+                                            <li role="presentation">
+    
+                
+<a role="menuitem"  id="gadget-directory-link" href="#" class="   user-item administration-link "      title="Browse gadgets provided by Confluence" >
+        Available Gadgets
+</a>
+</li>
+                                            <li role="presentation">
+    
+            
+<a role="menuitem"  id="confluence-about-link" href="/aboutconfluencepage.action" class="    "      title="Get more information about Confluence" >
+        About Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+            
+    </li>
+        <li>
+                                            <li>
+        
+            
+<a role="menuitem"  id="login-link" href="/login.action?os_destination=%2Fdisplay%2FopenBISDoc2010%2FInstallation%2Band%2BAdministrator%2BGuide%2Bof%2Bthe%2BopenBIS%2BServer" class="   user-item login-link "      title="" >
+        Log in
+</a>
+</li>
+                        
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+    
+
+    
+    	<div class="ia-splitter">
+    		<div class="ia-splitter-left">
+    			<div class="ia-fixed-sidebar" role="complementary" aria-label=sidebar>
+                                            
+                            <div class="acs-side-bar ia-scrollable-section"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="Edit space details"><div class="avatar"><div class="space-logo" data-key="openBISDoc2010" data-name="openBIS Documentation Rel. 20.10" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="/display/openBISDoc2010/openBIS+Documentation+Rel.+20.10+Home" title="openBIS Documentation Rel. 20.10"><img class="avatar-img" src="/images/logo/default-space-logo.svg" alt="openBIS Documentation Rel. 20.10"></a></div></div></div></div><div class="space-information-container"><div class="name"><a href="/display/openBISDoc2010/openBIS+Documentation+Rel.+20.10+Home" title="openBIS Documentation Rel. 20.10">openBIS Documentation Rel. 20.10</a></div><div class="flyout-handle icon aui-icon aui-icon-small aui-iconfont-edit"></div></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="false" data-quick-links-state="null" data-page-tree-state="null" data-nav-type="page-tree"><div class="acs-nav-sections"><div class="main-links-section "><ul class="acs-nav-list"><li class="acs-nav-item wiki current-item" aria-current="true" data-collector-key="spacebar-pages"><a class="acs-nav-item-link tipsy-enabled" href="/collector/pages.action?key=openBISDoc2010" data-collapsed-tooltip="Pages"><span class="icon"></span><span class="acs-nav-item-label">Pages</span></a></li><li class="acs-nav-item blog" data-collector-key="spacebar-blogs"><a class="acs-nav-item-link tipsy-enabled" href="/pages/viewrecentblogposts.action?key=openBISDoc2010" data-collapsed-tooltip="Blog"><span class="icon"></span><span class="acs-nav-item-label">Blog</span></a></li></ul></div><div class="quick-links-wrapper"></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="page-tree"><div class="ia-secondary-header"><h2 class="ia-secondary-header-title page-tree"><span class="icon"></span><span class="label">Page tree</span></h2></div><div class="ia-secondary-content">
+
+
+<div class="plugin_pagetree conf-macro output-inline" data-hasbody="false" data-macro-name="pagetree">
+
+        
+        
+    <ul role="list" class="plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace">
+        <div class="plugin_pagetree_children">
+        </div>
+    </ul>
+
+    <fieldset class="hidden">
+        <input type="hidden" name="treeId" value="" />
+        <input type="hidden" name="treeRequestId" value="/plugins/pagetree/naturalchildren.action?decorator=none&amp;excerpt=false&amp;sort=position&amp;reverse=false&amp;disableLinks=false&amp;expandCurrent=true&amp;placement=sidebar" />
+        <input type="hidden" name="treePageId" value="53745996" />
+
+        <input type="hidden" name="noRoot" value="false" />
+        <input type="hidden" name="rootPageId" value="53746067" />
+
+        <input type="hidden" name="rootPage" value="" />
+        <input type="hidden" name="startDepth" value="0" />
+        <input type="hidden" name="spaceKey" value="openBISDoc2010" />
+
+        <input type="hidden" name="i18n-pagetree.loading" value="Loading..." />
+        <input type="hidden" name="i18n-pagetree.error.permission" value="Unable to load page tree. It seems that you do not have permission to view the root page." />
+        <input type="hidden" name="i18n-pagetree.eeror.general" value="There was a problem retrieving the page tree. Please check the server log file for more information." />
+        <input type="hidden" name="loginUrl" value="/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DopenBISDoc2010%26title%3DInstallation%2Band%2BAdministrator%2BGuide%2Bof%2Bthe%2BopenBIS%2BServer&amp;permissionViolation=true" />
+        <input type="hidden" name="mobile" value="false" />
+        <input type="hidden" name="placement" value="sidebar" />
+
+                <fieldset class="hidden">
+                                                <input type="hidden" name="ancestorId" value="53746006" />
+                                    <input type="hidden" name="ancestorId" value="53746072" />
+                                    <input type="hidden" name="ancestorId" value="53746067" />
+                                    </fieldset>
+    </fieldset>
+</div>
+</div></div></div><div class="hidden"><a href="/collector/pages.action?key=openBISDoc2010" id="space-pages-link"></a><script type="text/x-template" title="logo-config-content"><h2>Space Details</h2><div class="personal-space-logo-hint">Your profile picture is used as the logo for your personal space. <a href="/users/profile/editmyprofilepicture.action" target="_blank">Change your profile picture</a>.</div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="Browse pages" data-class="" data-href="/pages/reorderpages.action?key=openBISDoc2010">Browse pages</div></div><button id="space-tools-menu-trigger"  class=" aui-dropdown2-trigger aui-button aui-button-subtle tipsy-enabled aui-dropdown2-trigger-arrowless " aria-controls="space-tools-menu" aria-haspopup="true" role="button" data-aui-trigger><span class="aui-icon aui-icon-small aui-iconfont-configure">Configure</span><span class="aui-button-label">Space tools</span><span class="aui-icon "></span></button><div id="space-tools-menu" class="aui-dropdown2 aui-style-default space-tools-dropdown" role="menu" hidden data-aui-alignment="top left"></div><a href="#" role="button" class="expand-collapse-trigger aui-icon aui-icon-small aui-iconfont-chevron-double-left" aria-expanded="true"></a></div>
+                    
+                        			</div>
+    		</div>
+        <!-- \#header -->
+
+            
+    
+        <main role="main" id="main" class=" aui-page-panel">
+                        <div id="main-header">
+                        
+    <div id="navigation" class="content-navigation view" role="region" aria-label="Page tools">
+                    <ul class="ajs-menu-bar">
+                                            
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-label="More options" aria-owns="action-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more" aria-label="More options"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default"  role="menu" aria-labelledby="action-menu-link" >
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-primary"                          class="section-primary first"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-attachments-link"                href="/pages/viewpageattachments.action?pageId=53745996"
+                rel="nofollow"
+                class="action-view-attachments"
+                 accessKey="t"                 title="View Attachments"                                                 role="menuitem"                >
+
+                        <span>
+                                A<u>t</u>tachments (0)
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-view-history-link"                href="/pages/viewpreviousversions.action?pageId=53745996"
+                rel="nofollow"
+                class="action-view-history"
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Page History
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-secondary"                          class="section-secondary"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-page-info-link"                href="/pages/viewinfo.action?pageId=53745996"
+                rel="nofollow"
+                class="action-view-info"
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Page Information
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+            
+    
+                                                                        
+    
+    
+            <a  id="view-resolved-comments"                href="#"
+                rel="nofollow"
+                class=""
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Resolved comments
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-in-hierarchy-link"                href="/pages/reorderpages.action?key=openBISDoc2010&amp;openId=53745996#selectedPageInHierarchy"
+                rel="nofollow"
+                class=""
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                View in Hierarchy
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-view-source-link"                href="/plugins/viewsource/viewpagesrc.action?pageId=53745996"
+                rel="nofollow"
+                class="action-view-source popup-link"
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                View Source
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-export-pdf-link"                href="/spaces/flyingpdf/pdfpageexport.action?pageId=53745996"
+                rel="nofollow"
+                class=""
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Export to PDF
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-export-word-link"                href="/exportword?pageId=53745996"
+                rel="nofollow"
+                class="action-export-word"
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Export to Word
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a                 href="/plugins/lucidchart/selectVisio.action?contentId=53745996"
+                rel="nofollow"
+                class=""
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                View Visio File
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-modify"                          class="section-modify"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-copy-page-link"                href="/pages/copypage.action?idOfPageToCopy=53745996&amp;spaceKey=openBISDoc2010"
+                rel="nofollow"
+                class="action-copy"
+                                 title=""                                                 role="menuitem"                >
+
+                        <span>
+                                Copy
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    <nav aria-label="Breadcrumbs">
+        <ol id="breadcrumbs">
+                                                            
+                                
+            <li class="first" >
+                                
+                                    <span class=""><a href="/collector/pages.action?key=openBISDoc2010">Pages</a></span>
+                                                                                                                                                <li id="ellipsis" title="Show all breadcrumbs"><button class="elipsis-button" aria-label="Show all breadcrumbs"><strong>&#8230;</strong></button></li>
+                                                            
+                                
+            <li class="hidden-crumb" >
+                                
+                                    <span class=""><a href="/display/openBISDoc2010/openBIS+Documentation+Rel.+20.10+Home">openBIS Documentation Rel. 20.10 Home</a></span>
+                                                                                                                                        
+                                
+            <li class="hidden-crumb" >
+                                
+                                    <span class=""><a href="/display/openBISDoc2010/openBIS+20.10+Documentation">openBIS 20.10 Documentation</a></span>
+                                                                                                                    
+                                
+            <li>
+                                
+                                    <span class=""><a href="/display/openBISDoc2010/Guides">Guides</a></span>
+                                                                                                    </ol>
+    </nav>
+
+
+                    </div>
+                
+                
+                
+            <div id="page-metadata-banner"><ul class="banner"><li id="system-content-items" class="noprint"><a href="" title="Unrestricted" id="content-metadata-page-restrictions-hidden" class="hidden"></a></li><li class="page-metadata-item noprinthas-button"  id="content-metadata-jira-wrapper"><a href="" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>Jira links</span></a></li></ul></div>
+        
+
+                <h1 id="title-text" class="with-breadcrumbs">
+                                                <a href="/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server">Installation and Administrator Guide of the openBIS Server</a>
+                                    </h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+
+        
+
+
+
+
+            
+    
+
+                                
+    
+
+    
+    
+        
+    
+    
+                    
+    
+
+    
+
+    
+            
+        
+
+    
+    
+
+    
+            
+        
+
+
+
+    
+<div id="content" class="page view">
+    
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+        
+    
+            
+
+        
+                            
+    
+
+                    
+
+        
+        <div class="page-metadata">
+    <ul>
+        <li class="page-metadata-modification-info">
+            
+        
+    
+    
+        
+    
+        
+            
+            Created by <span class='author'>     <a href="    /display/~juanf
+"
+            aria-label="created by Fuentes Serna  Juan Mariano (ID)"                       class="url fn"
+                            >Fuentes Serna  Juan Mariano (ID)</a></span>, last modified by <span class='editor'>     <a href="    /display/~felmer
+"
+            aria-label="modified by Elmer  Franz-Josef (ID)"                       class="url fn"
+                            >Elmer  Franz-Josef (ID)</a></span> on <a class='last-modified' aria-label='modified on Nov 22, 2022, select to show changes' title='Show changes' href='/pages/diffpagesbyversion.action?pageId=53745996&amp;selectedPageVersions=6&amp;selectedPageVersions=7'>Nov 22, 2022</a>
+            </li>
+    </ul>
+</div>
+        
+                                            
+        <div id="main-content" class="wiki-content">
+                           
+        <p><div class="toc-macro client-side-toc-macro  conf-macro output-block" data-hasbody="false" data-headerelements="H1,H2,H3,H4,H5,H6,H7" data-macro-name="toc"> </div></p><h3 id="InstallationandAdministratorGuideoftheopenBISServer-SystemRequirements">System Requirements</h3><p>The minimal requirements of a system running openBIS are:</p><ul><li>Operating System: Linux / MacOS X <br/>(The binaries: <code>bash</code>, <code>awk</code>, <code>sed</code>, <code>unzip</code> need to be installed and in the <code>PATH</code> of the openBIS user.)</li><li>Java Runtime Environment: recent versions of Oracle JRE 11</li><li>PostgreSQL 11</li></ul><p>We find Linux to be the easiest choice to get an openBIS server running quickly.</p><p>For recommended memory settings, see <a href="/display/openBISDoc2010/Recommended+CPU+and+memory+settings+for+openBIS+20.10">Recommended CPU and memory settings for openBIS 20.10</a>.</p><div class="confluence-information-macro confluence-information-macro-information conf-macro output-block" data-hasbody="true" data-macro-name="info"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>An SMTP server needs to be accessible and configured if you want to obtain notifications.</p></div></div><h3 id="InstallationandAdministratorGuideoftheopenBISServer-Installation">Installation</h3><p>The server distribution is a <code>gzipped</code> <code>tar</code> file named <code>openBIS-installation-standard-technologies-&lt;version&gt;</code> <code>.tar.gz</code>. It contains:</p><ul><li><p><code>console.properties:</code> configuration file for a console/non-gui installation</p></li><li><p><code>extract.sh:</code> helper script for installation</p></li><li><p><code>jul.config:</code> Log configuration for the openBIS install process</p></li><li><p><code>openBIS-installer.jar</code> Java archive containing openBIS</p></li><li><p><code>run-console.sh</code> Installation script for console/non-gui installation</p></li><li><p><code>run-ui.sh</code> Installation script for gui installation</p></li></ul><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Installationsteps">Installation steps</h4><ol><li>Create a service user account, i.e. an unprivileged, regular user account. <strong>Do not run openBIS as root!</strong></li><li>Gunzip the distribution on the server machine into some temporary folder.</li><li><p>Run either the console/non-gui installation script or the gui installation script:</p><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>GUI-based installation</b></div><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: bash; gutter: false; theme: Confluence" data-theme="Confluence">&gt; tar xvfz openBIS-installation-standard-technologies-S139.0-r26480.tar.gz
+&gt; cd openBIS-installation-standard-technologies-S139.0-r26480
+&gt; ./run-ui.sh</pre>
+</div></div><p>In the non-gui version you have to edit the <code>console.properties</code> files:</p><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>Non-GUI installation</b></div><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: bash; gutter: false; theme: Confluence" data-theme="Confluence">&gt; tar xvfz openBIS-installation-standard-technologies-S139.0-r26480.tar.gz
+&gt; cd openBIS-installation-standard-technologies-S139.0-r26480
+&gt; vi console.properties
+&gt; ./run-console.sh</pre>
+</div></div><p><br/><strong>NOTE:</strong> Please be aware that the directory where openbis is installed should not already exist. Users should specify the directory where they want to install openBIS (in the console.properties or in the graphical installer) and this directory will be created by the installation procedure. If the directory already exists, the installation will fail. </p></li></ol><p>After the successful installation you should have a look at the configuration file called s<code>ervice.properties</code>. It is located in <code>&lt;server_folder&gt;openBIS-server/jetty/etc/</code></p><p>This file is a an <a href="/display/openBISDoc2010/Extended+Configuration+Properties">Extended Properties File</a>. Here is an example which can be used as a template:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedHeader panelHeader" style="border-bottom-width: 1px;"><b>service.properties</b></div><div class="preformattedContent panelContent">
+<pre># ---------------------------------------------------------------------------
+# Database configuration
+# ---------------------------------------------------------------------------
+# The database instance local unique identifier. Used when the new database is created.
+database-instance = DEFAULT
+
+# Supported: currently only 'postgresql' is supported
+database.engine = postgresql
+database.url-host-part =
+database.kind = prod
+# User who owns the database. Default: Operating system user running the server.
+database.owner =
+database.owner-password =
+# Superuser of the database. Default: database-dependent.
+database.admin-user = 
+database.admin-password =
+# Max. number of active database connections. Default: 20. 
+database.max-active-connections =
+# Max. number of idle database connections to keep open. Default: 20.  
+database.max-idle-connections = 
+# Log interval (in seconds) between two regular log entries of the number of active database 
+# connections. Default: 3600s.
+database.active-connections-log-interval = 
+
+# ---------------------------------------------------------------------------
+# Master data by Excel sheets
+# ---------------------------------------------------------------------------
+# Path to the file which stores version information of master data imported from Excel sheets. 
+# Default value: ../../../xls-import-version-info.json. The file will be created. 
+# It should be &lt;openbis installation path&gt;/servers/openBIS-server. 
+# Note, that the folder containing this file has to exist. 
+# xls-import.version-data-file = ../../../xls-import-version-info.json
+
+# ---------------------------------------------------------------------------
+# Authentication configuration
+# ---------------------------------------------------------------------------
+# Supported Authentication options are:
+# 'file-authentication-service'
+# 'ldap-authentication-service'
+# 'crowd-authentication-service'
+# 'file-crowd-authentication-service'
+# 'file-ldap-authentication-service'
+# 'ldap-crowd-authentication-service'
+# 'file-ldap-crowd-caching-authentication-service'
+# For a detailed description, have a look at the Installation and Administrator
+# Guide of the openBIS Server: https://wiki-bsse.ethz.ch/x/oYIUBQ 
+authentication-service = file-ldap-crowd-caching-authentication-service
+
+# ---------------------------------------------------------------------------
+# Caching configuration (only used with 'file-ldap-crowd-caching-authentication-service')
+# ---------------------------------------------------------------------------
+# The time that the authentication cache keeps entries. Default: 28h
+authentication.cache.time = 28h
+# The time that the authentication cache does not perform re-validation on a cache entry. 
+# Default: 1h
+authentication.cache.time-no-revalidation = 1h
+
+# ---------------------------------------------------------------------------
+# Crowd configuration
+# ---------------------------------------------------------------------------
+#
+# The Crowd host.
+# Mandatory.
+crowd.service.host = 
+# The Crowd service port. Default: 443
+crowd.service.port =
+# The timeout (in s) to wait for a Crowd query to return, -1 for &quot;wait indefinitely&quot;. Default: 10s. 
+crowd.service.timeout =
+# The Crowd application name. The value 'openbis' is just a suggestion.
+# Mandatory. 
+crowd.application.name = openbis
+# The Crowd application password. 
+# Mandatory.
+crowd.application.password =
+
+# ---------------------------------------------------------------------------
+# LDAP configuration
+# ---------------------------------------------------------------------------
+# The space-separated URLs of the LDAP servers, e.g. &quot;ldap://d.ethz.ch/DC=d,DC=ethz,DC=ch&quot;. 
+# Mandatory.
+ldap.server.url = 
+# The distinguished name of the security principal, e.g. &quot;CN=carl,OU=EthUsers,DC=d,DC=ethz,DC=ch&quot;.
+# Mandatory.
+ldap.security.principal.distinguished.name = 
+# Password of the LDAP user account that will be used to login to the LDAP server to perform the queries. 
+# Mandatory.
+ldap.security.principal.password = 
+# The security protocol to use, use &quot;ssl&quot; or &quot;none&quot;, default is &quot;ssl&quot;
+ldap.security.protocol =
+# The authentication method to use: &quot;none&quot; (no authentication), &quot;simple&quot;, &quot;strong&quot; (SASL), defaults to &quot;simple&quot;
+ldap.security.authentication-method =
+# The referral mode:
+# &quot;follow&quot; - follow referrals automatically (the default)
+# &quot;ignore&quot; - ignore referrals
+# &quot;throw&quot; - throw ReferralException when a referral is encountered
+ldap.referral =
+# The attribute name for the user id, defaults to &quot;uid&quot;
+ldap.attributenames.user.id =
+# The attribute name for the email, defaults to &quot;mail&quot;
+ldap.attributenames.email =
+# The attribute name for the first name, defaults to &quot;givenName&quot;
+ldap.attributenames.first.name =
+# The attribute name for the last name, defaults to &quot;sn&quot;
+ldap.attributenames.last.name =
+# Set to true to also query for email aliases
+ldap.queryEmailForAliases = true
+# The query template, needs to contain %s which will be filled with the query term, e.g. uid=username
+# The default is:
+# ldap.queryTemplate = (&amp;(objectClass=organizationalPerson)(objectCategory=person)(objectClass=user)(%s))
+# which is known to work for many Active Directory installations.
+# For OpenLDAP, replace by: 
+# ldap.queryTemplate = (&amp;(%s))
+# For restriction to BSSE accounts in OpenLDAP, set to: 
+# ldap.queryTemplate = (&amp;(objectClass=bssePosixAccount)(%s))
+ldap.queryTemplate =
+# The number of times a failed LDAP query is retried at the max. Default: 1.
+ldap.maxRetries = 
+# The timeout (in s) to wait for an LDAP query to return, -1 for &quot;wait indefinitely&quot;. Default: 10s. 
+ldap.timeout = 
+# The time (in s) to wait after a failure before retrying the query. Default: 10s. 
+ldap.timeToWaitAfterFailure =
+
+# ---------------------------------------------------------------------------
+# Anonymous login configuration (optional)
+# ---------------------------------------------------------------------------
+# Login of the existing user whose settings will be used for anonymous login 
+#user-for-anonymous-login = &lt;user-login&gt;
+
+# ---------------------------------------------------------------------------
+# Project authorization
+# ---------------------------------------------------------------------------
+# Enabled if set to 'true'. Default: disabled 
+authorization.project-level.enabled = true
+# Regular expression for user ids allowed to have a project role 
+authorization.project-level.users = .*
+
+# ---------------------------------------------------------------------------
+# Project samples
+# ---------------------------------------------------------------------------
+# Enabled if set to 'true'. Default: disabled 
+# Note: Changing to 'true' turns experiment samples to project samples 
+# which can not be reverted after setting this flag back to 'false'. Also
+# the sample identifier will change for such samples.
+#project-samples-enabled = true
+
+# ---------------------------------------------------------------------------
+# Client configuration
+# ---------------------------------------------------------------------------
+# Name of the file that stores Web Client configuration
+web-client-configuration-file = etc/web-client.properties
+
+# A comma-separated list of trusted cross-origin domains, that are allowed to
+# query openBIS content. Typically these are lightweight webapps that integrate with openBIS 
+# via JSON-RPC services, but are not directly hosted within the openBIS application.
+# 
+# Example 1 (two different domains configured):
+# 
+# trusted-cross-origin-domains=https://myapp.domain.com:8443, http://other.domain.com
+#
+# Example 2 (match every domain):
+#
+# trusted-cross-origin-domains= *
+#
+# The '*' matches any arbitrary domain. It should be used with care as it opens openBIS 
+# for potential cross-site scripting attacks.
+#
+#trusted-cross-origin-domains=
+
+# ---------------------------------------------------------------------------
+# Session configuration
+# ---------------------------------------------------------------------------
+# The time after which an inactive session is expired by the service (in minutes).
+session-timeout = 720
+
+# Session time (in minutes) in case of presents of file etc/nologin.html. Should be &lt; 30. 
+#session-timeout-no-login = 10
+
+# Maximum number of sessions allowed per user. Zero means unlimited number of sessions. Default value is 1.
+# max-number-of-sessions-per-user = 1
+
+# Comma separated list of users allowed to have unlimited number of sessions. Default: Empty list.
+# Note: The DSS (user 'etlserver' by default, see property 'username' of DSS service.properties)
+# should be added to this list.
+# users-with-unrestricted-number-of-sessions = 
+
+
+# ---------------------------------------------------------------------------
+# Business rules configuration
+# ---------------------------------------------------------------------------
+# When set to &quot;true&quot; enables the system to store material codes containing non-alphanumeric characters.
+# Regardless of the value of this property no white spaces are allowed in the material codes.
+#material-relax-code-constraints=false
+
+# Comma-separated list of regular expression of data set types which do not require that the data set 
+# is linked to an experiment. If not linked to an experiment a link to a sample with space is required.
+data-set-types-with-no-experiment-needed = .*
+
+# When set to 'true' the sequence of sample codes is gap less for each type if all samples are created by
+# batch registrations. 
+#create-continuous-sample-codes = false
+
+
+# ---------------------------------------------------------------------------
+# RPC Dropbox Default DSS configuration 
+# ---------------------------------------------------------------------------
+# Set this to the DSS code of the DSS handling RPC Dropboxes for this user.
+# Note: This is only required if more than one DSS is connected to this openBIS server.
+dss-rpc.put.dss-code =
+
+# ---------------------------------------------------------------------------
+# Hibernate Search
+# ---------------------------------------------------------------------------
+# The working directory.
+hibernate.search.index-base = ./indices
+# One of NO_INDEX, SKIP_IF_MARKER_FOUND, INDEX_FROM_SCRATCH.
+# If not specified, default (SKIP_IF_MARKER_FOUND) is taken.
+hibernate.search.index-mode = SKIP_IF_MARKER_FOUND
+# Defines the maximum number of elements indexed before flushing the transaction-bound queue.
+# Default is 1000.
+hibernate.search.batch-size = 1000
+# Maximum number of search results
+hibernate.search.maxResults = 100000
+# If 'async', the update of indices will be done in a separate thread.
+hibernate.search.worker.execution=async
+# How long fulltext searches can take (in seconds) before they are timed out. 
+# When not defined, there is no timeout.
+# fulltext-timeout = 30
+
+# ---------------------------------------------------------------------------
+# Online Help
+# ---------------------------------------------------------------------------
+# Online help is broken into two sections -- generic and specific. Generic help links back to
+# the CISD. Specific help is provided by the host of the installation
+#
+# OpenBIS needs to know the root URL for the online help and a template for the individual pages.
+# The template should have on parameter, called title, and should be constructed to automatically
+# create the page if it does not already exist.
+# The template can be created by going to the root page, adding a new link to the page, and
+# replacing the title of the new page with the ${title}
+onlinehelp.generic.root-url = https://wiki-bsse.ethz.ch/display/CISDDoc/OnlineHelp
+onlinehelp.generic.page-template = https://wiki-bsse.ethz.ch/pages/createpage.action?spaceKey=CISDDoc&amp;title=${title}&amp;linkCreation=true&amp;fromPageId=40633829
+#onlinehelp.specific.root-url = https://wiki-bsse.ethz.ch/display/CISDDoc/OnlineHelp
+#onlinehelp.specific.page-template = https://wiki-bsse.ethz.ch/pages/createpage.action?spaceKey=CISDDoc&amp;title=${title}&amp;linkCreation=true&amp;fromPageId=40633829
+
+# ---------------------------------------------------------------------------
+# JMX memory monitor
+# ---------------------------------------------------------------------------
+# Interval between two runs of the memory monitor (in seconds). 
+# Set to -1 to disable the memory monitor.
+memorymonitor-monitoring-interval = 60
+# Interval between two regular log call of the memory monitor (in seconds).
+# Set to -1 to disable regular memory usage logging. 
+memorymonitor-log-interval = 3600
+# The percentage of memory that, if exceeded, triggers a notify log of the memory manager, 
+# Set to 100 to disable.
+memorymonitor-high-watermark-percent = 90
+
+# ---------------------------------------------------------------------------
+# Database Configurations for Query module (optional)
+# ---------------------------------------------------------------------------
+# Comma separated keys of databases configured for Query module.
+# Each database should have configuration properties prefixed with its key.
+# Mandatory properties for each &lt;database&gt; include: 
+#   &lt;database&gt;.label                - name shown to the openBIS user when adding or editing a customized query
+#		&lt;database&gt;.database-driver      - JDBC Driver of the database (e.g. org.postgresql.Driver)
+#   &lt;database&gt;.database-url	        - JDBC URL to the database (e.g. jdbc:postgresql://localhost/openbis)
+# Optional properties for each &lt;database&gt; include:
+#   &lt;database&gt;.database-user        - name of the database user (default: user.name from system properties)
+#   &lt;database&gt;.database-password    - password of the database user
+#   &lt;database&gt;.creator-minimal-role - minimal role required to create/edit queries on this database (default: POWER_USER)
+#   &lt;database&gt;.data-space           - If NOT specified OBSERVER of any space will be allowed to perform 
+#                                     queries and &lt;creator-minimal-role&gt; of any space will allowed 
+#                                     to create/edit queries on this DB.
+#                                   - If specified only OBSERVER of the space will be allowed to perform 
+#                                     queries and &lt;creator-minimal-role&gt; of the space will allowed 
+#                                     to create/edit queries on this DB.
+#query-databases = openbisDB
+#
+#openbisDB.label = openBIS meta data
+#openbisDB.data-space = CISD
+#openbisDB.creator-minimal-role = SPACE_ADMIN
+#openbisDB.database-driver = org.postgresql.Driver
+#openbisDB.database-url = jdbc:postgresql://localhost/openbis_${database.kind}
+#openbisDB.database-username =
+#openbisDB.database-password =
+
+# ---------------------------------------------------------------------------
+# Maintenance plugins configuration (optional)
+# ---------------------------------------------------------------------------
+# Comma separated names of maintenance plugins.  
+# Each plugin should have configuration properties prefixed with its name.
+# Mandatory properties for each &lt;plugin&gt; include: 
+#   &lt;plugin&gt;.class - Fully qualified plugin class name
+#   &lt;plugin&gt;.interval - The time between plugin executions (in seconds)
+# Optional properties for each &lt;plugin&gt; include:
+#   &lt;plugin&gt;.start - Time of the first execution (HH:mm)
+#   &lt;plugin&gt;.execute-only-once - If true the task will be executed exactly once, 
+#                                interval will be ignored. By default set to false.
+#maintenance-plugins = demo
+#
+#demo.class = ch.systemsx.cisd.openbis.generic.server.task.DemoMaintenanceTask
+#demo.interval = 60
+#demo.property_1 = some value
+#demo.property_2 = some value 2
+
+#
+# Internal - do not change
+#
+
+# Authorization
+# Supported: 'no-authorization' and 'active-authorization'
+authorization-component-factory = active-authorization
+
+script-folder = .
+
+#
+# Version of Jython to be used in plugins. 2.5 and 2.7 are supported
+#
+jython-version=2.7
+
+##########
+# V3 API #
+##########
+
+# -------------------------------------------------------------------------
+# The configuration below reflects the default values used by the V3 API.
+# Please uncomment and change the chosen values to overwrite the defaults.  
+# -------------------------------------------------------------------------
+#
+# A path to a directory where operation execution details are stored.
+#
+#  api.v3.operation-execution.store.path = operation-execution-store
+#
+# A thread pool that is used for executing all asynchronous operations.  
+#
+# api.v3.operation-execution.thread-pool.name = operation-execution-pool
+# api.v3.operation-execution.thread-pool.core-size = 10
+# api.v3.operation-execution.thread-pool.max-size = 10
+# api.v3.operation-execution.thread-pool.keep-alive-time = 0
+#
+# A name of a thread that updates operation execution progress information.
+#
+# api.v3.operation-execution.progress.thread-name = operation-execution-progress
+#
+# An interval that controls how often operation execution progress information gets updated. The interval is defined in seconds.
+# 
+# api.v3.operation-execution.progress.interval = 5
+#
+# Availability times control for how long information about an operation execution is stored in the system. 
+# There are 3 levels of such information:
+#
+# * core information (code, state, owner, description, creation_date, start_date, finish_date)
+# * summary information (summary of operations, progress, error, results)
+# * detailed information (details of operations, progress, error, results)
+#
+# Each level of information can have a different availability time.
+# The availability times can be defined at the moment of scheduling an operation execution.
+# If a time is not provided explicitly then a corresponding 'default' value is used. 
+# The maximum possible value that can be used for a given availability time is controlled with the 'max' property.
+#
+# All availability times are defined in seconds.
+# Examples of values: 31536000 (1 year), 2592000 (30 days), 86400 (1 day), 3600 (1 hour).
+#
+# api.v3.operation-execution.availability-time.default = 31536000
+# api.v3.operation-execution.availability-time.max = 31536000
+# api.v3.operation-execution.availability-time.summary.default = 2592000
+# api.v3.operation-execution.availability-time.summary.max = 2592000
+# api.v3.operation-execution.availability-time.details.default = 86400 
+# api.v3.operation-execution.availability-time.details.max = 86400
+#
+# Maintenance tasks responsible for marking and deleting timed out operation executions. Intervals are defined in seconds.
+#
+# api.v3.operation-execution.availability-update.mark-timeout-pending-task.name = operation-execution-mark-timeout-pending-task
+# api.v3.operation-execution.availability-update.mark-timeout-pending-task.interval = 60
+#
+# api.v3.operation-execution.availability-update.mark-timed-out-or-deleted-task.name = operation-execution-mark-timed-out-or-deleted-task
+# api.v3.operation-execution.availability-update.mark-timed-out-or-deleted-task.interval = 300
+#
+# Maintenance task responsible for marking new, scheduled and running operation executions as failed after server restart.
+#
+# api.v3.operation-execution.state-update.mark-failed-after-server-restart-task.name = operation-execution-mark-failed-after-server-restart-task
+#
+#
+</pre>
+</div></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-DatabaseSettings">Database Settings</h4><p>All properties starting with <code>database.</code> specify the settings for the openBIS database. They are all mandatory.</p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><th class="confluenceTh"><p>Property</p></th><th class="confluenceTh"><p>Description</p></th></tr><tr><td class="confluenceTd"><p><code>database.engine</code></p></td><td class="confluenceTd"><p>Type of database. Currently only <code>postgresql</code> is supported.</p></td></tr><tr><td class="confluenceTd"><p><code>database.create-from-scratch</code></p></td><td class="confluenceTd"><p>If <code>true</code> the database will be dropped and an empty database will be created. <strong>In productive use always set this value to</strong> <code> <strong>false</strong> </code> <strong>.</strong></p></td></tr><tr><td class="confluenceTd"><p><code>database.script-single-step-mode</code></p></td><td class="confluenceTd"><p>If <code>true</code> all SQL scripts are executed in single step mode. Useful for localizing errors in SQL scripts. Should be always <code>false</code> in productive mode.</p></td></tr><tr><td class="confluenceTd"><p><code>database.url-host-part</code></p></td><td class="confluenceTd"><p>Part of JDBC URL denoting the host of the database server. If openBIS Application Server and database server are running on the same machine this property should be an empty string.</p></td></tr><tr><td class="confluenceTd"><p><code>database.kind</code></p></td><td class="confluenceTd"><p>Part of the name of the database. The full name reads <code>openbis_&lt;</code> <code> <em>kind</em> </code> <code>&gt;</code>.</p></td></tr><tr><td class="confluenceTd"><p><code>database.admin-user</code></p></td><td class="confluenceTd"><p>ID of the user on database server with admin rights, like creation of tables. Should be an empty string if default admin user should be used. In case of PostgreSQL the default admin user is assumed to be <code>postgres</code>.</p></td></tr><tr><td class="confluenceTd"><p><code>database.admin-password</code></p></td><td class="confluenceTd"><p>Password for admin user. Usual an empty string.</p></td></tr><tr><td class="confluenceTd"><p><code>database.owner</code></p></td><td class="confluenceTd"><p>ID of the user owning the data. This should generally be openbis. The openbis role and password need to be created. In case of an empty string it is the same user who started up openBIS Application Server.</p></td></tr><tr><td class="confluenceTd"><p><code>database.owner-password</code></p></td><td class="confluenceTd"><p>Password of the owner.</p></td></tr></tbody></table></div><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>The credentials for the database user with the privilege to create a new database depends on the installation and configuration of the PostgreSQL database.</p></div></div><h3 id="InstallationandAdministratorGuideoftheopenBISServer-StartServer">Start Server</h3><p>The server is started as follows:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; &lt;installation folder&gt;/bin/bisup.sh
+</pre>
+</div></div><p>On startup the openBIS server creates the database on PostgreSQL and checks the connection with the remote authentication services (if they are configured). Log files can be found in <code>&lt;installation folder&gt;/servers/openBIS-server/jetty/logs</code>. Also the following command shows the log: <code>&lt;installation folder&gt;/bin/bislog.sh</code></p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>The first user logged in into the system will have full administrator rights (role <code>INSTANCE_ADMIN</code>).</p></div></div><h3 id="InstallationandAdministratorGuideoftheopenBISServer-StopServer">Stop Server</h3><p>The server is stopped as follows:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; &lt;installation folder&gt;/bin/bisdown.sh</pre>
+</div></div><h3 id="InstallationandAdministratorGuideoftheopenBISServer-Authenticationsystems">Authentication systems</h3><p>Generic openBIS currently supports four authentication systems: a self-contained system based on a UNIX-like passwd file, LDAP, the Crowd system (see <a class="external-link" href="http://www.atlassian.com/software/crowd" rel="nofollow">http://www.atlassian.com/software/crowd</a>) and Single Sign On (eg SWITCH AAI). Beside this there are also so called stacked authentication methods available. Stacked authentication methods use multiple authentication systems in the order indicated by the name. The first authentication system being able to provide an entry for a particular user id will be used. If you need full control over what authentication systems are used in what order, you can define your own stacked authentication service in the Spring application context file: <code>&lt;server folder&gt;/openBIS-server/jetty/webapps/openbis/WEB-INF/classes/genericCommonContext.xml.</code></p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Thedefaultauthenticationconfiguration">The default authentication configuration</h4><p>In the template service properties, we set <code>authentication-service = file-ldap-crowd-caching-authentication-service</code>, which means that file-based authentication, LDAP and Crowd are used for authentication, in this order. As LDAP and Crowd are not configured in the template service properties, this effectively corresponds to <code>file-authentication-service</code>, however when LDAP and / or Crowd are configured, they are picked up on server start and are used to authenticate users when they are not found in the local <code>passwd</code> file. Furthermore, as it is a caching authentication service, it will cache authentication results from LDAP and / or Crowd in <code>file &lt;server folder&gt;/jetty/etc/passwd_cache</code>. See section <em>Authentication Cache</em> below for details on this caching.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Thefilebasedauthenticationsystem">The file based authentication system</h4><p>This authentication schema uses the file <code>&lt;server folder&gt;/jetty/etc/passwd</code> to determine whether a login to the system is successful or not.</p><p>The script <code>&lt;server folder&gt;/jetty/bin/passwd.sh</code> can be used to maintain this file. This script supports the options:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>passwd list | [remove|show|test] &lt;userid&gt; | [add|change] &lt;userid&gt; [option [...]]
+ --help                 : Prints out a description of the options.
+ [-P,--change-password] : Read the new password from the console,
+ [-e,--email] VAL       : Email address of the user.
+ [-f,--first-name] VAL  : First name of the user.
+ [-l,--last-name] VAL   : Last name of the user.
+ [-p,--password] VAL    : The password.
+</pre>
+</div></div><p>A new user can be added with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh add [-f &lt;first name&gt;] [-l &lt;last name&gt;] [-e &lt;email&gt;] [-p &lt;password&gt;] &lt;username&gt;
+</pre>
+</div></div><p>If no password is provided with the <code>-p</code> option, the system will ask for a password of the new user on the console. Please note that providing a password on the command line can be a security risk, because the password can be found in the shell history, and, for a short time, in the <code>ps</code> table. Thus <code>-p</code> is not recommended in normal operation.</p><p>The password of a user can be tested with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh test &lt;username&gt;
+</pre>
+</div></div><p>The system will ask for the current password on the console and then print whether the user was authenticated successfully or not.</p><p>An account can be changed with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh change [-f &lt;first name&gt;] [-l &lt;last name&gt;] [-e &lt;email&gt;] [-P] &lt;username&gt;
+</pre>
+</div></div><p>An account can be removed with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh remove &lt;username&gt;
+</pre>
+</div></div><p>The details of an account can be queried with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh show &lt;username&gt;
+</pre>
+</div></div><p>All accounts can be listed with</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>prompt&gt; passwd.sh list
+</pre>
+</div></div><p>The password file contains each user in a separate line. The fields of each line are separated by colon and contain (in this order): <em>User Id</em>, <em>Email Address</em>, <em>First Name</em>, <em>Last Name</em> and <em>Password Hash</em>. The <em>Password Hash</em> field represents the <a class="external-link" href="http://en.wikipedia.org/wiki/Salted_hash" rel="nofollow">salted</a> <a class="external-link" href="http://en.wikipedia.org/wiki/Sha1" rel="nofollow">SHA1</a> hash of the user's password in <a class="external-link" href="http://en.wikipedia.org/wiki/Base64" rel="nofollow">BASE64 encoding</a>.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-TheinterfacetoLDAP">The interface to LDAP</h4><p>To work with an LDAP server, you need to provide the server URL with (example) and set the <code>authentication-service = ldap-authentication-service</code></p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>ldap.server.url = ldap://d.ethz.ch/DC=d,DC=ethz,DC=ch</pre>
+</div></div><p>and the details of an LDAP account who is allowed to make queries on the LDAP server with (example)</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>ldap.security.principal.distinguished.name = CN=carl,OU=EthUsers,DC=d,DC=ethz,DC=ch
+ldap.security.principal.password = Carls_LDAP_Password</pre>
+</div></div><p>Note: A space-separated list of URLs can be provided if distinguished name and password  are valid for all specified LDAP servers.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-TheinterfacetoCrowd">The interface to Crowd</h4><p>When setting <code>authentication-service = crowd-authentication-service</code> in <code>service.properties</code>, the <code>passwd</code> file has no effect. Instead, the following properties need to be configured via the following properties.</p><p>The URL (without port information):</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>crowd.service.url = https://crowd.your.org
+</pre>
+</div></div><p>The Port of the URL:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>crowd.service.port = 443
+</pre>
+</div></div><p>The name of the application account in Crowd:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>crowd.application.name = openbis
+</pre>
+</div></div><p>The password of the application account in Crowd:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>crowd.application.password = &lt;application password&gt;
+</pre>
+</div></div><div class="confluence-information-macro confluence-information-macro-information conf-macro output-block" data-hasbody="true" data-macro-name="info"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>If <span style="color: rgb(0,51,102);">Crowd</span> is used as an authentication service, the IP of the openBIS server and the name (of the openBIS application) has to be registered with the Crowd server.</p></div></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-AuthenticationCache">Authentication Cache</h4><p>If configuring a caching authentication service like <code>file-ldap-crowd-caching-authentication-service</code>, authentication results from remote authentication services like LDAP and / or Crowd are cached locally in the openBIS Application Server. The advantage is a faster login time on repeated logins when one or more remote authentication services are slow. The disadvantage is that changes to data in the remote authentication system (like a changed password or email address) are becoming known to openBIS only with a delay. In order to minimize this effect, the authentication caching performs &quot;re-validation&quot; of authentication requests asynchronously. That means it doesn't block the user from logging in because it is performed in different thread than the login.</p><p>There are two service properties which give you control over the working of the authentication cache:</p><ul><li><code>authentication.cache.time</code> lets you set for how long (after putting it into the cache) a cache entry (read: &quot;user name and password&quot;) will be kept if the user does not have a successful login to openBIS in this period of time (as successful logins will trigger re-validation and thus renewal of the cache entry). The default is 28h, which means that users logging into the system every day will never experience a delay from slow remote authentication systems. A non-positive value will disable caching.</li><li><code>authentication.cache.time-no-revalidation</code> lets you set for how long (after putting it into the cache) a cache entry will <em>not</em> be re-validated if the login was successful. This allows you to reduce the load that openBIS creates on the remote authentication servers for successful logins of the same user. The default is 1h. Setting it to 0 will always trigger re-validation, setting it to <code>authentication.cache.time</code> will not perform re-validation at all and thus expire every cache entry after that time.</li></ul><p>An administrator with shell access to the openBIS Application Server can see and change the current cache entries in the file <code><code>&lt;server folder&gt;/jetty/</code>etc/passwd_cache</code>. The format is the same as for the file-based authentication system (see section <em>The file based authentication system</em> above), but has an additional field <em>Cached At</em> added to the end of each line. <em>Cached At</em> is the time (in milli-seconds since start of the Unix epoch, which is midnight <span class="lang" lang="en"><em>Universal Time Coordinated</em></span>, 1 January 1970) when the entry was cached. Removing a line from this file will remove the corresponding cache entry. The authentication cash survives openBIS Application Server restarts because of this persisted file. If you need to clear the cache altogether, it is sufficient to remove the <code>passwd_cache</code> file at any time. No server restart is needed to make changes to this file take effect.</p><div class="confluence-information-macro confluence-information-macro-information conf-macro output-block" data-hasbody="true" data-macro-name="info"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>You can switch off authentication caching by either setting <code>authentication.cache.time = -1</code>, or by choosing an authentication service which does not have <code>caching</code> in its name.</p></div></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-AnonymousLogin">Anonymous Login</h4><p>In order to allow anonymous login a certain user known by openBIS (not necessarily by the authentication system) has to be specified. This is done by the property <code>user-for-anonymous-login</code>. The value is the user ID. The display settings and the authorization settings of this user are used for the anonymous login.</p><p>Anonymous login is possible with URL parameter <code>anonymous</code> set to <code>true</code> or by property <code>default-anonymous-login</code> in web configuration properties (see <a href="#InstallationandAdministratorGuideoftheopenBISServer-WebClientCustomization">Web Client Customization</a>). Note, that for the ELN client the property <code>default-anonymous-login</code> isn't used. Anonymous login needs only the property <code>user-for-anonymous-login</code> for an existing user with some rights.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-SingleSignOnAuthentication">Single Sign On Authentication</h4><p>Currently only Shibboleth SSO is supported. For more details see <a href="/display/openBISDoc2010/Single+Sign+On+Authentication">Single Sign On Authentication</a>.</p><h3 id="InstallationandAdministratorGuideoftheopenBISServer-Authorization">Authorization</h3><p>openBIS authorization is described here: <a href="/display/openBISDoc2010/Authorization">Authorization</a>.</p><h3 id="InstallationandAdministratorGuideoftheopenBISServer-SystemCustomization">System Customization</h3><h4 id="InstallationandAdministratorGuideoftheopenBISServer-LoginPage-Banners">Login Page - Banners</h4><p>To add banners to the main OpenBIS change <code>loginHeader.html</code> page. It is stored in the same directory as <code>index.html</code>. Note that if the height of <code>loginHeader.html</code> is too big, the content may overlap with the rest of the OpenBIS login page.</p><p>Example of the <code>loginHeader.html</code>:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>&lt;center&gt;&lt;img src=&quot;images/banner.gif&quot;&gt;&lt;/center&gt;
+</pre>
+</div></div><p>For announcements you have to edit the <code>index.html</code> file. Here is an example showing the tail:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>&lt;input style=&quot;margin-left: 200px&quot; type=&quot;submit&quot; id=&quot;openbis_login_submit&quot; value=&quot;Login&quot;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;
+Due the server maintenance openBIS 
+&lt;br&gt;
+will not be available on 24th of 
+&lt;br&gt;
+ December 2010 from 10 am to 3 pm!
+&lt;br&gt;
+&lt;/span&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</div></div><p>Note: the current work around with <code>br</code> tags between the lines ensures that the login box is still centered.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-ClientCustomization">Client Customization</h4><h5 id="InstallationandAdministratorGuideoftheopenBISServer-Configuration">Configuration</h5><p>To reconfigure some parts of the openBIS Web Client and Data Set Upload Client, prepare the configuration file and add the path to the value of <code>web-client-configuration-file</code> property in openBIS <code>service.properties</code>.</p><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">web-client-configuration-file = etc/web-client.properties
+</pre>
+</div></div><h5 id="InstallationandAdministratorGuideoftheopenBISServer-Webclientcustomizations">Web client customizations</h5><ul><li>Enable the trashcan. When the trashcan is enabled, deleting entities only marks them as deleted but not deletes them physically (it is also called &quot;logical deletion&quot;). When clicking on the trashcan icon in the Web GUI, the user can see all of his deletion operations and can revert them individually. Only an admin can empty the trashcan and thus delete the entities physically. Only with enabled trashcan is it possible to delete complete hierarchies (e.g. an experiment with samples and datasets attached).</li><li>Default view mode (<code>SIMPLE/NORMAL</code>) that should be used if user doesn't have it specified in a URL.</li><li>Replacement texts for 'Experiment' and 'Sample' by <code>experiment-text</code> and <code>sample-text</code>, respectively.</li><li>Anonymous login by default.</li><li>Sample, material, experiment and data set <code>detail views </code>can be customized by:<ul class="alternate"><li>hiding the sections (e.g. attachments)</li></ul></li><li>Additionally <code>data set detail view</code> can be customized by:<ul class="alternate"><li>removing <code>Smart View</code> and <code>File View</code> from the list of available reports in <code>Data View</code> section</li></ul></li><li>Technology specific properties with property <code>technologies</code> which is a comma-separated list of technologies. For each technology properties are defined where the property names start with technology name followed by a dot character.</li></ul><h5 id="InstallationandAdministratorGuideoftheopenBISServer-DataSetUploadClientCustomizations">Data Set Upload Client Customizations</h5><p>It is possible to restrict the set of data set types available to the user in the data set uploader. This is useful when there are some data set types that a user would never upload; for example, if there are data set types that are used only internally exist only to support third-party software.</p><p>The restriction is specified in the web-client.properties file using either a whitelist or a blacklist. If both are specified, the whitelist is used. To specify a whitelist, use the key <code>creatable-data-set-types-whitelist</code>; for a blacklist, use the key <code>creatable-data-set-types-blacklist</code>. The value for the property should be a comma-separated list of regular-expression patterns to match. In the case of the whitelist, data set types that match the specified patterns are shown to the user, whereas for the blacklist, the data set types that match the specified patterns are those that are not shown to the user.</p><h6 id="InstallationandAdministratorGuideoftheopenBISServer-Examples">Examples</h6><ul><li>Specifying a whitelist</li></ul><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>web-client.properties.</b></div><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">creatable-data-set-types-whitelist = .*IMAGE.*, ANALYSIS, THUMBNAIL[0-9]?
+</pre>
+</div></div><p>Assume we have the following data set types in our system:</p><p><em>PROCESSED-DATA</em>, <em>MICROSCOPE-IMAGE</em>, <em>IMAGE-SCREENING</em>, <em>ANALYSIS</em>, <em>ANALYSIS-FEATURES</em>, <em>THUMBNAIL1</em>, <em>THUMBNAIL-BIG</em></p><p>In this case, the follwing data set types will be available to the user:</p><p><em>MICROSCOPE-IMAGE</em>, <em>IMAGE-SCREENING</em>, <em>ANALYSIS</em>, <em>THUMBNAIL1</em></p><ul><li>Specifying a blacklist</li></ul><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>web-client.properties.</b></div><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">creatable-data-set-types-blacklist = .*IMAGE.*, ANALYSIS, THUMBNAIL[0-9]?
+</pre>
+</div></div><p>Assume we have the following data set types in our system:</p><p><em>PROCESSED-DATA</em>, <em>MICROSCOPE-IMAGE</em>, <em>IMAGE-SCREENING</em>, <em>ANALYSIS</em>, <em>ANALYSIS-FEATURES</em>, <em>THUMBNAIL1</em>, <em>THUMBNAIL-BIG</em></p><p>In this case, the follwing data set types will be available to the user:</p><p><em>PROCESSED-DATA</em>, <em>ANALYSIS-FEATURES</em>, <em>THUMBNAIL-BIG</em></p><h5 id="InstallationandAdministratorGuideoftheopenBISServer-Fullweb-client.propertiesExample">Full web-client.properties Example</h5><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedHeader panelHeader" style="border-bottom-width: 1px;"><b>web-client.properties</b></div><div class="preformattedContent panelContent">
+<pre># Enable the trash can and logical deletion.
+# Default value: false
+enable-trash = true
+
+# Replacement texts for 'Experiment' and 'Sample' in the UI 
+# sample-text = Object
+# experiment-text = Collection
+
+# Default view mode that should be used if user doesn't have it specified in URL.
+# Options: 'NORMAL' (standard or application mode - default), 'SIMPLE' (read-only mode with simplified GUI)
+#
+default-view-mode = SIMPLE
+
+# Flag specifying whether default login mode is anonymous or not. 
+# If true a user-for-anonymous-login has to be defined in service.properties
+# Default value: false
+default-anonymous-login = true
+
+# Configuration of entity (experiment, sample, data set, material) detail views.
+#
+# Mandatory properties:
+#   - view (entity detail view id)
+#   - types (list of entity type codes)
+# Optional properties:
+#   - hide-sections (list of section ids)
+#   - hide-smart-view (removes &quot;Smart View&quot; from Data Set Detail View -&gt; Data View) (generic_dataset_viewer)
+#   - hide-file-view (removes &quot;File View&quot; from Data Set Detail View -&gt; Data View) (generic_dataset_viewer)
+# Available sections in entity-detail-views:
+#   generic_dataset_viewer
+#   	data-set-data-section
+#   	data-set-parents-section
+#   	data-set-children-section
+#   	query-section
+#   generic_experiment_viewer
+#   	data-set-section
+#   	attachment-section
+#   	query-section
+#   	container-sample-section
+#   generic_sample_viewer
+#   	container-sample-section
+#   	derived-samples-section
+#   	parent-samples-section
+#   	data-set-section
+#   	attachment-section
+#   	query-section
+#   generic_material_viewer
+#   	query-section
+#
+# Example:
+#
+#detail-views = sample-view, experiment-view, data-view
+#
+#sample-view.view = generic_sample_viewer
+#sample-view.types = STYPE1, STYPE2
+#sample-view.hide-sections = derived-samples-section, container-sample-section
+#
+#experiment-view.view = generic_sample_viewer
+#experiment-view.types = ETYPE1, ETYPE2
+#experiment-view.hide-sections = data-set-section
+#
+#data-view.view = generic_dataset_viewer
+#data-view.types = DSTYPE
+#data-view.hide-smart-view = false
+#data-view.hide-file-view = true
+
+#technologies = screening
+#screening.image-viewer-enabled = true
+
+#
+# Only render these types when creating new data sets via the 
+# Data Set Upload Client
+#
+#creatable-data-set-types-whitelist=WHITELISTED_TYPE1, WHITELISTED_TYPE2
+
+#
+# Do not render these types in the Data Set Upload Client. 
+# The value of the property is only taken into account if  
+# creatable-data-set-types-whitelist is not configured
+#
+#creatable-data-set-types-blacklist=BLACKLISTED_TYPE1, BLACKLISTED_TYPE2
+</pre>
+</div></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-ConfiguringFileServlet">Configuring File Servlet</h4><p>This service is specially tailored for web applications requiring to upload files to the system without using the DataSet concept, it was meant to be used for small images and rich text editors like CKEditor.</p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/></colgroup><tbody><tr><th class="confluenceTh">Property Key</th><th colspan="1" class="confluenceTh">Default Value</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd"><span style="color: rgb(0,0,0);">file-server.</span><span style="color: rgb(0,0,0);">maximum-file-size-in-MB</span></td><td colspan="1" class="confluenceTd">10</td><td class="confluenceTd"> Max size of files.</td></tr><tr><td colspan="1" class="confluenceTd"><span style="color: rgb(0,0,0);">file-server.</span><span style="color: rgb(0,0,0);">repository-path</span></td><td colspan="1" class="confluenceTd"> ../../../data/file-server</td><td colspan="1" class="confluenceTd">Path where files will be stored, ideally should be a folder on the same NAS you are storing the DataSets.</td></tr><tr><td colspan="1" class="confluenceTd"><span style="color: rgb(0,0,0);"><span style="color: rgb(0,0,0);">file-server.</span></span>download-check</td><td colspan="1" class="confluenceTd">true </td><td colspan="1" class="confluenceTd">Checks that the user is log in into the system to be able to download files.</td></tr></tbody></table></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-ConfiguringDSSDataSources">Configuring DSS Data Sources</h4><p>It is quite common that openBIS AS is using a database filled by DSS. Depending on the DSS (specified by the DSS code) and the technology different databases have to be used.</p><p>Configuration is best done by AS <a href="/display/openBISDoc2010/Core+Plugins">core plugins</a> of type <code>dss-data-sources</code>. The name of the plugin is just the DSS code. The following properties of <code>plugin.properties</code> are recognized:</p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><th class="confluenceTh">Property Key</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">technology</td><td class="confluenceTd">Normally the technology/module folder of the core plugin specifies the technology/module for which this data source has to be configured. If this is not the case this property allows to specify the technology/module independently. </td></tr><tr><td colspan="1" class="confluenceTd">database-driver</td><td colspan="1" class="confluenceTd">Fully qualified class name of the data base driver, e.g. <code>org.postgresql.Driver</code>.</td></tr><tr><td colspan="1" class="confluenceTd">database-url</td><td colspan="1" class="confluenceTd">URL of the database, e.g.<code> <span>jdbc:postgresql://localhost/imaging_dev</span> </code></td></tr><tr><td colspan="1" class="confluenceTd">username</td><td colspan="1" class="confluenceTd">Optional user name needed to access database.</td></tr><tr><td colspan="1" class="confluenceTd">password</td><td colspan="1" class="confluenceTd">Optional password needed to access database.</td></tr><tr><td colspan="1" class="confluenceTd">validation-query</td><td colspan="1" class="confluenceTd">Optional SQL script to be executed to validate database connections.</td></tr><tr><td colspan="1" class="confluenceTd">database-max-idle-connections</td><td colspan="1" class="confluenceTd">The maximum number of connections that can remain idle in the pool. A negative value indicates that there is no limit. Default: -1</td></tr><tr><td colspan="1" class="confluenceTd">database-max-active-connections</td><td colspan="1" class="confluenceTd">The maximum number of active connections that can be allocated at the same time. A negative value indicates that there is no limit. Default: -1</td></tr><tr><td colspan="1" class="confluenceTd">database-max-wait-for-connection</td><td colspan="1" class="confluenceTd">The maximum number of seconds that the pool will wait for a connection to be returned before throwing an exception. A value less than or equal to zero means the pool is set to wait indefinitely. Default: -1</td></tr><tr><td colspan="1" class="confluenceTd">database-active-connections-log-interval</td><td colspan="1" class="confluenceTd"><p>The interval (in ms) between two regular log entries of currently active database connections if more than one connection is active. Default: Disabled</p></td></tr><tr><td colspan="1" class="confluenceTd">database-active-number-connections-log-threshold</td><td colspan="1" class="confluenceTd"><p>The number of active connections that will trigger a NOTIFY log and will switch on detailed connection logging. Default: Disabled</p></td></tr><tr><td colspan="1" class="confluenceTd">database-log-stacktrace-on-connection-logging</td><td colspan="1" class="confluenceTd">If <code>true</code> and logging enabled also stack traces are logged. Default: <code>false</code></td></tr></tbody></table></div><p>Properties <code>database-driver</code> and <code>database-url</code> can be omitted if a <code>etc/dss-datasource-mapping</code> is defined. For more see <a href="/display/openBISDoc2010/Sharing+Databases">Sharing Databases</a>.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-ChangingtheCapability-Rolemap">Changing the Capability-Role map</h4><p>openBIS uses a map of capabilities to roles to decide what role is needed to perform a given action. The defaults can be overridden by creating a file <code>etc/capabilities</code>. One line in this file has one of the following formats:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>&lt;Capability&gt;: &lt;Role&gt;[,&lt;ROLE&gt;...]
+&lt;Capability&gt;: &lt;Role&gt;[,&lt;ROLE&gt;...][; &lt;Parameter&gt; = &lt;Role&gt;[, &lt;Role&gt;...]][; &lt;Parameter&gt; = &lt;Role&gt;[, &lt;Role&gt;]] ...
+&lt;Capability&gt;: &lt;Parameter&gt; = &lt;Role&gt;[, &lt;Role&gt;...][; &lt;Parameter&gt; = &lt;Role&gt;[, &lt;Role&gt;]] ...
+
+</pre>
+</div></div><p>which sets a new (minimal) role for the given capability. There is a special role <code>INSTANCE_DISABLED</code> which allows to completely disable a capability for an instance. Note: to set multiple roles for single capability use multiple lines in the file.</p><p>This is the default map:</p><pre><br/></pre><pre><br/></pre><pre><br/></pre><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><th class="confluenceTh"><p>Capability</p></th><th colspan="1" class="confluenceTh">Parameter</th><th class="confluenceTh"><p>Default Role</p></th><th class="confluenceTh"><p>Comment</p></th></tr><tr><td class="confluenceTd"><p><code>WRITE_CUSTOM_COLUMN</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_CUSTOM_COLUMN</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_FILTER</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_FILTER</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_DATASET_PROPERTIES</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_EXPERIMENT_SAMPLE</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_EXPERIMENT_ATTACHMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_EXPERIMENT_PROPERTIES</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_EXPERIMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_SAMPLE</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_SAMPLE_ATTACHMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_SAMPLE_PROPERTIES</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_SAMPLE</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_SAMPLE_ATTACHMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_DATASET_PROPERTIES</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p>Delete datasets <span>(this capability IS NOT enough to delete datasets with deletion_disallow flag set to true in their type - see FORCE_DELETE_DATASET)</span></p></td></tr><tr><td colspan="1" class="confluenceTd"><pre>FORCE_DELETE_DATASET</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_DISABLED</pre></td><td colspan="1" class="confluenceTd"><span>Delete datasets </span> <span>(this capability IS enough to delete datasets with deletion_disallow flag set to true in their type - see DELETE_DATASET)</span></td></tr><tr><td class="confluenceTd"><p><code>ARCHIVE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p>Move dataset from data store into archive</p></td></tr><tr><td class="confluenceTd"><p><code>UNARCHIVE_DATASET</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p>Copy back dataset from archive to data store</p></td></tr><tr><td colspan="1" class="confluenceTd"><code>LOCK_DATA_SETS</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_ADMIN</code></td><td colspan="1" class="confluenceTd">Prevent data sets from being archived</td></tr><tr><td colspan="1" class="confluenceTd"><code>UNLOCK_DATA_SETS</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_ADMIN</code></td><td colspan="1" class="confluenceTd">Release locked data sets</td></tr><tr><td class="confluenceTd"><p><code>WRITE_EXPERIMENT_SAMPLE_MATERIAL</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>INSTANCE_ADMIN</code></p></td><td class="confluenceTd"><p>Registration / update of experiments, samples and materials in one go</p></td></tr><tr><td colspan="1" class="confluenceTd"><code>REGISTER_SPACE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_ADMIN</code></td><td colspan="1" class="confluenceTd">The user will become space admin of the freshly created space</td></tr><tr><td colspan="1" class="confluenceTd"><code>DELETE_SPACE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_ADMIN</code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>UPDATE_SPACE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_ADMIN</code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><p><code>REGISTER_PROJECT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_PROJECT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_SAMPLE_ATTACHMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_PROJECT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_PROJECT_ATTACHMENT</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>REGISTER_VOCABULARY</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>INSTANCE_ADMIN</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_VOCABULARY</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>INSTANCE_ADMIN</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>DELETE_VOCABULARY</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>INSTANCE_ADMIN</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_VOCABULARY_TERM</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_POWER_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>WRITE_UNOFFICIAL_VOCABULARY_TERM</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd"><p><code>PURGE</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_ADMIN</code></p></td><td class="confluenceTd"><p>Permanently delete experiments, samples and datasets in the trashcan (this capability IS NOT enough to delete datasets with deletion_disallow flag set to true in their type - see FORCE_PURGE)</p></td></tr><tr><td colspan="1" class="confluenceTd"><pre>FORCE_PURGE</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_DISABLED</pre></td><td colspan="1" class="confluenceTd"><span>Permanently delete experiments, samples and datasets in the trashcan (this capability IS enough to delete datasets with deletion_disallow flag set to true in their type - see PURGE)</span></td></tr><tr><td class="confluenceTd"><p><code>RESTORE</code></p></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><p><code>SPACE_USER</code></p></td><td class="confluenceTd"><p>Get back experiments, samples and datasets from the trashcan</p></td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_EXPERIMENT_TO_PROJECT</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_PROJECT_TO_SPACE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_SAMPLE_TO_EXPERIMENT</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd">Re-assign a sample to a new experiment (called in 'register experiment', 'update experiment', 'update sample'')</td></tr><tr><td colspan="1" class="confluenceTd"><code>UNASSIGN_SAMPLE_FROM_EXPERIMENT</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_SAMPLE_TO_SPACE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd">Re-assign a sample to a new space (called in 'update sample')</td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_DATASET_TO_EXPERIMENT</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER<br/> </code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ASSIGN_DATASET_TO_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>SHARE_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>INSTANCE_ADMIN</code>, <code>INSTANCE_ETL_SERVER</code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>UNSHARE_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>INSTANCE_ADMIN</code>, <code>INSTANCE_ETL_SERVER</code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_PARENT_TO_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_PARENT_TO_SAMPLE</code></td><td colspan="1" class="confluenceTd"><code>SAMPLE</code></td><td colspan="1" class="confluenceTd"><code><code>SPACE_USER, SPACE_ETL_SERVER</code></code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_PARENT_TO_SAMPLE</code></td><td colspan="1" class="confluenceTd"><code>PARENT</code></td><td colspan="1" class="confluenceTd"><code><code>SPACE_USER, SPACE_ETL_SERVER</code></code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_PARENT_FROM_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_PARENT_FROM_SAMPLE</code></td><td colspan="1" class="confluenceTd"><code>SAMPLE</code></td><td colspan="1" class="confluenceTd"><code><code>SPACE_POWER_USER, SPACE_ETL_SERVER</code></code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_PARENT_FROM_SAMPLE</code></td><td colspan="1" class="confluenceTd"><code>PARENT</code></td><td colspan="1" class="confluenceTd"><code><code>SPACE_USER, SPACE_ETL_SERVER</code></code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_CONTAINER_TO_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_CONTAINER_FROM_SAMPLE</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_PARENT_TO_DATASET</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_PARENT_FROM_DATASET</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>ADD_CONTAINER_TO_DATASET</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>REMOVE_CONTAINER_FROM_DATASET</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code> <code>SPACE_POWER_USER, SPACE_ETL_SERVER</code> </code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre class="p1">ASSIGN_ROLE_TO_SPACE_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre class="p1">SPACE_ADMIN, INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre>CREATE_SPACES_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre class="p1">SPACE_ADMIN, INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>CREATE_PROJECTS_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_POWER_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><p><br/></p></td></tr><tr><td colspan="1" class="confluenceTd"><pre>UPDATE_PROJECTS_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>SPACE_POWER_USER, SPACE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>CREATE_EXPERIMENTS_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><code>UPDATE_EXPERIMENTS_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><code>SPACE_USER, SPACE_ETL_SERVER</code></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>CREATE_SPACE_SAMPLES_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>UPDATE_SPACE_SAMPLES_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre>CREATE_INSTANCE_SAMPLES_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre>UPDATE_INSTANCE_SAMPLES_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre>CREATE_MATERIALS_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td colspan="1" class="confluenceTd"><pre>UPDATE_MATERIALS_VIA_DSS</pre></td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd"><pre>INSTANCE_ETL_SERVER</pre></td><td colspan="1" class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>CREATE_DATA_SETS_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><code>UPDATE_DATA_SETS_VIA_DSS</code></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><code>SPACE_POWER_USER, SPACE_ETL_SERVER</code></td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><pre>SEARCH_ON_BEHALF_OF_USER</pre></td><td colspan="1" class="confluenceTd"><br/></td><td class="confluenceTd"><pre>INSTANCE_OBSERVER</pre></td><td class="confluenceTd">All search or list operations being performed on behalf of another user. Supposed to be used by a service user for server-to-server communication tasks.</td></tr></tbody></table></div><p>Older versions of openBIS used to allow changing entity relationships to regular <code>SPACE_USER</code>. If you want to get this behavior back, put these lines into <code>etc/capabilities</code>:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>ASSIGN_EXPERIMENT_TO_PROJECT: SPACE_USER
+ASSIGN_EXPERIMENT_TO_PROJECT: SPACE_ETL_SERVER
+ASSIGN_SAMPLE_TO_EXPERIMENT: SPACE_USER
+ASSIGN_SAMPLE_TO_EXPERIMENT: SPACE_ETL_SERVER
+UNASSIGN_SAMPLE_FROM_EXPERIMENT: SPACE_USER
+UNASSIGN_SAMPLE_FROM_EXPERIMENT: SPACE_ETL_SERVER
+ASSIGN_SAMPLE_TO_SPACE: SPACE_USER
+ASSIGN_SAMPLE_TO_SPACE: SPACE_ETL_SERVER
+ASSIGN_DATASET_TO_EXPERIMENT: SPACE_USER
+ASSIGN_DATASET_TO_EXPERIMENT: SPACE_ETL_SERVER
+ASSIGN_DATASET_TO_SAMPLE: SPACE_USER
+ASSIGN_DATASET_TO_SAMPLE: SPACE_ETL_SERVER
+ADD_PARENT_TO_SAMPLE: SPACE_USER
+ADD_PARENT_TO_SAMPLE: SPACE_ETL_SERVER
+REMOVE_PARENT_FROM_SAMPLE: SPACE_USER
+REMOVE_PARENT_FROM_SAMPLE: SPACE_ETL_SERVER
+ADD_CONTAINER_TO_SAMPLE: SPACE_USER
+ADD_CONTAINER_TO_SAMPLE: SPACE_ETL_SERVER
+REMOVE_CONTAINER_FROM_SAMPLE: SPACE_USER
+REMOVE_CONTAINER_FROM_SAMPLE: SPACE_ETL_SERVER
+ADD_PARENT_TO_DATASET: SPACE_USER
+ADD_PARENT_TO_DATASET: SPACE_ETL_SERVER
+REMOVE_PARENT_FROM_DATASET: SPACE_USER
+REMOVE_PARENT_FROM_DATASET: SPACE_ETL_SERVER
+ADD_CONTAINER_TO_DATASET: SPACE_USER
+ADD_CONTAINER_TO_DATASET: SPACE_ETL_SERVER
+REMOVE_CONTAINER_FROM_DATASET: SPACE_USER
+REMOVE_CONTAINER_FROM_DATASET: SPACE_ETL_SERVER</pre>
+</div></div><h5 id="InstallationandAdministratorGuideoftheopenBISServer-CapabilityRoleMapforV3API">Capability Role Map for V3 API</h5><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/></colgroup><tbody><tr><th class="confluenceTh">Method of IApplicationServerApi</th><th class="confluenceTh">Default Roles</th><th class="confluenceTh">Capability</th></tr><tr><td colspan="1" class="confluenceTd">archiveDataSets</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">ARCHIVE_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">confirmDeletions, forceDeletion == false</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CONFIRM_DELETION</td></tr><tr><td colspan="1" class="confluenceTd">confirmDeletions, forceDeletion == true</td><td colspan="1" class="confluenceTd">disabled</td><td colspan="1" class="confluenceTd">CONFIRM_DELETION_FORCED</td></tr><tr><td colspan="1" class="confluenceTd">createAuthorizationGroups</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_AUTHORIZATION_GROUP</td></tr><tr><td colspan="1" class="confluenceTd">createCodes</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_CODES</td></tr><tr><td colspan="1" class="confluenceTd">createDataSetTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_DATASET_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">createDataSets</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">createExperimentTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_EXPERIMENT_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">createExperiments</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_EXPERIMENT</td></tr><tr><td colspan="1" class="confluenceTd">createExternalDataManagementSystems</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_EXTERNAL_DMS</td></tr><tr><td colspan="1" class="confluenceTd">createMaterialTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_MATERIAL_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">createMaterials</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_MATERIAL</td></tr><tr><td colspan="1" class="confluenceTd">createPermIdStrings</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_PERM_IDS</td></tr><tr><td colspan="1" class="confluenceTd">createPersons</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_PERSON</td></tr><tr><td colspan="1" class="confluenceTd">createPlugins</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_PLUGIN</td></tr><tr><td colspan="1" class="confluenceTd">createProjects</td><td colspan="1" class="confluenceTd">SPACE_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_PROJECT</td></tr><tr><td colspan="1" class="confluenceTd">createPropertyTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_PROPERTY_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">createQueries</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">createRoleAssignments, instance role</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_INSTANCE_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">createRoleAssignments, space role</td><td colspan="1" class="confluenceTd">SPACE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_SPACE_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">createRoleAssignments, project role</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_PROJECT_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">createSampleTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_SAMPLE_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">createSamples</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_SAMPLE</td></tr><tr><td colspan="1" class="confluenceTd">createSemanticAnnotations</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_SEMANTIC_ANNOTATION</td></tr><tr><td colspan="1" class="confluenceTd">createSpaces</td><td colspan="1" class="confluenceTd">SPACE_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">createTags</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_TAG</td></tr><tr><td colspan="1" class="confluenceTd">createVocabularies</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">CREATE_VOCABULARY</td></tr><tr><td colspan="1" class="confluenceTd">createVocabularyTerms, official terms</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_OFFICIAL_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">createVocabularyTerms, unofficial terms</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">CREATE_UNOFFICIAL_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">deleteAuthorizationGroups</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_AUTHORIZATION_GROUP</td></tr><tr><td colspan="1" class="confluenceTd">deleteDataSetTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_DATASET_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">deleteDataSets</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">deleteExperimentTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_EXPERIMENT_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">deleteExperiments</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_EXPERIMENT</td></tr><tr><td colspan="1" class="confluenceTd">deleteExternalDataManagementSystems</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_EXTERNAL_DMS</td></tr><tr><td colspan="1" class="confluenceTd">deleteMaterialTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_MATERIAL_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">deleteMaterials</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_MATERIAL</td></tr><tr><td colspan="1" class="confluenceTd">deleteOperationExecutions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_OPERATION_EXECUTION</td></tr><tr><td colspan="1" class="confluenceTd">deletePlugins</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_PLUGIN</td></tr><tr><td colspan="1" class="confluenceTd">deleteProjects</td><td colspan="1" class="confluenceTd">SPACE_POWER_USER, PROJECT_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_PROJECT</td></tr><tr><td colspan="1" class="confluenceTd">deletePropertyTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_PROPERTY_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">deleteQueries</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">deleteRoleAssignments, instance role</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_INSTANCE_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">deleteRoleAssignments, space role</td><td colspan="1" class="confluenceTd">SPACE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_SPACE_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">deleteRoleAssignments, project role</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_PROJECT_ROLE</td></tr><tr><td colspan="1" class="confluenceTd">deleteSampleTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_SAMPLE_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">deleteSamples</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_SAMPLE</td></tr><tr><td colspan="1" class="confluenceTd">deleteSemanticAnnotations</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_SEMANTIC_ANNOTATION</td></tr><tr><td colspan="1" class="confluenceTd">deleteSpaces</td><td colspan="1" class="confluenceTd">SPACE_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">deleteTags</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_TAG</td></tr><tr><td colspan="1" class="confluenceTd">deleteVocabularies</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DELETE_VOCABULARY</td></tr><tr><td colspan="1" class="confluenceTd">deleteVocabularyTerms</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">DELETE_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">executeAggregationService</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">EXECUTE_AGGREGATION_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">executeCustomASService</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">EXECUTE_CUSTOM_AS_SERVICE</td></tr><tr><td colspan="1" class="confluenceTd">executeProcessingService</td><td colspan="1" class="confluenceTd">PROJECT_USER</td><td colspan="1" class="confluenceTd">EXECUTE_PROCESSING_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">executeQuery</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">EXECUTE_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">executeReportingService</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">EXECUTE_REPORTING_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">executeSearchDomainService</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">EXECUTE_SEARCH_DOMAIN_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">executeSql</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">EXECUTE_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">getAuthorizationGroups</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">GET_AUTHORIZATION_GROUP</td></tr><tr><td colspan="1" class="confluenceTd">getDataSetTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_DATASET_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">getDataSets</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">getExperimentTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_EXPERIMENT_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">getExperiments</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_EXPERIMENT</td></tr><tr><td colspan="1" class="confluenceTd">getExternalDataManagementSystems</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_EXTERNAL_DMS</td></tr><tr><td colspan="1" class="confluenceTd">getMaterialTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_MATERIAL_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">getMaterials</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_MATERIAL</td></tr><tr><td colspan="1" class="confluenceTd">getOperationExecutions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_OPERATION_EXECUTION</td></tr><tr><td colspan="1" class="confluenceTd">getPersons</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_PERSON</td></tr><tr><td colspan="1" class="confluenceTd">getPlugins</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_PLUGIN</td></tr><tr><td colspan="1" class="confluenceTd">getProjects</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_PROJECT</td></tr><tr><td colspan="1" class="confluenceTd">getPropertyTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_PROPERTY_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">getQueries</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">getRoleAssignments</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">GET_ROLE_ASSIGNMENT</td></tr><tr><td colspan="1" class="confluenceTd">getSampleTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_SAMPLE_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">getSamples</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_SAMPLE</td></tr><tr><td colspan="1" class="confluenceTd">getSemanticAnnotations</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_SEMANTIC_ANNOTATION</td></tr><tr><td colspan="1" class="confluenceTd">getSessionInformation</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_SESSION</td></tr><tr><td colspan="1" class="confluenceTd">getSpaces</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">getTags</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_TAG</td></tr><tr><td colspan="1" class="confluenceTd">getVocabularies</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_VOCABULARY</td></tr><tr><td colspan="1" class="confluenceTd">getVocabularyTerms</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">lockDataSets</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">LOCK_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">revertDeletions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">REVERT_DELETION</td></tr><tr><td colspan="1" class="confluenceTd">searchAggregationServices</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">SEARCH_AGGREGATION_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">searchAuthorizationGroups</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">SEARCH_AUTHORIZATION_GROUP</td></tr><tr><td colspan="1" class="confluenceTd">searchCustomASServices</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_CUSTOM_AS_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">searchDataSetTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_DATASET_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">searchDataSets</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">searchDataStores</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_DATASTORE</td></tr><tr><td colspan="1" class="confluenceTd">searchDeletions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_DELETION</td></tr><tr><td colspan="1" class="confluenceTd">searchExperimentTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_EXPERIMENT_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">searchExperiments</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_EXPERIMENT</td></tr><tr><td colspan="1" class="confluenceTd">searchExternalDataManagementSystems</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_EXTERNAL_DMS</td></tr><tr><td colspan="1" class="confluenceTd">searchGlobally</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_GLOBALLY</td></tr><tr><td colspan="1" class="confluenceTd">searchMaterialTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_MATERIAL_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">searchMaterials</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_MATERIAL</td></tr><tr><td colspan="1" class="confluenceTd">searchObjectKindModifications</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_OBJECT_KIND_MODIFICATION</td></tr><tr><td colspan="1" class="confluenceTd">searchOperationExecutions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_OPERATION_EXECUTION</td></tr><tr><td colspan="1" class="confluenceTd">searchPersons</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">GET_PERSON</td></tr><tr><td colspan="1" class="confluenceTd">searchPlugins</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_PLUGIN</td></tr><tr><td colspan="1" class="confluenceTd">searchProcessingServices</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">SEARCH_PROCESSING_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">searchProjects</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_PROJECT</td></tr><tr><td colspan="1" class="confluenceTd">searchPropertyTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_PROPERTY_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">searchQueries</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">searchReportingServices</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">SEARCH_REPORTING_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">searchRoleAssignments</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">SEARCH_ROLE_ASSIGNMENT</td></tr><tr><td colspan="1" class="confluenceTd">searchSampleTypes</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_SAMPLE_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">searchSamples</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_SAMPLE</td></tr><tr><td colspan="1" class="confluenceTd">searchSearchDomainServices</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER</td><td colspan="1" class="confluenceTd">SEARCH_SEARCH_DOMAIN_SERVICES</td></tr><tr><td colspan="1" class="confluenceTd">searchSemanticAnnotations</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_SEMANTIC_ANNOTATION</td></tr><tr><td colspan="1" class="confluenceTd">searchSpaces</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">searchTags</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_TAG</td></tr><tr><td colspan="1" class="confluenceTd">searchVocabularies</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_VOCABULARY</td></tr><tr><td colspan="1" class="confluenceTd">searchVocabularyTerms</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">SEARCH_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">unarchiveDataSets</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UNARCHIVE_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">unlockDataSets</td><td colspan="1" class="confluenceTd">PROJECT_ADMIN</td><td colspan="1" class="confluenceTd">UNLOCK_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">updateAuthorizationGroups</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_AUTHORIZATION_GROUP</td></tr><tr><td colspan="1" class="confluenceTd">updateDataSetTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_DATASET_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">updateDataSets</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_DATASET</td></tr><tr><td colspan="1" class="confluenceTd">updateDataSets, properties</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_DATASET_PROPERTY</td></tr><tr><td colspan="1" class="confluenceTd">updateExperimentTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_EXPERIMENT_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">updateExperiments</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_EXPERIMENT</td></tr><tr><td colspan="1" class="confluenceTd">updateExperiments, attachments</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_EXPERIMENT_ATTACHMENT</td></tr><tr><td colspan="1" class="confluenceTd">updateExperiments, properties</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_EXPERIMENT_PROPERTY</td></tr><tr><td colspan="1" class="confluenceTd">updateExternalDataManagementSystems</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_EXTERNAL_DMS</td></tr><tr><td colspan="1" class="confluenceTd">updateMaterialTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_MATERIAL_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">updateMaterials</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_MATERIAL</td></tr><tr><td colspan="1" class="confluenceTd">updateMaterials, properties</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_MATERIAL_PROPERTY</td></tr><tr><td colspan="1" class="confluenceTd">updateOperationExecutions</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_OPERATION_EXECUTION</td></tr><tr><td colspan="1" class="confluenceTd">updatePersons, activate</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">ACTIVATE_PERSON</td></tr><tr><td colspan="1" class="confluenceTd">updatePersons, deactivate</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">DEACTIVATE_PERSON</td></tr><tr><td colspan="1" class="confluenceTd">updatePersons, set home space</td><td colspan="1" class="confluenceTd">SPACE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_HOME_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">updatePlugins</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_PLUGIN</td></tr><tr><td colspan="1" class="confluenceTd">updateProjects</td><td colspan="1" class="confluenceTd">SPACE_POWER_USER, PROJECT_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_PROJECT</td></tr><tr><td colspan="1" class="confluenceTd">updateProjects, attachments</td><td colspan="1" class="confluenceTd">SPACE_POWER_USER, PROJECT_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_PROJECT_ATTACHMENT</td></tr><tr><td colspan="1" class="confluenceTd">updatePropertyTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_PROPERTY_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">updateQueries</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_QUERY</td></tr><tr><td colspan="1" class="confluenceTd">updateSampleTypes</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_SAMPLE_TYPE</td></tr><tr><td colspan="1" class="confluenceTd">updateSamples</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_SAMPLE</td></tr><tr><td colspan="1" class="confluenceTd">updateSamples, attachments</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_SAMPLE_ATTACHMENT</td></tr><tr><td colspan="1" class="confluenceTd">updateSamples, properties</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_SAMPLE_PROPERTY</td></tr><tr><td colspan="1" class="confluenceTd">updateSemanticAnnotations</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN, INSTANCE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_SEMANTIC_ANNOTATION</td></tr><tr><td colspan="1" class="confluenceTd">updateSpaces</td><td colspan="1" class="confluenceTd">SPACE_ADMIN, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_SPACE</td></tr><tr><td colspan="1" class="confluenceTd">updateTags</td><td colspan="1" class="confluenceTd">PROJECT_OBSERVER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_TAG</td></tr><tr><td colspan="1" class="confluenceTd">updateVocabularies</td><td colspan="1" class="confluenceTd">INSTANCE_ADMIN</td><td colspan="1" class="confluenceTd">UPDATE_VOCABULARY</td></tr><tr><td colspan="1" class="confluenceTd">updateVocabularyTerms, official terms</td><td colspan="1" class="confluenceTd">PROJECT_POWER_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_OFFICIAL_VOCABULARY_TERM</td></tr><tr><td colspan="1" class="confluenceTd">updateVocabularyTerms, unofficial terms</td><td colspan="1" class="confluenceTd">PROJECT_USER, SPACE_ETL_SERVER</td><td colspan="1" class="confluenceTd">UPDATE_UNOFFICIAL_VOCABULARY_TERM</td></tr></tbody></table></div><h4 id="InstallationandAdministratorGuideoftheopenBISServer-QueryingProjectDatabase">Querying Project Database</h4><p>In some customized versions of openBIS an additional project-specific database is storing data from registered data sets. This database can be queried via SQL Select statements in openBIS Web application. In order to protect modification of this database by malicious SQL code openBIS application server should access this database as a user which is member of a read-only group. The name of this read-only group is project specific.</p><div class="confluence-information-macro confluence-information-macro-information conf-macro output-block" data-hasbody="true" data-macro-name="info"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>It is possible to configure openBIS to query multiple project-specific databases.</p></div></div><h5 id="InstallationandAdministratorGuideoftheopenBISServer-CreateRead-OnlyUserinPostgreSQL">Create Read-Only User in PostgreSQL</h5><p>A new user (aka role) is created by</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>CREATE ROLE &lt;read-only user&gt; LOGIN NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE;
+</pre>
+</div></div><p>This new user is added to the read-only group by the following command:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>GRANT &lt;read-only group&gt; TO &lt;read-only user&gt;;
+</pre>
+</div></div><p>The name of the read-only group can be obtained by having a look into the list of all groups:</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>SELECT * from PG_GROUP;
+</pre>
+</div></div><p><em>Note that by default openBIS creates a user</em> <code> <em>openbis_readonly</em> </code> <em>which has read-only permissions to all database objects. You can use this user to access the openBIS meta database through the openBIS query interface.</em></p><h5 id="InstallationandAdministratorGuideoftheopenBISServer-EnableQuerying">Enable Querying</h5><p>To enable querying functionality for additional databases in openBIS Web application a <a href="/display/openBISDoc2010/Core+Plugins">core plugin</a> of type query-databases has to be created. The following <code>plugin.properties</code> have to be specified:</p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><th class="confluenceTh"><p>Property</p></th><th class="confluenceTh"><p>Description</p></th></tr><tr><td class="confluenceTd"><p><code>label</code></p></td><td class="confluenceTd"><p>Label of the database. It will be used in the Web application in drop down lists for adding / editing customized queries.</p></td></tr><tr><td class="confluenceTd"><p><code>database-driver</code></p></td><td class="confluenceTd"><p>JDBC Driver of the database, e.g. <code>org.postgresql.Driver</code> for <code>postgresql</code>.</p></td></tr><tr><td class="confluenceTd"><p><code>database-url</code></p></td><td class="confluenceTd"><p>JDBC URL to the database containing full database name, e.g. <code>jdbc:postgresql://localhost/database_name</code> for <code>postgresql</code></p></td></tr><tr><td class="confluenceTd"><p><code>database-username</code></p></td><td class="confluenceTd"><p>Above-mentioned defined read-only user.</p></td></tr><tr><td class="confluenceTd"><p><code>database-password</code></p></td><td class="confluenceTd"><p>Password of the read-only user.</p></td></tr></tbody></table></div><h5 id="InstallationandAdministratorGuideoftheopenBISServer-ConfigureAuthorization">Configure Authorization</h5><p>In order to configure authorization two additional properties can be configured:</p><div class="table-wrap"><table class="wrapped confluenceTable"><tbody><tr><th class="confluenceTh"><p>Property</p></th><th class="confluenceTh"><p>Description</p></th></tr><tr><td class="confluenceTd"><p><code>&lt;database&gt;.data-space</code></p></td><td class="confluenceTd"><p>To which data-space this database belongs to (optional, i.e. a query database can be configured not to belong to one data space by leaving this configuration value empty).</p></td></tr><tr><td class="confluenceTd"><p><code>&lt;database&gt;.creator-minimal-role</code></p></td><td class="confluenceTd"><p>What role is required to be allowed to create / edit queries on this database (optional, default: <code>INSTANCE_OBSERVER</code> if <code>data-space</code> is <em>not</em> set, <code>POWER_USER</code> otherwise).</p></td></tr></tbody></table></div><p>The given parameters data-space and creator-minimal-role are used by openBIS to enforce proper authorization.</p><p>For example, if</p><div class="preformatted panel conf-macro output-block" data-hasbody="true" data-macro-name="noformat" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>data-space = CISD
+creator-minimal-role = SPACE_ADMIN
+</pre>
+</div></div><p>is configured, then for the query database configured with key <code>db1</code>:</p><ul class="alternate"><li>only a <code>SPACE_ADMIN</code> on data space <code>CISD</code> and an <code>INSTANCE_ADMIN</code> are allowed to create / edit queries,</li><li>only a user who has the <code>OBSERVER</code> role in data space <code>CISD</code> is allowed to execute a query.</li></ul><p>For query databases that do not belong to a space but that have a column with any of the <a href="/display/openBISDoc2010/Custom+Database+Queries#CustomDatabaseQueries-Hyperlinks">magic column names</a>, the query result is filtered on a per-row basis according to what the user executing the query is allowed to see. In detail this means: if the user executing the query is not an instance admin, filter out all rows which belong to a data space where the user doesn't have a least the observer role. The relationship between a row and a data space is established by means of the experiment / sample / data set whose <code>permId</code> is given by one of the magical column names.</p><p>For sensitive data where authorization needs to be enforced, there are two setups possible:</p><ol><li>Configure a query database that <strong>does not</strong> belong to a data space and set the creator-minimal-role to <code>INSTANCE_ADMIN</code>. Any instance admin can be trusted to understand authorization issues and ensure that only queries are added for this query database that contain a proper reference to an experiment / sample / data set. This way, it can be ensured that only properly filtered query results are returned to the user running the query.</li><li>Configure a query database that <strong>does</strong> belong to a specific data space and set the creator-minimal-role to <code>POWER_USER</code>. The datastore server (or whatever server maintains the query database) ensures that only information related to the configured data space is added to the query database. Thus whatever query the power user writes for this database, it will only reveal information from this data space. As only users with <code>OBSERVER</code> role on this data space are allowed to execute the query, authorization is enforced properly without the need of filtering query results.</li></ol><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Masterdataimport/export">Master data import/export</h4><p>The master data of openBIS comprises all entity/property types, property assignments, vocabularies etc. needed for your customized installation to work. The system offers a way to export/import master data via Jython scripts. More information on how to do create such scripts and run them manually see the advanced guide <a href="/display/openBISDoc2010/Jython+Master+Data+Scripts#JythonMasterDataScripts-Commandlinetools">Jython Master Data Scripts</a>.</p><p>A master data script can be run automatically by start up of the AS if it is defined in an AS core plugin. The script path should be <code>&lt;installation directory&gt;/servers/core-plugins/&lt;module name&gt;/&lt;version number&gt;/as/initialize-master-data.py</code>. For more details about the folder structure of core plugins see <a href="/display/openBISDoc2010/Core+Plugins">Core Plugins</a>. If there are several core plugins with master data scripts the scripts will be executed in alphabetical order of the module names. For example, the master data script of module <code>screening-optional</code> will be executed after the master data script of module <code>screening</code> has been executed.</p><p>Execution of master data script can be suppressed by disabling <code>initialize-master-data</code> core plugin. For more details see <a href="/display/openBISDoc2010/Core+Plugins">Core Plugins</a>.</p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Limitofopenfiles">Limit of open files</h4><p>When putting a lot of files in a drop box you might run into the problem of <span> '<code>too many open files error</code>'. Please consider changing the ulimit value (for RHEL6 edit <code><span>/etc/security/limits.conf</span></code><span> </span>) to a higher value.</span></p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Runtimechangestologging">Runtime changes to logging</h4><p>The script  <code>&lt;installation directory&gt;/servers/openBIS-server/jetty/bin/configure.sh </code><span style="font-size: 10.0pt;line-height: 13.0pt;">can be used to change the logging behavior of openBIS application server while the server is running.</span></p><p>The script is used like this: <span style="font-size: 10.0pt;line-height: 13.0pt;">configure.sh [command] [argument]</span></p><p><span style="font-size: 10.0pt;line-height: 13.0pt;">The table below describes the possible commands and their arguments.</span></p><div class="table-wrap"><table class="wrapped confluenceTable"><tbody><tr><th class="confluenceTh">Command</th><th class="confluenceTh">Argument(s)</th><th class="confluenceTh">Default Value</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">log-service-calls</td><td class="confluenceTd">'on', 'off'</td><td class="confluenceTd">'off'</td><td class="confluenceTd"><p>Turns on / off detailed service call logging.</p><p>When this feature is enabled, openBIS will log about start and end of every service call it executes <span>to file &lt;installation directory&gt;/servers/openBIS-server/jetty/log/openbis_service_calls.txt</span></p></td></tr><tr><td colspan="1" class="confluenceTd">log-long-running-invocations</td><td colspan="1" class="confluenceTd"><span>'on', 'off'</span></td><td colspan="1" class="confluenceTd">'on'</td><td colspan="1" class="confluenceTd"><p>Turns on / off logging of long running invocations.</p><p>When this feature is enabled, openBIS will periodically create a report of all service calls that have been in execution more than 15 seconds to file <span>&lt;installation directory&gt;/servers/openBIS-server/jetty/log/openbis_long_running_threads.txt. </span></p></td></tr><tr><td colspan="1" class="confluenceTd">debug-db-connections</td><td colspan="1" class="confluenceTd"><span>'on', 'off'</span></td><td colspan="1" class="confluenceTd">'off'</td><td colspan="1" class="confluenceTd"><p>Turns on / off logging about database connection pool activity.</p><p>When this feature is enabled, information about every borrow and return to database connection pool is logged to openBIS main log in file <span>&lt;installation directory&gt;/servers/openBIS-server/jetty/log/openbis_log.txt</span></p></td></tr><tr><td colspan="1" class="confluenceTd">log-db-connections</td><td colspan="1" class="confluenceTd">no argument / minimum connection age (in milliseconds)</td><td colspan="1" class="confluenceTd">5000</td><td colspan="1" class="confluenceTd"><p>When this command is executed without an argument, information about every database connection that has been borrowed from the connection pool is written into openBIS main log in file <span>&lt;installation directory&gt;/servers/openBIS-server/jetty/log/openbis_log.txt</span></p><p>If the &quot;minimum connection age&quot; argument is specified, only connections that have been out of the pool longer than the specified time are logged. The minimum connection age value is given in milliseconds.</p></td></tr><tr><td colspan="1" class="confluenceTd">record-stacktrace-db-connections </td><td colspan="1" class="confluenceTd">'on', 'off'</td><td colspan="1" class="confluenceTd">'off'</td><td colspan="1" class="confluenceTd"><p>Turns on / off logging of stacktraces.</p><p>When this feature is enabled AND debug-db-connections is enabled, the full stack trace of the borrowing thread will be recorded with the connection pool activity logs.</p></td></tr><tr><td colspan="1" class="confluenceTd">log-db-connections-separate-log-file</td><td colspan="1" class="confluenceTd">'on', 'off'</td><td colspan="1" class="confluenceTd">'off'</td><td colspan="1" class="confluenceTd"><p>Turns on / off database connection pool logging to separate file.</p><p><span>When this feature is disabled, the database connection pool activity logging is done only to openBIS main log. When this feature is enabled, the activity logging is done ALSO to file <span>&lt;installation directory&gt;/servers/openBIS-server/jetty/log/openbis_db_connections.txt.</span></span></p></td></tr></tbody></table></div><p><br/></p><p><span style="font-size: 10.0pt;line-height: 13.0pt;"> </span></p><h4 id="InstallationandAdministratorGuideoftheopenBISServer-DeletedEntityHistory">Deleted Entity History</h4><p><span style="font-size: 13.3333px;line-height: 17.3333px;">Logging the history of deleted entities can be enabled / disabled in service.properties using setting</span></p><p><span style="font-size: 13.3333px;line-height: 17.3333px;">entity-history.enabled = [true | false]</span></p><p><span style="color: rgb(23,43,77);">Since 20.10.1 the default value is true (meaning, entity history is enabled). Before 20.10.1 the default value was false.</span></p><p>Deleted entity history can be queried with script show-history.sh, which is located in $OPENBIS_INSTALL_DIR/bin</p><h3 id="InstallationandAdministratorGuideoftheopenBISServer-TroubleshootingProblems">Troubleshooting Problems</h3><h4 id="InstallationandAdministratorGuideoftheopenBISServer-Sampleswithdatasetsandnoexperiments">Samples with datasets and no experiments</h4><p>In the openBIS UI users could detach samples with container data sets from the experiment. This bug was fix on version S176 released on 14 of march of 2014.</p><p>The following SQL script lists all samples with data sets but no experiments:</p><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: sql; gutter: false; theme: Confluence" data-theme="Confluence">##
+## SELECT SAMPLES WITH DATASETS AND NO EXPERIMENTS
+##
+SELECT s.id, d.expe_id from samples_all s join data_all d on (d.samp_id=s.id) where s.expe_id is null ORDER by s.id</pre>
+</div></div><p>If the last query shows no output the system is fine, if not, it can be repaired with the following update query.</p><div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: sql; gutter: false; theme: Confluence" data-theme="Confluence">##
+## FIX SAMPLES WITH DATASETS AND NO EXPERIMENTS ASSIGNING EXPERIMENT FROM DATASET
+##
+UPDATE samples_all
+SET expe_id = subquery.expe_id
+FROM (
+	SELECT s.id as samp_id, d.expe_id as expe_id from samples_all s join data_all d on (d.samp_id=s.id) where s.expe_id is null
+) as subquery
+where id = subquery.samp_id</pre>
+</div></div><p><br/></p><p><br/></p><p><span style="font-size: 10.0pt;line-height: 13.0pt;"><br/></span></p>
+
+                
+        
+    
+        </div>
+
+                        
+    
+
+
+
+<div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="53745996" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right ">
+            <li class="no-labels-message">
+            No labels
+        </li>
+            </ul>
+
+    </div>
+</div>
+</div>
+        
+		
+            
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+
+                
+    
+            
+</div>
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Overview" data-href="/spaces/viewspacesummary.action?key=openBISDoc2010">Overview</div>
+            <div data-label="Content Tools" data-href="/pages/reorderpages.action?key=openBISDoc2010">Content Tools</div>
+            <div data-label="Apps" data-href="/spaces/scroll-viewport/config.action?key=openBISDoc2010#/list">Apps</div>
+    </div>
+        
+
+
+
+            </main><!-- \#main -->
+            
+    
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo">
+    <section class="footer-body">
+
+                                                    
+        
+
+        <ul id="poweredby">
+            <li class="noprint">Powered by <a href="https://www.atlassian.com/software/confluence" class="hover-footer-link" rel="nofollow">Atlassian Confluence</a> <span id='footer-build-information'>8.2.0</span></li>
+            <li class="print-only">Printed by Atlassian Confluence 8.2.0</li>
+            <li class="noprint"><a href="https://support.atlassian.com/confluence-server/" class="hover-footer-link" rel="nofollow">Report a bug</a></li>
+            <li class="noprint"><a href="https://www.atlassian.com/company" class="hover-footer-link" rel="nofollow">Atlassian News</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="https://www.atlassian.com/" rel="nofollow">Atlassian</a></div>
+
+                    
+        
+    </section>
+</div>
+
+    
+</div>
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance">{"serverDuration": 193, "requestCorrelationId": "22640c3673e13bfe"}</span>
+</body>
+</html>
+    

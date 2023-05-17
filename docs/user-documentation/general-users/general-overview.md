@@ -28,7 +28,7 @@ to adopt the following steps:
     style="color: #3366ff;">Sample. This can only be done by an
     *Instance admin*, from the admin interface, as explained here: [New
     Entity Type
-    Registration](https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/)
+..image:: img/)
 2.  Create a first folder called <span
     style="color: #3366ff;">Samples <span
     style="color: #333399;">inside the
@@ -50,7 +50,7 @@ To create the *Project* folder:
 > 2.  Click the **+ New Project** button
 >     in the form. 
 >
-..image:: /img/create-project-materials-1024x286.png
+..image:: img/create-project-materials-1024x286.png
 >
 > 3.  Provide a description, if wanted.
 >     This is not mandatory.
@@ -64,7 +64,7 @@ To create the *Project* folder:
 
  
 
-..image:: /img/new-project-form.png
+..image:: img/new-project-form.png
 
  
 
@@ -75,7 +75,7 @@ inside the *Project* folder:
 >     this case **Samples**. 
 > 2.  Click the **+ New** button in the
 >     main form and choose **Collection** from the dropdown.
-..image:: /img/create-collection-materials-1024x403.png
+..image:: img/create-collection-materials-1024x403.png
 > 3.  Replace the automatically generated
 >     **Code** with something pertinent to the collection (e.g <span
 >     style="color: #3366ff;">RAW\_SAMPLES)
@@ -88,13 +88,13 @@ inside the *Project* folder:
 >     the *Collection* is used. In this case, **Sample**.
 > 6.  Select the **Default collection view** (see **[Customise
 >     Collection
->     View](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/customise-collection-view/))**
+..image:: img/))**
 
  
 
  
 
-..image:: /img/new-collection-form.png
+..image:: img/new-collection-form.png
 
  
 
@@ -115,7 +115,7 @@ To delete an existing Collection:
 
  
 
-..image:: /img/delete-collection-1.png
+..image:: img/delete-collection-1.png
 
  
 
@@ -123,7 +123,7 @@ To delete an existing Collection:
 
  
 
-..image:: /img/delete-collection-2.png
+..image:: img/delete-collection-2.png
 
 Updated on February 6, 2023
  
@@ -135,13 +135,13 @@ Enable Storage Widget on Sample Forms
   
 When a new *Object type* is created by an *Instance admin (*see [New
 Entity Type
-Registration)](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/new-entity-type-registration/)*,*
+..image:: img/)*,*
 the storage widget is disabled by default.
 
   
 If we want to track storage positions for this particular *Object type*
 as described in [Allocate storage positions to
-samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/),
+..image:: img/),
 the **Storage** should be enabled in the **Settings**, under
 **Utilities**. This can be done by a *group admin*.
 
@@ -159,11 +159,11 @@ For this, follow the steps below:
 
  
 
-..image:: /img/settings-enable-storage-1024x509.png
+..image:: img/settings-enable-storage-1024x509.png
 
  
 
-..image:: /img/Settings-storage-1024x452.png
+..image:: img/Settings-storage-1024x452.png
 
 Updated on April 26, 2023
  
@@ -185,7 +185,7 @@ the **Settings**, under **Utilities**.
     above the storage table, as shown below.
 5.  Fill in the **Storage Form** as explained below
 
-..image:: /img/settings-new-lab-storage-1024x498.png
+..image:: img/settings-new-lab-storage-1024x498.png
 
   
 **How to fill in Storage Form:**
@@ -249,6 +249,6 @@ Storage positions by default have the following metadata:
 It is possible to add additional information. This can be done by an
 *Instance Admin* by editing the *Object* Type **STORAGE\_POSITION** in
 the admin interface (see [New Entity Type
-Registration](https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/)).
+..image:: img/)).
 
 Updated on February 6, 2023

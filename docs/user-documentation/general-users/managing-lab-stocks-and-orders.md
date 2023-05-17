@@ -133,7 +133,7 @@ following information:
 3.  **Email**
 4.  **openBIS session token**
 5.  **Zenodo API Token** ([Export to
-    Zenodo](https://openbis.ch/index.php/docs/user-documentation-20-10-3/data-export/export-to-zenodo/))
+..image:: img/))
 
  
 
@@ -145,7 +145,7 @@ here directly from the user.
 
  
 
-..image:: /img/Screenshot-2022-06-28-at-10.15.39.png
+..image:: img/Screenshot-2022-06-28-at-10.15.39.png
 
  
 
@@ -154,7 +154,7 @@ here, from the **Change Password** option under the **More..** dropdown.
 
  
 
-..image:: /img/change-pwd.png
+..image:: img/change-pwd.png
 
 Updated on June 28, 2022
  
@@ -170,13 +170,13 @@ Space** for that user in the lab notebook, as shown below.
 
  
 
-..image:: /img/menu-my-space.png
+..image:: img/menu-my-space.png
 
  
 
 When users are registered via the ELN UI, a *Space* with their username
 is created (see [User
-Registration)](https://openbis.ch/index.php/docs/admin-documentation/user-registration/)
+..image:: img/)
 and this is automatically set as home space for the user.
 
 The same happens in multi-group instances where spaces are created for
@@ -188,7 +188,7 @@ shown below.
 
  
 
-..image:: /img/home-space-admin-ui-1024x359.png
+..image:: img/home-space-admin-ui-1024x359.png
 
  
 

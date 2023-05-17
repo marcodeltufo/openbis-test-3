@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SFTP Drive | Map Remote Servers as Local Drives via SFTP | nsoftware</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="" />
+  <meta name="description" content="An easy-to-use utility that mounts SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. " />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="alternate" type="application/rss+xml" title="SFTP Drive | Map Remote Servers as Local Drives via SFTP | nsoftware" />
+  <meta property="og:title" content="SFTP Drive | Map Remote Servers as Local Drives via SFTP | nsoftware" />
+  <meta property="og:description" content="An easy-to-use utility that mounts SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. " />
+  <meta property="og:type" content="article" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/ui/img/apple-touch-icon.png" />
+  <!--[if IE]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <![endif]-->
+  <script src="/ui/libs/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="></script>
+  <script src="/ui/libs/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link type="text/css" rel="stylesheet" href="/ui/css/bundle.css?v=GZGNCQDSqiTSFzrCtBS3VTg3Ias" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1072418727"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'AW-1072418727');
+</script>
+  <script>
+    var HappyFoxChat
+    window.HFCHAT_CONFIG = {
+        EMBED_TOKEN: 'ccca7f60-7669-11ed-b35d-0b6a6c26c7da',
+        ASSETS_URL: 'https://widget.happyfoxchat.com/v2/visitor'
+    };
+    (function() {
+        var scriptTag = document.createElement('script')
+        scriptTag.type = 'text/javascript'
+        scriptTag.async = true
+        scriptTag.src = window.HFCHAT_CONFIG.ASSETS_URL + '/js/widget-loader.js'
+
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(scriptTag, s)
+        window.HFCHAT_CONFIG.onload = function() {
+            HappyFoxChat = this;
+            HappyFoxChat.addCustomStyles('.titlebar{background-image:none;}.button{border:none;}');
+        };
+    })();
+  </script>
+</head>
+<body>
+  <div class="section-menu" id="header_container">
+    <div class="container" id="header">
+      <div class="row">
+        <div class="menu-row">
+          <div class="menu-column mobile-menu">
+            <a class="mobile-menu-trigger"><span class="lnr lnr-menu"></span></a>
+            <div id="menu">
+  <a class="mobile-menu-close"><span class="lnr lnr-cross"></span></a>
+  <ul class="main">
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-products" href="/products/">PRODUCTS<b class="caret"></b></a>
+      <div id="menu-products" class="menu-dropdown menu-products-wrapper">
+        <div class="dropdown-menu dropdown-products" role="menu">
+          <div class="col-md-4">
+            <div class="mb-3">
+              <div class="section-title">
+                Secure Communications
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworks/">IPWorks</a></li>
+                  <li><a href="/ipworksssh/">IPWorks SSH</a></li>
+                  <li><a href="/ipworksssl/">IPWorks SSL</a></li>
+                  <li><a href="/ipworkssftp/">IPWorks SFTP</a></li>
+                  <li><a href="/ipworkszip/">IPWorks Zip</a></li>
+                  <li><a href="/ipworksipc/">IPWorks IPC</a></li>
+                  <li><a href="/ipworksmq/">IPWorks MQ</a></li>
+                  <li><a href="/ipworksvoip/">IPWorks VoIP</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Encryption and Authentication
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworksencrypt/">IPWorks Encrypt</a></li>
+                  <li><a href="/ipworkssmime/">IPWorks S/MIME</a></li>
+                  <li><a href="/ipworksauth/">IPWorks Auth</a></li>
+                  <li><a href="/ipworkspgp/">IPWorks PGP</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="section-title">
+                Network Management and IoT
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworkssnmp/">IPWorks SNMP</a></li>
+                  <li><a href="/ipworksiot/">IPWorks IoT</a></li>
+                  <li><a href="/ipworksble/">IPWorks Bluetooth</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 section">
+            <div class="mb-3">
+              <div class="section-title">
+                Secure EDI Transactions
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/ipworksedi/">IPWorks EDI</a></li>
+                  <li><a href="/ipworkseditranslator/">IPWorks Translator</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Payment Security
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/3dsecure/">3-D Secure Server</a></li>
+                  <li><a href="/3dsecure/">Mobile SDK</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Cloud Services
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/cloudmail/">Cloud Mail</a></li>
+                  <li><a href="/cloudstorage/">Cloud Storage</a></li>
+                  <li><a href="/cloudkeys/">Cloud Keys</a></li>
+                  <li><a href="/cloudsms/">Cloud SMS <span class="btn btn-small new-product-badge">NEW</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                <a href="/sbb">SecureBlackbox&reg;</a>
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/sbb">Advanced Signatures</a></li>
+                  <li><a href="/sbb">SAML Authentication</a></li>
+                  <li><a href="/sbb">Certificate Validation</a></li>
+                  <li><a href="/sbb">File Encryption</a></li>
+                  <li><a href="/sbb">PDF Security</a></li>
+                  <li><a href="/sbb">XML Signing</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title">
+              Enterprise Adapters
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/biztalk/">BizTalk Adapters</a></li>
+              <li><a href="/mulesoft">Mule Connectors</a></li>
+              <li><a href="/ssis/">SSIS Components</a></li>
+            </ul>
+            <div class="section-title">
+              Virtual File Systems
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/s3drive">S3 Drive</a></li>
+              <li><a href="/aesdrive">AES Drive</a></li>
+              <li><a href="/sftpdrive">SFTP Drive</a></li>
+            </ul>
+            <div class="section-title">
+              Networking Utilities
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/sftpserver">SFTP Server</a></li>
+              <li><a href="/pkiproxy">PKI Proxy <span class="btn btn-small new-product-badge">NEW</span></a></li>
+              <li><a href="/powershellserver">PowerShell Server</a></li>
+            </ul>
+            <div class="section-title">
+              <a href="/subscriptions">Red Carpet Subscriptions</a>
+            </div>
+            <span style="float:left; margin: 0px 10px 0px -8px;">
+              <a href="/subscriptions" />
+              <img src="/ui/img/red_block_tiny.webp" style="width:80px;" />
+              </a>
+            </span>
+            <p class="small" style="line-height: 18px; margin: 17px 0 0px 0;">For best value, consider purchasing a <a href="/subscriptions/">Red Carpet Subscription</a>.
+          </div>
+          <div class="clear"></div>
+          <div class="dropdown_footer">
+            <ul class="menu-platforms small">
+              <li><button class="btn btn-blue btn-small">PLATFORMS</button></li>
+              <li><a href="/platforms/net">.NET</a></li>
+              <li><a href="/platforms/java">Java</a></li>
+              <li><a href="/platforms/cpp">C++</a></li>
+              <li><a href="/platforms/macos">macOS</a></li>
+              <li><a href="/platforms/javascript">JavaScript</a></li>
+              <li><a href="/platforms/javascript">Node.js</a></li>
+              <li><a href="/platforms/delphi">Delphi</a></li>
+              <li><a href="/platforms/builder">C++ Builder</a></li>
+              <li><a href="/platforms/php">PHP</a></li>
+              <li><a href="/platforms/python">Python</a></li>
+              <li><a href="/platforms/android">Android</a></li>
+              <li><a href="/platforms/ios">iOS</a></li>
+              <li><a href="/platforms/mac">Swift</a></li>
+              <li><a href="/platforms/linux">Linux</a></li>
+              <li><a href="/platforms/qt">Qt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a class="main-nav" href="/download/">DOWNLOADS</a>
+    </li>
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-support" href="/support/">SUPPORT<b class="caret"></b></a>
+      <div id="menu-support" class="menu-dropdown">
+        <div class="dropdown-menu" role="menu">
+          <div class="col-md-4">
+            <div class="section-title ">Support Resources</div>
+            <ul>
+              <li><a href="/kb/"><span class="lnr lnr-library menu-icon"></span>Online Knowledge Base</a></li>
+              <li><a href="/kb/help/"><span class="lnr lnr-book2 menu-icon"></span>Product Documentation</a></li>
+              <li><a href="/support/"><span class="lnr lnr-list3 menu-icon"></span>Support Options</a></li>
+              <li><a href="/support/submit"><span class="lnr lnr-arrow-right menu-icon"></span>Submit Support Issue</a></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title ">Additional Resources</div>
+            <ul>
+              <li><a href="/forms/request/"><span class="lnr lnr-check-square menu-icon"></span>Submit Feature Request</a></li>
+              <li><a href="/support/services/"><span class="lnr lnr-puzzle menu-icon"></span>Custom Development</a></li>
+              <li><a href="/login/register"><span class="lnr-edit menu-icon"></span>Register Subscription</a></li>
+              <li><a href="/login/account"><span class="lnr-list4 menu-icon"></span>Subscription Manager</a></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title ">Search /n software</div>
+            <ul>
+              <li>Articles and technical content designed to help you explore the features of /n software products</li>
+              <li>
+                <form action="/search" method="get">
+                  <div class="input-group input-group-sm">
+                    <input type="text" id="div-search" name="q" autocomplete="off" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><span class="lnr lnr-arrow-right"></span></button>
+                    </div>
+                  </div>
+                </form>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a class="main-nav" href="/subscriptions/">SUBSCRIPTIONS</a>
+    </li>
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-about" href="/company/">ABOUT US<b class="caret"></b></a>
+      <div id="menu-about" class="menu-dropdown">
+        <div class="dropdown-menu" role="menu">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title">Learn More About /n software</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li><a href="/company/"><span class="lnr lnr-apartment menu-icon"></span>Company Information</a></li>
+                <li><a href="/company/clients"><span class="lnr lnr-users2 menu-icon"></span>Clients</a></li>
+                <li><a href="/company/testimonials"><span class="lnr lnr-bubble-quote menu-icon"></span>Testimonials</a></li>
+                <li><a href="/company/case-studies"><span class="lnr lnr-document2 menu-icon"></span>Case Studies</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li><a href="/news/"><span class="lnr lnr-news menu-icon"></span>News &amp; Events</a></li>
+                <li><a href="/company/contact"><span class="lnr lnr-user menu-icon"></span>Contact Us</a></li>
+                <li><a href="/order/resellers"><span class="lnr-tags menu-icon"></span>Resellers</a></li>
+                <li><a href="/company/jobs"><span class="lnr lnr-briefcase menu-icon"></span>Careers</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+          </div>
+          <div class="menu-column menu-logo-column">
+            <a class="menu-logo" href="/">
+              <img src="/ui/img/nsoftware_logo.svg" alt="/n software" />
+            </a>
+          </div>
+          <div class="menu-column menu-list-column">
+            <div id="menu">
+  <a class="mobile-menu-close"><span class="lnr lnr-cross"></span></a>
+  <ul class="main">
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-products" href="/products/">PRODUCTS<b class="caret"></b></a>
+      <div id="menu-products" class="menu-dropdown menu-products-wrapper">
+        <div class="dropdown-menu dropdown-products" role="menu">
+          <div class="col-md-4">
+            <div class="mb-3">
+              <div class="section-title">
+                Secure Communications
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworks/">IPWorks</a></li>
+                  <li><a href="/ipworksssh/">IPWorks SSH</a></li>
+                  <li><a href="/ipworksssl/">IPWorks SSL</a></li>
+                  <li><a href="/ipworkssftp/">IPWorks SFTP</a></li>
+                  <li><a href="/ipworkszip/">IPWorks Zip</a></li>
+                  <li><a href="/ipworksipc/">IPWorks IPC</a></li>
+                  <li><a href="/ipworksmq/">IPWorks MQ</a></li>
+                  <li><a href="/ipworksvoip/">IPWorks VoIP</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Encryption and Authentication
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworksencrypt/">IPWorks Encrypt</a></li>
+                  <li><a href="/ipworkssmime/">IPWorks S/MIME</a></li>
+                  <li><a href="/ipworksauth/">IPWorks Auth</a></li>
+                  <li><a href="/ipworkspgp/">IPWorks PGP</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="section-title">
+                Network Management and IoT
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list">
+                  <li><a href="/ipworkssnmp/">IPWorks SNMP</a></li>
+                  <li><a href="/ipworksiot/">IPWorks IoT</a></li>
+                  <li><a href="/ipworksble/">IPWorks Bluetooth</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 section">
+            <div class="mb-3">
+              <div class="section-title">
+                Secure EDI Transactions
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/ipworksedi/">IPWorks EDI</a></li>
+                  <li><a href="/ipworkseditranslator/">IPWorks Translator</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Payment Security
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/3dsecure/">3-D Secure Server</a></li>
+                  <li><a href="/3dsecure/">Mobile SDK</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                Cloud Services
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/cloudmail/">Cloud Mail</a></li>
+                  <li><a href="/cloudstorage/">Cloud Storage</a></li>
+                  <li><a href="/cloudkeys/">Cloud Keys</a></li>
+                  <li><a href="/cloudsms/">Cloud SMS <span class="btn btn-small new-product-badge">NEW</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="section-title">
+                <a href="/sbb">SecureBlackbox&reg;</a>
+              </div>
+              <div class="row">
+                <ul class="list-unstyled platform-list row">
+                  <li><a href="/sbb">Advanced Signatures</a></li>
+                  <li><a href="/sbb">SAML Authentication</a></li>
+                  <li><a href="/sbb">Certificate Validation</a></li>
+                  <li><a href="/sbb">File Encryption</a></li>
+                  <li><a href="/sbb">PDF Security</a></li>
+                  <li><a href="/sbb">XML Signing</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title">
+              Enterprise Adapters
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/biztalk/">BizTalk Adapters</a></li>
+              <li><a href="/mulesoft">Mule Connectors</a></li>
+              <li><a href="/ssis/">SSIS Components</a></li>
+            </ul>
+            <div class="section-title">
+              Virtual File Systems
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/s3drive">S3 Drive</a></li>
+              <li><a href="/aesdrive">AES Drive</a></li>
+              <li><a href="/sftpdrive">SFTP Drive</a></li>
+            </ul>
+            <div class="section-title">
+              Networking Utilities
+            </div>
+            <ul class="list-unstyled platform-list row">
+              <li><a href="/sftpserver">SFTP Server</a></li>
+              <li><a href="/pkiproxy">PKI Proxy <span class="btn btn-small new-product-badge">NEW</span></a></li>
+              <li><a href="/powershellserver">PowerShell Server</a></li>
+            </ul>
+            <div class="section-title">
+              <a href="/subscriptions">Red Carpet Subscriptions</a>
+            </div>
+            <span style="float:left; margin: 0px 10px 0px -8px;">
+              <a href="/subscriptions" />
+              <img src="/ui/img/red_block_tiny.webp" style="width:80px;" />
+              </a>
+            </span>
+            <p class="small" style="line-height: 18px; margin: 17px 0 0px 0;">For best value, consider purchasing a <a href="/subscriptions/">Red Carpet Subscription</a>.
+          </div>
+          <div class="clear"></div>
+          <div class="dropdown_footer">
+            <ul class="menu-platforms small">
+              <li><button class="btn btn-blue btn-small">PLATFORMS</button></li>
+              <li><a href="/platforms/net">.NET</a></li>
+              <li><a href="/platforms/java">Java</a></li>
+              <li><a href="/platforms/cpp">C++</a></li>
+              <li><a href="/platforms/macos">macOS</a></li>
+              <li><a href="/platforms/javascript">JavaScript</a></li>
+              <li><a href="/platforms/javascript">Node.js</a></li>
+              <li><a href="/platforms/delphi">Delphi</a></li>
+              <li><a href="/platforms/builder">C++ Builder</a></li>
+              <li><a href="/platforms/php">PHP</a></li>
+              <li><a href="/platforms/python">Python</a></li>
+              <li><a href="/platforms/android">Android</a></li>
+              <li><a href="/platforms/ios">iOS</a></li>
+              <li><a href="/platforms/mac">Swift</a></li>
+              <li><a href="/platforms/linux">Linux</a></li>
+              <li><a href="/platforms/qt">Qt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a class="main-nav" href="/download/">DOWNLOADS</a>
+    </li>
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-support" href="/support/">SUPPORT<b class="caret"></b></a>
+      <div id="menu-support" class="menu-dropdown">
+        <div class="dropdown-menu" role="menu">
+          <div class="col-md-4">
+            <div class="section-title ">Support Resources</div>
+            <ul>
+              <li><a href="/kb/"><span class="lnr lnr-library menu-icon"></span>Online Knowledge Base</a></li>
+              <li><a href="/kb/help/"><span class="lnr lnr-book2 menu-icon"></span>Product Documentation</a></li>
+              <li><a href="/support/"><span class="lnr lnr-list3 menu-icon"></span>Support Options</a></li>
+              <li><a href="/support/submit"><span class="lnr lnr-arrow-right menu-icon"></span>Submit Support Issue</a></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title ">Additional Resources</div>
+            <ul>
+              <li><a href="/forms/request/"><span class="lnr lnr-check-square menu-icon"></span>Submit Feature Request</a></li>
+              <li><a href="/support/services/"><span class="lnr lnr-puzzle menu-icon"></span>Custom Development</a></li>
+              <li><a href="/login/register"><span class="lnr-edit menu-icon"></span>Register Subscription</a></li>
+              <li><a href="/login/account"><span class="lnr-list4 menu-icon"></span>Subscription Manager</a></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-title ">Search /n software</div>
+            <ul>
+              <li>Articles and technical content designed to help you explore the features of /n software products</li>
+              <li>
+                <form action="/search" method="get">
+                  <div class="input-group input-group-sm">
+                    <input type="text" id="div-search" name="q" autocomplete="off" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><span class="lnr lnr-arrow-right"></span></button>
+                    </div>
+                  </div>
+                </form>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a class="main-nav" href="/subscriptions/">SUBSCRIPTIONS</a>
+    </li>
+    <li>
+      <a class="dropdown-toggle main-nav" role="button" data-toggle="dropdown" data-target="#menu-about" href="/company/">ABOUT US<b class="caret"></b></a>
+      <div id="menu-about" class="menu-dropdown">
+        <div class="dropdown-menu" role="menu">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title">Learn More About /n software</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li><a href="/company/"><span class="lnr lnr-apartment menu-icon"></span>Company Information</a></li>
+                <li><a href="/company/clients"><span class="lnr lnr-users2 menu-icon"></span>Clients</a></li>
+                <li><a href="/company/testimonials"><span class="lnr lnr-bubble-quote menu-icon"></span>Testimonials</a></li>
+                <li><a href="/company/case-studies"><span class="lnr lnr-document2 menu-icon"></span>Case Studies</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li><a href="/news/"><span class="lnr lnr-news menu-icon"></span>News &amp; Events</a></li>
+                <li><a href="/company/contact"><span class="lnr lnr-user menu-icon"></span>Contact Us</a></li>
+                <li><a href="/order/resellers"><span class="lnr-tags menu-icon"></span>Resellers</a></li>
+                <li><a href="/company/jobs"><span class="lnr lnr-briefcase menu-icon"></span>Careers</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+          </div>
+          <div class="menu-column menu-links-column">
+            <ul class="links list-unstyled">
+              <li id="chat_icon"><a href="#" id="openChatHeader"><span class="lnr lnr-bubble menu-icon" style="display: inline-block; width: 12px; height: 12px;"></span> <span>Chat</span></a></li>
+              <li><a href="/order/cart"><span class="lnr lnr-cart menu-icon" style="display: inline-block; width: 12px; height: 12px;"></span> <span>Cart</span></a></li>
+              <li><a href="tel:8002254190" rel="nofollow"><span class="lnr lnr-telephone menu-icon" style="display: inline-block; width: 12px; height: 12px;"></span> <span>800.225.4190</span></a></li>
+            </ul>
+            <div id="search_container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="header_buffer">&nbsp;</div>
+  <div id="main">
+    
+
+<div class="NDX">
+  
+
+<div id="submenu_container">
+  <div class="submenu">
+    <a class="title" href="/sftpdrive/">SFTP Drive</a>
+    <ul class="nav">
+      <li><a href="/sftpdrive/#prod-overview" class="active">OVERVIEW</a></li>
+      <li><a href="/sftpdrive/#prod-features">FEATURES</a></li>
+      <li><a target="_blank" href="https://cdn.nsoftware.com/help/NDH/app">Documentation</a></li>
+      <li class="last">
+          <a class="btn" href="/sftpdrive/download">DOWNLOAD</a>
+          <a class="btn" href="/sftpdrive/order">Order</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="submenu_buffer">&nbsp;</div>
+  
+
+<header id="hero_background">
+  <div class="hero-inner">
+    <div class="hero-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 hero-txt">
+              <h1>SFTP Drive</h1>
+            <p>An easy-to-use utility that mounts SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. </p>
+                <div>
+                  <a class="btn red" href="/sftpdrive/download"><span class="lnr-download2"></span>Download</a>
+                </div>
+                <div class="dl-note"><i class="fa fa-star-o" aria-hidden="true"></i> FREE Starter Edition for Commercial and Non-Commercial Use</div>
+                <div class="whats-new-badge" style="width:auto !important; padding: .8em; margin-top: 20px;">
+                    <p style="margin-bottom: 0px; font-size: 14px;"><strong>SFTP Drive is now cross-platform!</strong> In addition to Windows, SFTP Drive now runs on Linux, macOS, and anywhere libfuse is available.</p>
+                </div>
+                <br />
+          </div>
+          <div class="col-md-6 hero-img beta-announcement">
+            <img src="/sftpdrive/default.webp" alt="SFTP Drive" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <section id="prod-overview" class="overview-section anchor_offset">
+    <div class="container">
+      <div class="row padder">
+        <div class="col-md-9">
+          <h2>Work With SFTP Servers as Local Virtual Drives</h2>
+          <p>
+            Built with the same attention to quality and security that has made <span style="white-space:nowrap;">/n software</span> the most trusted source for communications software components, SFTP Drive simplifies working with files stored on remote servers by enabling you to access them as if they were stored locally on your machine. This eliminates the need to download and upload files you need to work with.  Accessing remote files via a drive can also greatly simplify script or application code.
+          </p>
+          <p>
+              For additional protection of data in flight, FIPS 140-2 support can be enabled in Windows editions. FIPS support is enabled via an application-level setting and requires a special license; please contact <a href="mailto:licensing@nsoftware.com?subject=FIPS%20license%20for%20Drives">licensing@nsoftware.com</a> for more information.
+          </p>
+
+          <p>
+            <table>
+              <tr>
+                <td style="padding-right:20px;">
+                  <a href="https://www.yubico.com/works-with-yubikey/catalog/nsoftware-sftp-drive/">
+                    <img src="/kb/articles/img/WorksWithYubikey.png" alt="YubiKey Certified" height="100">
+                  </a>
+                </td>
+                <td>
+                  <h3>SFTP Drive Works With Yubikey!</h3>
+                  SFTP Drive is compatible with YubiKey, and has been verified by <a href="https://www.yubico.com/works-with-yubikey/catalog/nsoftware-sftp-drive/">Yubico</a>. In addition to the SFTP security the drive provides, the PIV-compatible YubiKey enables hardware-backed authentication on the remote system <a href="/kb/articles/yubikey">[learn more]</a>.
+                </td>
+              </tr>
+            </table>
+          </p>
+          <br>
+          <div class="overview-items row">
+            <rsb:render template="~/templates/products/common/Overview" input="page" />
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2>Online Resources</h2>
+          <ul class="arrows_red">
+            <li><a href="/kb/articles/sftpdrive-quickstart" target="_blank">Quick Start (Windows)</a></li>
+            <li><a href="/kb/articles/sftpdrive-linux-quickstart" target="_blank">Quick Start (Linux)</a></li>
+            <li><a href="/kb/articles/sftpdrive-authenticate" target="_blank">Authentication Guide</a></li>
+            <li><a href="/kb/articles/sftpdrive-comparison" target="_blank">Feature Comparison</a></li>
+            <li><a href="/kb/help/?pid=NDX">Online Documentation</a></li>
+            <li><a href="/kb" target="_blank">Knowledge Base</a></li>
+            <li><a href="/sftpdrive/license" target="_blank">Software License</a></li>
+          </ul>
+          <br><hr><br>
+          <div class="row resources-section">
+            <div class="col-md-12 hero-list">
+              <ul class="list-unstyled row">
+                <a href="#prod-components">
+                <li>SFTP</li>
+                <li>SFTP Drive</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features-section anchor_offset" id="prod-features">
+    <div class="grey-row">
+      <div class="container">
+        <div class="padder">
+          
+<div class="row">
+  <div class="col-md-12">
+    <h2>Product Features</h2>
+    <div class="pt-2">
+      <ul class="features-list list-unstyled ">
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Use Windows Explorer or your favorite File Manager.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Choose from three authentication types: Password, Key-based, or both. Additionally, three key types are supported: Authentication Agent (PuTTY or SSH), Load From File, and Security Token or Smart Card.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Store multiple connection profiles for a quick and convenient connection. </span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Supported on Linux, macOS, and anywhere libfuse is available.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">FIPS mode can be enabled on Windows editions for use in high security environments.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Perform common directory and file operations such as move, copy, rename, etc.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Support for Windows Arm64.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Works as a command line application on all OSs, or on Windows as a Desktop Application or Windows Service.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Configure advanced Profile Settings that give you granular control over how you connect to your server.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Import drive settings from PuTTY or FileZilla.</span>
+          </li>
+          <li class="col-md-12">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <span class="feature-text">Supported on Windows 7 / Server 2008 R2 and up.</span>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="action-section" id="prod-resources">
+    <div class="container">
+      <div class="padder">
+        
+  <div class="row">
+    <div class="col-md-4 prod-steps">
+      <div class="tab-download">
+          <h3>Starter</h3>
+          <hr />
+          <h2 class="subtitle"></h2>
+
+        <div class="actionDesc">
+          <p style="text-align:left">FREE Perpetual License for both Personal and Commercial Use. Limited Email Support.</p>
+            <ul class="bullets_red text-left">
+              <li>Desktop Operating System</li>
+              <li>Single Drive Instance</li>
+              <li>Essential Features</li>
+            </ul>
+        </div>
+            <a class="btn btn-action" href="/sftpdrive/download"><span class="lnr-download2"></span>Always Free</a>
+      </div>
+    </div>
+    <div class="col-md-4 prod-steps">
+      <div class="tab-download">
+        <h3>Standard</h3>
+        <hr />
+        <h2 class="subtitle"></h2>
+        <div class="actionDesc">
+          <p style="text-align:left">Perpetual License with one year of free updates and upgrades. Standard Support.</p>
+            <ul class="bullets_red text-left">
+              <li>Connect Multiple Drives</li>
+              <li>Run as a Windows Service</li>
+              <li>Advanced Features</li>
+            </ul>
+        </div>
+          <a class="btn red btn-action" href="/sftpdrive/order">
+            <span class="lnr lnr-cart"></span>Order
+          </a>
+      </div>
+    </div>
+    <div class="col-md-4 prod-steps">
+      <div class="tab-download">
+        <h3>Professional</h3>
+        <hr />
+        <h2 class="subtitle"></h2>
+        <div class="actionDesc">
+          <p style="text-align:left">Perpetual License with one year of free updates and upgrades. Priority Support.</p>
+            <ul class="bullets_red text-left">
+              <li></li>
+              <li>Server Operating Systems</li>
+              <li>Isolated Drives</li>
+              <li>All Features</li>
+            </ul>
+        </div>
+          <a class="btn red btn-action" href="/sftpdrive/order">
+
+            <span class="lnr lnr-cart"></span>Order
+
+          </a>
+      </div>
+    </div>
+  </div>
+    <div class="mt-3 pt-2">
+      <p>
+        For a detailed feature comparison, please see our
+            <span><a href="/kb/articles/sftpdrive-comparison" target="_blank">SFTP Drive Feature Comparison</a> page.</span>
+      </p>
+    </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+  <div class="clear">&nbsp;</div>
+  <footer class="rich-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mr-4">
+          <h3>Products</h3>
+          <ul class="list-unstyled">
+            <li><a href="/products/#securecomms">Secure Communications</a></li>
+            <li><a href="/products/#encauth">Encryption & Authentication</a></li>
+            <li><a href="/products/#networkmgmt">Network Management & IoT</a></li>
+            <li><a href="/products/#cloud">Cloud Services</a></li>
+            <li><a href="/products/#sbb">SecureBlackbox</a></li>
+            <li><a href="/products/#edi">Secure EDI Transactions</a></li>
+            <li><a href="/products/#payments">Payment Security</a></li>
+            <li><a href="/products/#enterprise">Enterprise Adapters</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mr-4">
+          <h3>Support</h3>
+          <ul class="list-unstyled">
+            <li><a href="/kb/">Knowledge Base</a></li>
+            <li><a href="/kb/help">Documentation</a></li>
+            <li><a href="/support/">Support Options</a></li>
+            <li><a href="/support/submit">Submit Support Issue</a></li>
+            <li><a href="/forms/request/">Feature Request</a></li>
+            <li><a href="/support/services">Custom Development</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mr-4">
+          <h3>Purchase</h3>
+          <ul class="list-unstyled">
+            <li><a href="/order/info">Ordering Info</a></li>
+            <li><a href="/order/faq">Sales FAQ</a></li>
+            <li><a href="/order/cart">Shopping Cart</a></li>
+            <li><a href="/order/resellers">Resellers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mr-4">
+          <h3>Subscriptions</h3>
+          <ul class="list-unstyled">
+            <li><a href="/subscriptions/">Red Carpet Subscription</a></li>
+            <li><a href="/subscriptions/manage">Subscription Manager</a></li>
+            <li><a href="/subscriptions/features">Feature/Benefit Analysis</a></li>
+            <li><a href="/subscriptions/sitelicense">Site Licensing</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h3>Company</h3>
+          <ul class="list-unstyled">
+            <li><a href="/company/">Company Information</a></li>
+            <li><a href="/company/clients">Clients</a></li>
+            <li><a href="/company/testimonials">Testimonials</a></li>
+            <li><a href="/company/case-studies">Case Studies</a></li>
+            <li><a href="/news/">News &amp; Events</a></li>
+            <li><a href="/company/contact">Contact Us</a></li>
+            <li><a href="/company/jobs">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="secondary-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="secondary-footer-list list-unstyled">
+            <li><span>Copyright &copy; 2023 /n software, Inc.</span></li>
+            <li><a href="/company/contact" runat="server">Contact</a></li>
+            <li><a href="/company/legal/terms" runat="server">Terms of Use</a></li>
+            <li><a href="/company/legal/privacy" runat="server">Privacy Statement</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled row">
+            <li class="col-md-3">
+              <a href="http://www.twitter.com/nsoftware/" target="_blank"><span class="lnr-twitter"></span></a>
+            </li>
+            <li class="col-md-3">
+              <a href="http://www.linkedin.com/company/n-software" target="_blank"><span class="lnr-linkedin2"></span></a>
+            </li>
+            <li class="col-md-3">
+              <a href="/rss/" target="_blank"><span class="lnr-rss"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script defer src="/ui/js/bundle.js?v=xzTNiQzv0MvKthM_DGaoBV8c9G8" type="text/javascript"></script>
+</body>
+</html>

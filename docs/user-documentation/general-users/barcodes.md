@@ -31,7 +31,7 @@ There are different types of printer drivers. The two types we can
 define as generic are **PS** (PostScript) (recommended) and **PCL**
 (Printer Command Language). Printers with these drivers are likely to
 print PDF documents and other types of documents with embedded fonts,
-..image:: /img/
+images, etc…
 
 The printer paper type needs to be configured for each printer. Two
 layouts are supported:
@@ -53,9 +53,9 @@ We provide two example documents that can be used to test the printer.
  
 
 -   Split barcodes example PDF:
-    [printer-test-code128-split-50-15](https://openbis.ch/wp-content/uploads/2021/08/printer-test-code128-split-50-15.pdf)
+..image:: img/printer-test-code128-split-50-15.pdf)
 -   Continuous barcodes example PDF:
-    [printer-test-code128-continuous-50-15](https://openbis.ch/wp-content/uploads/2021/08/printer-test-code128-continuous-50-15.pdf)
+..image:: img/printer-test-code128-continuous-50-15.pdf)
 
  
 
@@ -109,15 +109,15 @@ scanner should read them and type the correct output.
  
 
 -   Barcode Code 128.
-    [scanner-test-code128-50-15](https://openbis.ch/wp-content/uploads/2021/08/scanner-test-code128-50-15.pdf).
+..image:: img/scanner-test-code128-50-15.pdf).
     This should give as output “20210720122856003-454071” without
     quotes.
 -   Barcode QR Code.
-    [scanner-test-qrcode-50-50](https://openbis.ch/wp-content/uploads/2021/08/scanner-test-qrcode-50-50.pdf).
+..image:: img/scanner-test-qrcode-50-50.pdf).
     This should give as output “20210720122856003-454071” without
     quotes.
 -   Barcode Micro QR Code.
-    [scanner-test-microqrcode-30-30](https://openbis.ch/wp-content/uploads/2021/08/scanner-test-microqrcode-30-30.pdf).
+..image:: img/scanner-test-microqrcode-30-30.pdf).
     This should give as output “20210720122856003-454071” without
     quotes.
 

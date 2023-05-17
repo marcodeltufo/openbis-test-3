@@ -14,7 +14,7 @@ person responsible for purchases in the lab. The orders created with
 openBIS contain the information that can be sent to the suppliers.
 
   
-..image:: /img/stock-navigation-menu.png
+..image:: img/stock-navigation-menu.png
 
  
 
@@ -60,16 +60,16 @@ the lab:
 >     button in the *Collection* page.
 > 3.  Follow the steps explained in
 >     the [Register
->     Entries](https://openbis.ch/index.php/docs/user-documentation-20-10-3/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+..image:: img/)
 >     documentation page.
 >
 >  
 
-..image:: /img/stock-new-supplier.png
+..image:: img/stock-new-supplier.png
 
 To register several suppliers at once, follow the steps described in
 [Batch register entries in a
-Collection.](https://openbis.ch/index.php/docs/user-documentation-20-10-3/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+..image:: img/)
 
 ###  Catalog of products
 
@@ -86,7 +86,7 @@ To build the catalog of all products purchased in the lab:
  
 -
 
-..image:: /img/stock-new-product-1.png
+..image:: img/stock-new-product-1.png
 ^^^^
 
 >  
@@ -96,18 +96,18 @@ To build the catalog of all products purchased in the lab:
 > list of suppliers registered in the **Supplier Collection.** The
 > process for adding parents is the same as described for Experimental
 > Steps: [Add
-> parents](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/add-parents-and-children-to-experimental-steps/).
+..image:: img/).
 >
 >  
 
-..image:: /img/stock-new-product.png
+..image:: img/stock-new-product.png
 ^^^^
 
  
 
 To register several suppliers at once, follow the steps described in
 [Batch register entries in a
-Collection.](https://openbis.ch/index.php/docs/user-documentation-20-10-3/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+..image:: img/)
 
 ###  
 
@@ -127,7 +127,7 @@ ordered:
 
  
 
-..image:: /img/stock-new-request-1.png
+..image:: img/stock-new-request-1.png
 
 >        3. When you fill in the form the
 > following information needs to be provided:
@@ -148,7 +148,7 @@ ordered:
 > 1\. add a product that is already present in the catalog. This process
 > is the same as described for adding parents in <span
 > style="color: #000000;">Experimental Steps: [Add
-> parents](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/add-parents-and-children-to-experimental-steps/).
+..image:: img/).
 > The quantity, i.e. how many units of the product are requested, needs
 > to be specified.
 >
@@ -163,7 +163,7 @@ Please note that only 1 product can be added to 1 request.
 
  
 
-..image:: /img/stock-new-request.png
+..image:: img/stock-new-request.png
 
 > 4. <span
 > style="color: #000000;">Click **Save** on top of the form.
@@ -193,7 +193,7 @@ To create orders of products from requests created in the Stock Catalog:
 > 2.  Click the **+ New Order** button in
 >     the *Collection* page.
 
-..image:: /img/stock-new-order-1.png
+..image:: img/stock-new-order-1.png
 
 >  
 >
@@ -204,7 +204,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-..image:: /img/stock-new-order-identification-info.png
+..image:: img/stock-new-order-identification-info.png
 
  
 
@@ -212,7 +212,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-..image:: /img/stock-new-order-code.png
+..image:: img/stock-new-order-code.png
 
  
 
@@ -220,16 +220,16 @@ To create orders of products from requests created in the Stock Catalog:
 >
 >   3. If an **order** **template** form
 > is available (see [Create Templates for
-> Objects](https://openbis.ch/index.php/docs/admin-documentation-20-10-3/create-templates-for-objects/)),
+..image:: img/)),
 > this template can be used and most fields will be automatically filled
 > (see [Use templates for Experimental
-> Steps](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/use-templates-for-experimental-steps/)).
+..image:: img/)).
 > If no template is available, the relevant fields in the form need to
 > be filled in with the relevant information.
 
  
 
-..image:: /img/create-new-order.png
+..image:: img/create-new-order.png
 
 > 4\. Enter the **Order Status.** This field is mandatory. Available
 > options are **Delivered**, **Paid**,
@@ -245,7 +245,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-..image:: /img/order-form-1-1024x556.png
+..image:: img/order-form-1-1024x556.png
 
 If the price information is available in the products, the total cost of
 the order is calculated by openBIS and displayed in the order form, as
@@ -263,8 +263,8 @@ In the example presented in the picture above, there are 2 products to
 buy from fluka and 1 product to buy from Sigma-Aldrich. In this case the
 two attached files have been printed from the Order form in openBIS,
 using the **Print Order** button:
-[order\_ORD1\_p0; ](https://openbis.ch/wp-content/uploads/2022/02/order_ORD1_p0.txt)
-[order\_ORD1\_p1](https://openbis.ch/wp-content/uploads/2022/02/order_ORD1_p1.txt)
+..image:: img/order_ORD1_p0.txt)
+..image:: img/order_ORD1_p1.txt)
 
  
 
