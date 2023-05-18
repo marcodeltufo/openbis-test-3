@@ -31,6 +31,8 @@ import** will be presented in the form.
 6\. **Save.**  
 
  
+![image info](img/dataset-upload-UI-1024x951.png)
+
 
 .. image:: img/dataset-upload-UI-1024x951.png
 
