@@ -12,7 +12,7 @@ build:
     python: "3.11"
     # You can also specify other tool versions:
     urllib3: "1.26.15"
-    python3-myst-parser: "0.14.0"
+    myst-parser: "0.14.0"
     # rust: "1.64"
     # golang: "1.19"
 
