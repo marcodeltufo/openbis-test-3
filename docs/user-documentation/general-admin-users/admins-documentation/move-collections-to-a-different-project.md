@@ -19,7 +19,7 @@ To move *Collections* in the Inventory:
 1.  Go to the *Collection* page you want to move
 2.  Click on **Edit Collection**
 
-.. image:: img/edit-collection-1024x345.png
+![image info](img/edit-collection-1024x345.png)
 
  
 
@@ -29,7 +29,7 @@ To move *Collections* in the Inventory:
 
  
 
-.. image:: img/move-collection-more-dropdown-1024x466.png
+![image info](img/move-collection-more-dropdown-1024x466.png)
 
  
 
@@ -42,7 +42,7 @@ there.
 
  
 
-.. image:: img/move-collection-1024x142.png
+![image info](img/move-collection-1024x142.png)
 
  
 

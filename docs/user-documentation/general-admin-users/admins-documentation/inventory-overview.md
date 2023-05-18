@@ -27,11 +27,11 @@ Inventory .
 
  
 
-.. image:: img/inventory-materials-life-sciences-1.png
+![image info](img/inventory-materials-life-sciences-1.png)
 
  
 
-.. image:: img/inventory-methods-life-sciences.png
+![image info](img/inventory-methods-life-sciences.png)
 
  
 

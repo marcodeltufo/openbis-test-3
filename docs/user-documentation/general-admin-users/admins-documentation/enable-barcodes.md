@@ -15,7 +15,7 @@ edit the **Settings**, as shown below.
 
  
 
-.. image:: img/Screenshot-2020-02-26-at-13.01.57-1024x705.png
+![image info](img/Screenshot-2020-02-26-at-13.01.57-1024x705.png)
 
  
 
@@ -27,8 +27,8 @@ barcode icon will be added above the menu.
 
  
 
-.. image:: img/Barcode-generator-1024x466.png
-.. image:: img/barcode-scan-tablet.png
+![image info](img/Barcode-generator-1024x466.png)
+![image info](img/barcode-scan-tablet.png)
 
  
 

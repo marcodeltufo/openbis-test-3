@@ -24,11 +24,11 @@ Procedure:
 
  
 
-.. image:: img/settings-create-template-1-1-1024x413.png
+![image info](img/settings-create-template-1-1-1024x413.png)
 
  
 
-.. image:: img/settings-create-templates-2.png
+![image info](img/settings-create-templates-2.png)
 
 1.  Fill in the fields as desired.
 2.  **Save.**
@@ -37,7 +37,7 @@ Procedure:
 Your templates will be show in the table in the **Templates** section,
 as shown below
 
-.. image:: img/templates-table-3-1024x493.png
+![image info](img/templates-table-3-1024x493.png)
 
  
 

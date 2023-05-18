@@ -26,7 +26,7 @@ adopt the following steps:
     style="color: #3366ff;">LAB\_PROTOCOLS <span
     style="color: #000000;">in the **Methods** *Space*.
 
-.. image:: img/create-project-methods.png
+![image info](img/create-project-methods.png)
 
 1.  In the **Lab** **Protocols** folder, register two additional
     Collections called Microscopy
@@ -35,7 +35,7 @@ adopt the following steps:
 
  
 
-.. image:: img/create-collection-lab-protocols.png
+![image info](img/create-collection-lab-protocols.png)
 
   
 The steps for the registration of the folders are the same as explained
@@ -70,7 +70,7 @@ For this, follow the steps below:
 5.  Select **Use as Protocol**
 6.  **Save**
 
-.. image:: img/settings-enable-protocol-1024x488.png
+![image info](img/settings-enable-protocol-1024x488.png)
 
   
 This is done to be able to create local copies of protocols from the

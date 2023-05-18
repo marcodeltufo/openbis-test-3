@@ -10,7 +10,7 @@ UI, as shown below.
 
  
 
-.. image:: img/database-navigation-amdin-ui.png
+![image info](img/database-navigation-amdin-ui.png)
 
  
 
@@ -34,7 +34,7 @@ It is possible to filter the menu by code or name of the desired entity.
 
  
 
-.. image:: img/database-filter-admin-ui-1.png
+![image info](img/database-filter-admin-ui-1.png)
 
  
 
@@ -56,7 +56,7 @@ menu, as show in the picture below.
 
  
 
-.. image:: img/database-navigation-tabs-1024x496.png
+![image info](img/database-navigation-tabs-1024x496.png)
 
  
 
@@ -75,7 +75,7 @@ ascending date; sorting by descending date.
 
  
 
-.. image:: img/Screenshot-2022-11-30-at-17.25.24.png
+![image info](img/Screenshot-2022-11-30-at-17.25.24.png)
 
  
 
@@ -85,7 +85,7 @@ ascending date; sorting by descending date.
 
  
 
-.. image:: img/Screenshot-2022-11-30-at-17.25.37.png
+![image info](img/Screenshot-2022-11-30-at-17.25.37.png)
 
  
 

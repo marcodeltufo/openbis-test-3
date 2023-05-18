@@ -46,7 +46,7 @@ For each deleted entry, the table shows:
 
  
 
-.. image:: img/history-deletion-1024x507.png
+![image info](img/history-deletion-1024x507.png)
 
 Updated on October 9, 2022
  
@@ -66,6 +66,6 @@ The table showing the history of freezing can be found under the
 
  
 
-.. image:: img/history-freezing-1024x262.png
+![image info](img/history-freezing-1024x262.png)
 
 Updated on March 4, 2022

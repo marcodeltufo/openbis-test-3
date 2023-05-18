@@ -14,7 +14,7 @@ The main menu can be customised from the **Settings**, under
 
  
 
-.. image:: img/navigation-menu-settings.png
+![image info](img/navigation-menu-settings.png)
 
  
 
@@ -26,7 +26,7 @@ The main menu can be customised from the **Settings**, under
 
  
 
-.. image:: img/Screenshot-2020-02-26-at-10.11.14-1024x708.png
+![image info](img/Screenshot-2020-02-26-at-10.11.14-1024x708.png)
 
  
 
@@ -100,7 +100,7 @@ are shown (see picture below).
 
  
 
-.. image:: img/settings-menu-shown-entities-in-menu.png
+![image info](img/settings-menu-shown-entities-in-menu.png)
 
  
 
@@ -119,7 +119,7 @@ this option already selected. 
 
  
 
-.. image:: img/settings-show-in-labnotebook-1024x577.png
+![image info](img/settings-show-in-labnotebook-1024x577.png)
 
  
 

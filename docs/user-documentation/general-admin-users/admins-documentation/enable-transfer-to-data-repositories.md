@@ -26,7 +26,7 @@ Procedure:
 2.  Select **showZenodoExportBuilder** in the **Main Menu** section.
 3.  **Save.**
 
-.. image:: img/Screenshot-2020-02-26-at-10.53.37-1024x679.png
+![image info](img/Screenshot-2020-02-26-at-10.53.37-1024x679.png)
 
  
 
@@ -36,6 +36,6 @@ see the change):
 
  
 
-.. image:: img/export-to-zenodo-1024x862.png
+![image info](img/export-to-zenodo-1024x862.png)
 
 Updated on April 26, 2023

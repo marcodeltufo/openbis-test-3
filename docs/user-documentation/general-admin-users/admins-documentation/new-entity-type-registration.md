@@ -32,7 +32,7 @@ Procedure:
     the widget. Choices are: **Word Processor** (=RTE) or
     **Spreadsheet.**
 
-.. image:: img/custom-widget-gen-settings-1024x293.png
+![image info](img/custom-widget-gen-settings-1024x293.png)
 
 Updated on October 19, 2022
  
@@ -55,7 +55,7 @@ show in dropdown menus can be customised from the Settings.
 
  
 
-.. image:: img/Screenshot-2020-02-26-at-13.19.33-1-1024x537.png
+![image info](img/Screenshot-2020-02-26-at-13.19.33-1-1024x537.png)
 
 Updated on October 19, 2022
  
@@ -85,7 +85,7 @@ below. Three options can be chosen for the import:
 
  
 
-.. image:: img/Excel-import-admin-UI-1024x634.png
+![image info](img/Excel-import-admin-UI-1024x634.png)
 
  
 
@@ -112,7 +112,7 @@ If you wish to add a new property to an existing
 
  
 
-.. image:: img/masterdata-type-version.png
+![image info](img/masterdata-type-version.png)
 
 3\. use **Ignore if exists** as upload method. In this case, only the
 new property is added to the type.
@@ -144,7 +144,7 @@ admin UI, as shown below.
 
  
 
-.. image:: img/properties-overview-admin-UI-1024x640.png
+![image info](img/properties-overview-admin-UI-1024x640.png)
 
 Updated on March 1, 2022
  

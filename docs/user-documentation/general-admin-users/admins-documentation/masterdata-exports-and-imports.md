@@ -21,7 +21,7 @@ the *Object Types*.
 
  
 
-.. image:: img/export-table-admin-ui-1024x453.png
+![image info](img/export-table-admin-ui-1024x453.png)
 
  
 
@@ -79,7 +79,7 @@ explained above:
 
  
 
-.. image:: img/import-exported-masterdata-1024x476.png
+![image info](img/import-exported-masterdata-1024x476.png)
 
  
 

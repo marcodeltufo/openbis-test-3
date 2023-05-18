@@ -31,7 +31,7 @@ To create a new *Space* under the Inventory:
 
  
 
-.. image:: img/new-inventory-space.png
+![image info](img/new-inventory-space.png)
 
  
 
@@ -45,7 +45,7 @@ style="color: #ff0000;">\_.
 
  
 
-.. image:: img/create-space.png
+![image info](img/create-space.png)
 
  
 
@@ -69,11 +69,11 @@ create a new *Space*:
 
  
 
-.. image:: img/create-space-no-group.png
+![image info](img/create-space-no-group.png)
 
  
 
-.. image:: img/create-space-groups-dropdown.png
+![image info](img/create-space-groups-dropdown.png)
 
  
 
@@ -95,7 +95,7 @@ In the core UI:
 
  
 
-.. image:: img/spaces-admin-UI-300x158.png
+![image info](img/spaces-admin-UI-300x158.png)
 
  
 -
@@ -122,7 +122,7 @@ It is possible to move a new *Space* to the Inventory, by editing the
 
  
 
-.. image:: img/move-space-to-inventory-1024x426.png
+![image info](img/move-space-to-inventory-1024x426.png)
 
  
 
@@ -152,7 +152,7 @@ from the ELN interface. To create a new Space under the Inventory:
  
 
    
-.. image:: img/new-lab-notebook-space.png
+![image info](img/new-lab-notebook-space.png)
 
  
 
@@ -166,7 +166,7 @@ style="color: #ff0000;">\_.
 
  
 
-.. image:: img/create-space.png
+![image info](img/create-space.png)
    
 
 Multi-group instances
@@ -189,11 +189,11 @@ create a new *Space*:
 
  
 
-.. image:: img/create-space-no-group.png
+![image info](img/create-space-no-group.png)
 
  
 
-.. image:: img/create-space-groups-dropdown.png
+![image info](img/create-space-groups-dropdown.png)
 
  
 
@@ -231,7 +231,7 @@ In the core UI:  
 
  
 
-.. image:: img/spaces-admin-UI-300x158.png
+![image info](img/spaces-admin-UI-300x158.png)
 
  
 
@@ -256,7 +256,7 @@ To delete a *Space*:
 1.  Click on the **Space** in the main menu
 2.  Select **Delete** from the **More..** dropdown
 
-.. image:: img/delete-space-1.png
+![image info](img/delete-space-1.png)
 
  
 
@@ -314,6 +314,6 @@ ELN\_SETTINGS *Space*.
 
  
 
-.. image:: img/move-space-to-inventory-1024x426.png
+![image info](img/move-space-to-inventory-1024x426.png)
 
 Updated on August 2, 2022

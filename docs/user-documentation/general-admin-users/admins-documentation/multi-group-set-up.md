@@ -17,7 +17,7 @@ The Settings can be access from the main menu, under **Utilities**.
 
  
 
-.. image:: img/menu-settings-multigroup.png
+![image info](img/menu-settings-multigroup.png)
 
  
 
@@ -26,7 +26,7 @@ the defined groups group , as shown below.
 
  
 
-.. image:: img/settings-selection-multigroup.png
+![image info](img/settings-selection-multigroup.png)
 
  
 
@@ -46,7 +46,7 @@ The General ELN Settings consist of two parts:
 
  
 
-.. image:: img/general-settings-1024x545.png
+![image info](img/general-settings-1024x545.png)
 
  
 
@@ -54,7 +54,7 @@ Spaces that do not belong to any group do not have a group prefix. In
 the example below **Publications** do not belong to any group in the
 Inventory.
 
-.. image:: img/labnotebook-non-group-spaces-multigroup.png
+![image info](img/labnotebook-non-group-spaces-multigroup.png)
 
  
 
@@ -64,7 +64,7 @@ and **Horizon**, **Snf** do not belong to any group in the Lab notebook.
 
  
 
-.. image:: img/inventory-non-group-spaces-multigroup.png
+![image info](img/inventory-non-group-spaces-multigroup.png)
 
  
 
@@ -170,7 +170,7 @@ menu.
 
  
 
-.. image:: img/menu-settings-multigroup.png
+![image info](img/menu-settings-multigroup.png)
 
  
 
@@ -181,7 +181,7 @@ dropdown, as shown below.
 
  
 
-.. image:: img/settings-selection-multigroup.png
+![image info](img/settings-selection-multigroup.png)
 
  
 

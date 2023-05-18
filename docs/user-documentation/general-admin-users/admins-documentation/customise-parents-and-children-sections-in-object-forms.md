@@ -23,7 +23,7 @@ Steps.](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-noteboo
 
  
 
-.. image:: img/exp-step-parents-children-default.png
+![image info](img/exp-step-parents-children-default.png)
 
  
 
@@ -33,7 +33,7 @@ Extension** in the **Settings.**
 
  
 
-.. image:: img/Screenshot-2020-02-26-at-13.22.59-1024x705.png
+![image info](img/Screenshot-2020-02-26-at-13.22.59-1024x705.png)
 
 1.  **Section Name**. Enter an alternative name for the **Parents** or 
     **Children** section. If empty the default is used
@@ -65,6 +65,6 @@ Extension** in the **Settings.**
 The figure below shows how the **Annotation** of type **Comments** looks
 like in the *Experimental Step* form.
 
-.. image:: img/comments-gneral-protocol-as-parent-1024x549.png
+![image info](img/comments-gneral-protocol-as-parent-1024x549.png)
 
 Updated on November 30, 2022
