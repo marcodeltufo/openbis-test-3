@@ -1,10 +1,257 @@
 Additional Functionalities
 ====
  
-Visualise Relationships
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/"
+        aria-current="page">Visualise Relationships
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Visualise Relationships
+
+# Visualise Relationships
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
   
 Parent-child relationships between
@@ -16,15 +263,27 @@ form*.*
 
  
 
+![image info]()
+![image info](img/Screenshot-2020-03-10-at-11.14.21-300x229.png")
+class="alignnone wp-image-2122 size-medium"
 ![image info](img/Screenshot-2020-03-10-at-11.14.21-300x229.png)
+sizes="(max-width: 300px) 100vw, 300px" width="300" height="229" />
 
  
+
+
+
 
 Large trees can be pruned, by selecting
 how many levels of parents and/or children and which types to
 show.
 
+
+![image info]()
+![image info](img/hierarchy-graph-1024x392.png")
+class="wp-image-217"
 ![image info](img/hierarchy-graph-1024x392.png)
+sizes="(max-width: 1024px) 100vw, 1024px" />
 
  
 
@@ -32,12 +291,263 @@ To view the genealogy of an *Object* in a
 tabular format, select the **Hierarchy Table** option from the **More…**
 dropdown.
 
+
+
+
 Updated on March 4, 2022
  
-Tables
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/"
+        aria-current="page">Tables
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Tables
+
+# Tables
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
  
 
@@ -50,8 +560,7 @@ Here we give an overview of the main functionalities of the tables.
 
  
 
-Filters
-----
+# Filters
 
 Two filter options are available form the
 **Filters** button: **Filter Per Column** and **Global Filter**. The
@@ -61,16 +570,23 @@ whereas the second filters terms across the entire table using the
 
 >  
 >
+![image info]()
+![image info](img/filter-per-column-tables-1024x248.png")
+> class="alignnone wp-image-3204 size-large"
 ![image info](img/filter-per-column-tables-1024x248.png)
+> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="248" />
 >
+![image info]()
+![image info](img/global-filter-tables-1024x219.png")
+> class="size-large wp-image-3203 alignnone"
 ![image info](img/global-filter-tables-1024x219.png)
+> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="219" />
 >
 >  
 
 >  
 
-Sorting
-----
+# Sorting
 
 It is possible to sort individual columns or also multiple columns. For
 multi-column sorting, you should click on the column header and press
@@ -79,19 +595,26 @@ each column, as shown below.
 
  
 
+![image info]()
+![image info](img/multi-colums-sorting-1024x334.png")
+class="alignnone size-large wp-image-3273"
 ![image info](img/multi-colums-sorting-1024x334.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="334" />
 
 >  
 
-Exports
-----
+# Exports
 
 Tables can be exported in different ways,
 using the export button shown below.
 
 >  
 
+![image info]()
+![image info](img/export-tables-1024x419.png")
+class="alignnone size-large wp-image-4060"
 ![image info](img/export-tables-1024x419.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 
 >  
 >
@@ -109,7 +632,9 @@ using the export button shown below.
 >
 >  
 >
-![image info](img/export-tables-import-compatible.png)
+![image info]()
+![image info](img/export-tables-import-compatible.png")
+> class="alignnone size-full wp-image-4056" width="203" height="286" />
 >
 >  
 >
@@ -124,7 +649,9 @@ using the export button shown below.
 >             in accordance with the selection explained above for
 >             import compatibility.
 >
-![image info](img/export-table-columns.png)
+![image info]()
+![image info](img/export-table-columns.png")
+> class="alignnone size-full wp-image-4057" width="193" height="277" />
 >
 >  
 >
@@ -136,7 +663,9 @@ using the export button shown below.
 >             3.  **Selected Rows**. Only selected rows in the table are
 >                 exported.
 >
-![image info](img/export-table-rows.png)
+![image info]()
+![image info](img/export-table-rows.png")
+> class="alignnone size-full wp-image-4058" width="189" height="265" />
 >
 > 4\. **Value**:
 >
@@ -145,7 +674,11 @@ using the export button shown below.
 >             the export is import-compatible.
 >         2.  **Rich Text**. Text fields are exported in HTML format.
 >
+![image info]()
+![image info](img/export-table-values.png")
+> class="alignnone size-full wp-image-4059"
 ![image info](img/export-table-values.png)
+> sizes="(max-width: 211px) 100vw, 211px" width="211" height="314" />
 >
 >  
 >
@@ -158,8 +691,7 @@ using the export button shown below.
 >
 >  
 
-Columns
-----
+# Columns
 
 Users can select which properties to
 display in the table clicking on the **Columns** button. It is also
@@ -170,12 +702,15 @@ database for each user.
 
  
 
+![image info]()
+![image info](img/columns-in-tables-1024x571.png")
+class="alignnone size-large wp-image-3205"
 ![image info](img/columns-in-tables-1024x571.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="571" />
 
  
 
-**Spreadsheets**
-^^^^
+## **Spreadsheets**
 
 If a table contains *Objects* which have a spreadsheet field which is
 filled in, a spreadsheet icon is displayed in the table. Upon clicking
@@ -183,14 +718,21 @@ on the icon, the content of the spreadsheet can be expanded.  
 
 >  
 >
+![image info]()
+![image info](img/Screenshot-2022-03-02-at-00.16.41-1024x411.png")
+> class="alignnone wp-image-3111"
 ![image info](img/Screenshot-2022-03-02-at-00.16.41-1024x411.png)
+> sizes="(max-width: 800px) 100vw, 800px" width="800" height="321" />
 >
+![image info]()
+![image info](img/Screenshot-2022-03-02-at-00.17.26-1024x467.png")
+> class="alignnone wp-image-3112"
 ![image info](img/Screenshot-2022-03-02-at-00.17.26-1024x467.png)
+> sizes="(max-width: 800px) 100vw, 800px" width="800" height="365" />
 >
 >  
 
-Text fields
-^^^^
+## Text fields
 
 If a table contains Objects which have long text fields, only the
 beginning of the text is shown and can be expanded. If the text contains
@@ -199,12 +741,15 @@ the text becomes visible by clicking on the icon.
 
 >  
 >
+![image info]()
+![image info](img/Screenshot-2022-03-01-at-23.57.58-1024x398.png")
+> class="alignnone size-large wp-image-3106"
 ![image info](img/Screenshot-2022-03-01-at-23.57.58-1024x398.png)
+> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="398" />
 >
 >  
 
-**Selection of entries in table**
-----
+# **Selection of entries in table**
 
 Single entries in a table can be selected using the checkbox in the row.
 By clicking the checkbox in the table header, all entries of the table
@@ -221,7 +766,11 @@ are selected. After selection of entries, some actions become available:
 
  
 
+![image info]()
+![image info](img/selection-entries-table-1024x425.png")
+class="alignnone size-large wp-image-3206"
 ![image info](img/selection-entries-table-1024x425.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="425" />
 
  
 
@@ -240,7 +789,11 @@ users to perform certain tasks on an *Object*:
 
  
 
+![image info]()
+![image info](img/operations-column-1024x405.png")
+class="alignnone size-large wp-image-3207"
 ![image info](img/operations-column-1024x405.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="405" />
 
  
 
@@ -252,10 +805,257 @@ users to perform certain tasks on an *Object*:
 
 Updated on April 26, 2023
  
-Browse Entries by Type
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/"
+        aria-current="page">Browse Entries by Type
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Browse Entries by Type
+
+# Browse Entries by Type
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
   
 The **Object Browser** under the
@@ -263,7 +1063,12 @@ The **Object Browser** under the
 all *Experimental Steps*, which may be contained in different
 *Experiments/Collections* and *Projects*. 
 
+
+![image info]()
+![image info](img/Screenshot-2020-02-27-at-14.52.07-300x248.png")
+class="alignnone wp-image-1826 size-medium"
 ![image info](img/Screenshot-2020-02-27-at-14.52.07-300x248.png)
+sizes="(max-width: 300px) 100vw, 300px" width="300" height="248" />
 
 This is useful when there are entries of a
 certain type that belong to different *Collections* (e.g. protocols of
@@ -273,14 +1078,22 @@ an overview of all *Experimental Steps*, independently of the
 
  
 
+![image info]()
+![image info](img/exp-step-object-browser-1024x646.png")
+class="alignnone size-large wp-image-3238"
 ![image info](img/exp-step-object-browser-1024x646.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="646" />
 
 From the **Object Browser** page, it is also possible to **Batch
 register** or **Batch update** *Objects* using an XLS or TSV template.
 
  
 
+![image info]()
+![image info](img/batch-register-entries-object-browser-2.png")
+class="alignnone size-full wp-image-4028"
 ![image info](img/batch-register-entries-object-browser-2.png)
+sizes="(max-width: 810px) 100vw, 810px" width="810" height="374" />
 
  
 
@@ -288,10 +1101,258 @@ register** or **Batch update** *Objects* using an XLS or TSV template.
 
 Updated on April 25, 2023
  
-Trashcan
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/"
+        aria-current="page">Trashcan
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Trashcan
+
+# Trashcan
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
   
 When *Experiments*, *Objects* and
@@ -329,24 +1390,279 @@ table.
 
  
 
+
+![image info]()
+![image info](img/trashcan-1024x302.png")
+class="alignnone size-large wp-image-3213"
 ![image info](img/trashcan-1024x302.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="302" />
 
-
+<span id="vocabularyviewer"
+style="color: #000000;">
 
 Updated on October 9, 2022
  
-Vocabulary Browser
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/"
+        aria-current="page">Vocabulary Browser
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Vocabulary Browser
+
+# Vocabulary Browser
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
   
 The **Vocabulary browser** is accessible from the **Utilities** main
 menu. This shows all controlled vocabularies registered in openBIS and
 the terms they contain. Vocabularies are predefined lists of values to
 choose from in given fields. Vocabularies can be created/modified by an
-openBIS *Instance admin* (see [New Entity Type
-Registration](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/new-entity-type-registration/)).
+openBIS *Instance admin* (see <a
+href="https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/new-entity-type-registration/"
+target="_blank" rel="noopener noreferrer">New Entity Type
+Registration).
 
 This information is needed for filling the forms for **Batch
 Upload **or**Batch Update** of *Objects* via TSV file. If an *Object*
@@ -356,14 +1672,265 @@ case for XLS Batch registration or update, where labels can be used.
 
  
 
+![image info]()
+![image info](img/vocabulary-browser-1024x483.png")
+class="alignnone size-large wp-image-4030"
 ![image info](img/vocabulary-browser-1024x483.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="483" />
 
 Updated on April 25, 2023
  
-Freeze Entities
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/"
+        aria-current="page">Freeze Entities
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Freeze Entities
+
+# Freeze Entities
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
   
 Each level of the openBIS hierarchy
@@ -388,8 +1955,7 @@ This operation cannot be undone from any
 UI, not even by an *Instance admin.* Please freeze entities only when
 you are absolutely sure that they should not be further modified!
 
- **How to freeze an entity**
-^^^^
+##  **How to freeze an entity**
 
   
 At each level of the openBIS hierarchy
@@ -399,7 +1965,11 @@ example for a *Space* below.
 
  
 
+![image info]()
+![image info](img/freeze-space.png")
+class="alignnone size-full wp-image-4032"
 ![image info](img/freeze-space.png)
+sizes="(max-width: 995px) 100vw, 995px" width="995" height="330" />
 
  
 
@@ -416,15 +1986,19 @@ entries that you do not want to freeze.
 
  
 
+
+![image info]()
+![image info](img/freze-selection-1024x469.png")
+class="alignnone wp-image-651 size-large"
 ![image info](img/freze-selection-1024x469.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="469" />
 
  
 
 To freeze one or several entities, you
 need to provide your login password and save.
 
- 
--
+##  
 
 **Rules for freezing**
 
@@ -455,7 +2029,8 @@ Create new Object
 x
 
 
-Create new Dataset in existing Experiment/Collection
+Create new Dataset in existing
+Experiment/Collection
 x
  
 
@@ -818,14 +2393,261 @@ x
 
 
 
-  
+##   
 
 Updated on April 25, 2023
  
-Navigation menu
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/"
+        aria-current="page">Navigation menu
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Navigation menu
+
+# Navigation menu
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
  
 
@@ -833,7 +2655,11 @@ openBIS 20.10.6 features a new navigation menu.
 
  
 
+![image info]()
+![image info](img/navigation-menu.png")
+class="alignnone size-full wp-image-4042"
 ![image info](img/navigation-menu.png)
+sizes="(max-width: 317px) 100vw, 317px" width="317" height="913" />
 
  
 
@@ -846,6 +2672,9 @@ This has the following functionalities:
  
 
 ![image info](img/menu-filter.png)
+class="alignnone size-full wp-image-4048"
+![image info](img/menu-filter.png)
+sizes="(max-width: 315px) 100vw, 315px" width="315" height="177" />
 
  
 
@@ -857,7 +2686,11 @@ root node, by clicking the icon shown in the picture below.
 
  
 
+![image info]()
+![image info](img/menu-select-root-node.png")
+class="alignnone size-full wp-image-4045"
 ![image info](img/menu-select-root-node.png)
+sizes="(max-width: 556px) 100vw, 556px" width="556" height="798" />
 
  
 
@@ -866,7 +2699,11 @@ view, you can click on the root node icon shown below.
 
  
 
+![image info]()
+![image info](img/menu-selected-root-node.png")
+class="alignnone size-full wp-image-4046"
 ![image info](img/menu-selected-root-node.png)
+sizes="(max-width: 557px) 100vw, 557px" width="557" height="393" />
 
 **3. Sorting**. The default sorting of the menu is in alphabetical. It
 is now possible to sort separately individual sections of the menu
@@ -884,13 +2721,21 @@ forms.
 
  
 
+![image info]()
+![image info](img/menu-change-sorting.png")
+class="alignnone size-full wp-image-4049"
 ![image info](img/menu-change-sorting.png)
+sizes="(max-width: 558px) 100vw, 558px" width="558" height="420" />
 
  
 
  
 
+![image info]()
+![image info](img/menu-sorting-options.png")
+class="alignnone size-full wp-image-4044"
 ![image info](img/menu-sorting-options.png)
+sizes="(max-width: 759px) 100vw, 759px" width="759" height="401" />
 
  
 
@@ -903,7 +2748,11 @@ expanded or collapsed, with the button shown below.
 
  
 
+![image info]()
+![image info](img/menu-collapse.png")
+class="alignnone size-full wp-image-4047"
 ![image info](img/menu-collapse.png)
+sizes="(max-width: 556px) 100vw, 556px" width="556" height="412" />
 
  
 
@@ -915,7 +2764,11 @@ scroll to the selected node in the menu, using the button shown below.
 
  
 
+![image info]()
+![image info](img/menu-scroll-to-selected-node-1.png")
+class="alignnone size-full wp-image-4051"
 ![image info](img/menu-scroll-to-selected-node-1.png)
+sizes="(max-width: 568px) 100vw, 568px" width="568" height="455" />
 
  
 
@@ -925,10 +2778,257 @@ see the menu in the state you last saved it.
 
 Updated on April 26, 2023
  
-Custom Imports
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/"
+        aria-current="page">Custom Imports
+    -   [Entity
+        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Custom Imports
+
+# Custom Imports
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
  
 
@@ -946,8 +3046,9 @@ as metadata in openBIS.
 
 Custom imports are not available by default, but need to be enabled on
 the server side by a *system admin*, and a dropbox script needs to be
-associated with an import (see [Custom
-Imports](https://unlimited.ethz.ch/display/openBISDoc2010/Custom+Import)).
+associated with an import (see
+<a href="https://unlimited.ethz.ch/display/openBISDoc2010/Custom+Import"
+target="_blank" rel="noopener noreferrer">Custom Imports).
 
  
 
@@ -958,7 +3059,11 @@ menu**.
 The available custom imports can be selected from the **Custom Import
 Service** drop down menu in the Custom Import page (see below)
 
+![image info]()
+![image info](img/custom-imports-1024x459.png")
+class="alignnone size-large wp-image-4139"
 ![image info](img/custom-imports-1024x459.png)
+sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="459" />
 
  
 
@@ -970,7 +3075,11 @@ the Custom Import page.
 
  
 
+![image info]()
+![image info](img/custom-import-template.png")
+class="alignnone wp-image-3541 size-full"
 ![image info](img/custom-import-template.png)
+sizes="(max-width: 876px) 100vw, 876px" width="876" height="714" />
 
  
 
@@ -979,16 +3088,267 @@ download link is shown in the Custom Import page.
 
  
 
+![image info]()
+![image info](img/custom-import-no-template.png")
+class="alignleft wp-image-3540 size-full"
 ![image info](img/custom-import-no-template.png)
+sizes="(max-width: 888px) 100vw, 888px" width="888" height="664" />
 
  
 
 Updated on April 26, 2023
  
-Entity history
-----
+![image info](https://openbis.ch/)
+![image info](img/openBIS_Logo-e1583919804451.png")
+![image info](normal)
+![image info](img/logo_white.png")
+![image info](light)
+![image info](img/openBIS_logo.png")
+![image info](dark)
+![image info](img/openBIS_logo.png")
+![image info](sticky)
+![image info](img/openBIS_Logo-e1583919804451.png")
+class="mobile" itemprop="image" alt="Logo" />
+
+Search for:
+
+All Docs Admin Documentation Admin Documentation (prior to openBIS
+v19.06.4) Admin Documentation (prior to openBIS v20.10.3) User
+Documentation User Documentation (prior to openBIS v19.06.4) User
+Documentation (prior to openBIS v20.10.3)
+
+-   <a href="https://openbis.ch"
+    target="_blank">Home
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Resources<span
+    class="plus">
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Services<span
+    class="plus">
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">Events<span
+    class="plus">
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+-   <a href="https://openbis.ch" class="no_link" style="cursor: default;"
+    onclick="JavaScript: return false;">About<span
+    class="plus">
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+-   [News](https://openbis.ch/index.php/news/)
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
 
 
+
+-   Home
+
+-   ### Resources
+
+    
+    -   [Overview of openBIS and RDM
+        services offered by
+        SIS](https://openbis.ch/index.php/overview-of-openbis-and-rdm-services-offered-by-sis/)
+    -   [User
+        Documentation](https://openbis.ch/index.php/docs/user-documentation/)
+    -   [Admin
+        Documentation](https://openbis.ch/index.php/docs/admin-documentation/)
+    -   [FAQ](https://openbis.ch/index.php/faq/)
+    -   [Video
+        tutorials](https://openbis.ch/index.php/screencasts/#video%20tutorials)
+    -   [Demo](https://openbis.ch/index.php/demo/#demo)
+    -   [Downloads](https://openbis.ch/index.php/downloads/#downloads)
+    -   [References](https://openbis.ch/index.php/references/)
+
+-   [Community
+    forum](https://openbis.ch/index.php/community-forum/)
+
+-   ### Services
+
+    
+    -   [openRDM.swiss](https://openbis.ch/index.php/openrdm-swiss/)
+    -   [openRDM.eu](https://openbis.ch/index.php/openrdm-eu/)
+
+-   ### Events
+
+    
+    -   [openBIS UGM
+        2023](https://openbis.ch/index.php/openbis-ugm-2023/)
+
+-   ### About
+
+    
+    -   [Our
+        team](https://openbis.ch/index.php/our-team/)
+    -   [Contact](https://openbis.ch/index.php/contact/)
+
+-   [News](https://openbis.ch/index.php/news/)
+
+-   [Imprint](https://openbis.ch/index.php/imprint/#imprint)
+
+ 
+
+
+### User Documentation
+
+-   [General
+    Overview](https://openbis.ch/index.php/docs/user-documentation/general-overview/)
+-   [Inventory of Materials and
+    Methods](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/)
+    -   [Customise Collection
+        View](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view/)
+    -   [Register single entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection/)
+    -   [Batch register entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
+    -   [Batch register entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections/)
+    -   [Batch update entries in a
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection/)
+    -   [Batch update entries in several
+        Collections](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections/)
+    -   [Copy
+        entries](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries/)
+    -   [Move entries to a different
+        Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection/)
+    -   [Register Protocols in the Methods
+        Inventory](https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory/)
+-   [Managing storage of
+    samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/)
+    -   [Allocate storage positions to
+        samples](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples/)
+    -   [Batch update storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions/)
+    -   [Delete storage
+        positions](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions/)
+    -   [Overview of lab
+        storages](https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages/)
+-   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/)
+    -   [Barcodes](https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes/)
+    -   [Printer and Barcode Scanner
+        Requirements](https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements/)
+-   [Lab
+    notebook](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/)
+    -   [Register
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-projects/)
+    -   [Register
+        Experiments](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experiments/)
+    -   [Register Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/register-experimental-steps/)
+    -   [Add parents and children to Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/add-parents-and-children-to-experimental-steps/)
+    -   [How to use protocols in Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/how-to-use-protocols-in-experimental-steps/)
+    -   [Move Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-experimental-steps/)
+    -   [Copy Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/copy-experimental-steps/)
+    -   [Use templates for Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/use-templates-for-experimental-steps/)
+    -   [Data
+        Access](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/data-access/)
+    -   [Move
+        Datasets](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-datasets/)
+    -   [Move one Experiment to a different
+        Project](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/move-one-experiment-to-a-different-project/)
+    -   [Project
+        Overview](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/project-overview/)
+    -   [Edit and Delete Projects, Experiments, Experimental
+        Steps](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/edit-and-delete-projects-experiments-experimental-steps/)
+    -   [Share Lab Notebooks and
+        Projects](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/share-lab-notebooks-and-projects/)
+    -   [Rich Text
+        Editor](https://openbis.ch/index.php/docs/user-documentation/lab-notebook/rich-text-editor/)
+-   [Data
+    upload](https://openbis.ch/index.php/docs/user-documentation/data-upload/)
+    -   [Data upload via web
+        UI](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui/)
+    -   [Data upload via
+        dropbox](https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox/)
+-   [Data
+    export](https://openbis.ch/index.php/docs/user-documentation/data-export/)
+    -   [Export to
+        File](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-file/)
+    -   [Export to
+        Zenodo](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-zenodo/)
+    -   [Export to ETH Research
+        Collection](https://openbis.ch/index.php/docs/user-documentation/data-export/export-to-eth-research-collection/)
+-   [Data
+    archiving](https://openbis.ch/index.php/docs/user-documentation/data-archiving/)
+-   [Search](https://openbis.ch/index.php/docs/user-documentation/search/)
+    -   [Advanced
+        search](https://openbis.ch/index.php/docs/user-documentation/search/advanced-search/)
+    -   [Search](https://openbis.ch/index.php/docs/user-documentation/search/search/)
+    -   [Save and reuse
+        searches](https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches/)
+-   [Additional
+    functionalities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/)
+    -   [Visualise
+        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
+    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
+    -   [Browse Entries by
+        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
+    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
+    -   [Vocabulary
+        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
+    -   [Freeze
+        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
+    -   [Navigation
+        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
+    -   [Custom
+        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
+    -   <a
+        href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/"
+        aria-current="page">Entity history
+    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
+-   [Managing Lab Stocks and
+    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
+-   [Tools for Analysis of Data Stored in
+    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
+    -   [Jupyter
+        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
+    -   [MATLAB
+        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
+
+1.  
+2.  <span
+    itemprop="name">Home
+3.  
+4.  <span
+    itemprop="name">Docs
+5.  
+6.  <a href="https://openbis.ch/index.php/docs/user-documentation/"
+    itemprop="item">User Documentation
+7.  
+8.  <a
+    href="https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/"
+    itemprop="item">Additional
+    functionalities
+9.  
+10. Entity history
+
+# Entity history
+
+<a href="#"
+class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
+title="Print this article">
 
  
 
@@ -1007,8 +3367,7 @@ core UI.
 
  
 
-History table for Collections
-^^^^
+## History table for Collections
 
  
 
@@ -1017,7 +3376,11 @@ In a *Collection* page, the **History** can be accessed from the
 
  
 
+![image info]()
+![image info](img/history-collection-dropdown.png")
+class="alignnone size-full wp-image-3254"
 ![image info](img/history-collection-dropdown.png)
+sizes="(max-width: 766px) 100vw, 766px" width="766" height="393" />
 
  
 
@@ -1037,7 +3400,11 @@ in the history table.
 
  
 
+![image info]()
+![image info](img/Screenshot-2022-02-28-at-22.57.24-1024x535.png")
+class="alignnone wp-image-3050"
 ![image info](img/Screenshot-2022-02-28-at-22.57.24-1024x535.png)
+sizes="(max-width: 600px) 100vw, 600px" width="600" height="313" />
 
  
 
@@ -1047,14 +3414,17 @@ displayed in JSON format.
 
  
 
+![image info]()
+![image info](img/Screenshot-2022-03-04-at-12.47.18-1024x506.png")
+class="alignnone wp-image-3251"
 ![image info](img/Screenshot-2022-03-04-at-12.47.18-1024x506.png)
+sizes="(max-width: 600px) 100vw, 600px" width="600" height="297" />
 
  
 
  
 
-History table for Objects
-^^^^
+## History table for Objects
 
  
 
@@ -1063,7 +3433,11 @@ For every *Object*, the history of changes can be accessed from the
 
  
 
+![image info]()
+![image info](img/object-history-dropdown.png")
+class="alignnone size-full wp-image-3255"
 ![image info](img/object-history-dropdown.png)
+sizes="(max-width: 679px) 100vw, 679px" width="679" height="508" />
 
  
 
@@ -1076,8 +3450,7 @@ shown in the history table.
 
  
 
-History table for Datasets
-^^^^
+## History table for Datasets
 
  
 
@@ -1086,7 +3459,11 @@ For every dataset, the history of changes can be accessed from the
 
  
 
+![image info]()
+![image info](img/dataset-history-dropdown.png")
+class="alignnone size-full wp-image-3256"
 ![image info](img/dataset-history-dropdown.png)
+sizes="(max-width: 688px) 100vw, 688px" width="688" height="360" />
 
  
 
