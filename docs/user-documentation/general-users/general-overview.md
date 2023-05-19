@@ -30,10 +30,8 @@ also be linked to each other.
 step in different ways, depending on the size.
 
 Data can be exported to data repositories, such as
-<a href="https://zenodo.org/" style="color: #0000ff;" target="_blank"
-rel="noopener noreferrer">Zenodo or the
-<a href="https://www.research-collection.ethz.ch/"
-style="color: #0000ff;" target="_blank" rel="noopener noreferrer">ETH
+Zenodo or the
+ETH
 Research Collection (for ETHZ users only).  
   
 
