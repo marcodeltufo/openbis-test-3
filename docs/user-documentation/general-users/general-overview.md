@@ -1,9 +1,5 @@
 # General Overview
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
-
   
 The openBIS platform has three primary functionalities:  
   
