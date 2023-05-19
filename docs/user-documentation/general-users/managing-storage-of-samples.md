@@ -31,7 +31,7 @@ This can be done in two ways:
 form. Click the **+ New Storage Positions** above the table, as shown
 below:
 
-.. image:: img/add-strorage-position.png
+![image info](img/add-strorage-position.png)
 
   
 2. In the widget that opens, select the appropriate **Storage** from the
@@ -39,7 +39,7 @@ dropdown menu. Storage must be configured by a lab manager or group
 admin as explained in [Configure Lab
 Storages](https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/configure-lab-storage/)
 
-.. image:: img/storage-selection-1024x202.png
+![image info](img/storage-selection-1024x202.png)
 
 3\. Select the **position** in the storage (shelf and rack).
 
@@ -52,7 +52,7 @@ can be configured by an *Instance Admin)*.
 
 7\. Click **Accept.**
 
-.. image:: img/storage-assign-positions-1024x355.png
+![image info](img/storage-assign-positions-1024x355.png)
 
 ###  
 
@@ -67,7 +67,7 @@ shown below. The link becomes available after saving the sample.
 
  
 
-.. image:: img/storage-position-table-in-sample-1024x248.png
+![image info](img/storage-position-table-in-sample-1024x248.png)
 
  
 
@@ -134,7 +134,7 @@ from the Object Browser:
 1.  Go to the **Object Browser** under **Utilities** in the main menu
 2.  Select the object type **Storage Position** from the dropdown menu
     (see picture)
-.. image:: img/Batch-update-storage-positions.png
+![image info](img/Batch-update-storage-positions.png)
 3.  Use the table **Filter** to select the storage positions you want to
     update
     (see [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/))
@@ -144,7 +144,7 @@ from the Object Browser:
     box, change the storage, change a box position, change box size etc)
 6.  Select **XLS Batch Update Objects** from the **More..** dropdown.
 
-.. image:: img/batch-update-entries-object-browser.png
+![image info](img/batch-update-entries-object-browser.png)
 
 7\. Import the file you modified before and update the storage
 positions.
@@ -175,7 +175,7 @@ To delete a single storage position from a sample:
     in the picture
 4.  Save the sample
 
-.. image:: img/storage-position-single-delete-1024x634.png
+![image info](img/storage-position-single-delete-1024x634.png)
 
  
 
@@ -210,7 +210,7 @@ steps:
 
  
 
-.. image:: img/delete-storage-positions.png
+![image info](img/delete-storage-positions.png)
 
  
 
@@ -229,7 +229,7 @@ the **Object Browser**.
 
  
 
-.. image:: img/Batch-update-storage-positions.png
+![image info](img/Batch-update-storage-positions.png)
 
  
 
@@ -248,7 +248,7 @@ should be removed from there to be permanently deleted (see
 
  
 
-.. image:: img/storage-positions-multiple-delete-from-table-1024x582.png
+![image info](img/storage-positions-multiple-delete-from-table-1024x582.png)
 
  
 

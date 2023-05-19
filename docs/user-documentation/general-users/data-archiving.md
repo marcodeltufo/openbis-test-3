@@ -1,4 +1,4 @@
-Managing Lab Stocks And Orders
+Data Archiving
 ====
  
 openBIS roles
@@ -145,7 +145,7 @@ here directly from the user.
 
  
 
-.. image:: img/Screenshot-2022-06-28-at-10.15.39.png
+![image info](img/Screenshot-2022-06-28-at-10.15.39.png)
 
  
 
@@ -154,7 +154,7 @@ here, from the **Change Password** option under the **More..** dropdown.
 
  
 
-.. image:: img/change-pwd.png
+![image info](img/change-pwd.png)
 
 Updated on June 28, 2022
  
@@ -170,7 +170,7 @@ Space** for that user in the lab notebook, as shown below.
 
  
 
-.. image:: img/menu-my-space.png
+![image info](img/menu-my-space.png)
 
  
 
@@ -188,7 +188,7 @@ shown below.
 
  
 
-.. image:: img/home-space-admin-ui-1024x359.png
+![image info](img/home-space-admin-ui-1024x359.png)
 
  
 

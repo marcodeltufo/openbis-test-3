@@ -41,7 +41,7 @@ below.
 
  
 
-.. image:: img/Screenshot-2020-05-29-at-09.31.49-300x202.png
+![image info](img/Screenshot-2020-05-29-at-09.31.49-300x202.png)
 
  
 
@@ -53,7 +53,7 @@ upgrade), because the user profile needs to be recreated.
 
  
 
-.. image:: img/Screenshot-2022-11-15-at-11.39.05.png
+![image info](img/Screenshot-2022-11-15-at-11.39.05.png)
 
 If you go to the Jupyter workspace, the user profile is re-created on
 the server. After this, you can open a notebook from any entity of the
@@ -66,7 +66,7 @@ Dataset*).
  Jupyter notebooks can also be launched
 from the main menu, under **Utilities**, as shown below.
 
-.. image:: img/jupyter-navigation-menu.png
+![image info](img/jupyter-navigation-menu.png)
 
  
 
@@ -95,7 +95,7 @@ to enter:
 4.  **Notebook name**. This is the name of
     the Jupyter notebook.
 
-.. image:: img/jupyter-1024x316.png
+![image info](img/jupyter-1024x316.png)
 
 Jupyter notebooks can also be opened from a *Project*, *Experiment*,
 *Experimental Step* choosing the corresponding option in the **More**
@@ -118,7 +118,7 @@ is Python 3, but you can change to another language as shown below.
 
  
 
-.. image:: img/jupyter-kernels.png
+![image info](img/jupyter-kernels.png)
 
  
 
@@ -129,7 +129,7 @@ run. The information of two cells should be modified: **Name of the
 dataset** where the notebook will be stored and **Notes** (in red
 below).
 
-.. image:: img/jupyter-1.png
+![image info](img/jupyter-1.png)
 
  
 
@@ -150,7 +150,7 @@ bottom of the  error message you can see:
 
  
 
-.. image:: https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1024x58.jpg
+![image info](https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1024x58.jpg)
 
  
 
@@ -160,7 +160,7 @@ shown below:
  
 
            
-.. image:: img/manual-session-token-1024x135.png
+![image info](img/manual-session-token-1024x135.png)
 
  
 
@@ -183,7 +183,7 @@ section named *Process your data here*, that contains one empty cell
 
  
 
-.. image:: img/jupyter-2-1024x470.png
+![image info](img/jupyter-2-1024x470.png)
 
 After the analysis is done, the notebook
 can be saved back to openBIS, by running the last few cells which
@@ -192,7 +192,7 @@ shown below).
 
  
 
-.. image:: img/jupyter_notebook_save_dataset-1024x553.png
+![image info](img/jupyter_notebook_save_dataset-1024x553.png)
 
  
 
@@ -219,7 +219,7 @@ adds 3 buttons to a default notebook: 
 
  
 
-.. image:: img/jupyter-notebook-buttons.png
+![image info](img/jupyter-notebook-buttons.png)
 
 The JupyterLab openBIS extension is
 available from: [JupyterLab openBIS

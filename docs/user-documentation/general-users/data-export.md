@@ -20,7 +20,7 @@ only, or metadata and data (up to 10 GBs). 
 
  
 
-.. image:: img/export-space.png
+![image info](img/export-space.png)
 
  
 
@@ -35,7 +35,7 @@ Object and Datasets* (see below).
 
  
 
-.. image:: img/exported-space-1024x302.png
+![image info](img/exported-space-1024x302.png)
 
   
 A link to download the zip file is sent via email to the user. Email
@@ -69,7 +69,7 @@ email, as described above.
 
  
 
-.. image:: img/export-to-zip.png
+![image info](img/export-to-zip.png)
 
 Updated on April 25, 2023
  
@@ -101,7 +101,7 @@ account. You also need to create a **personal access token.** This can
 be done from the **Applications** under **Settings** in Zenodo, as shown
 below:
 
-.. image:: img/generate-zenodo-token-1024x498.png
+![image info](img/generate-zenodo-token-1024x498.png)
 
 Save Zenodo Personal Access Token in openBIS
 ^^^^
@@ -117,7 +117,7 @@ stored in openBIS, with the following procedure:
 
  
 
-.. image:: img/user-profile-session-token.png
+![image info](img/user-profile-session-token.png)
 
  
 -
@@ -140,7 +140,7 @@ To export data to Zenodo:
 
  
 
-.. image:: img/export-to-zenodo-1024x862.png
+![image info](img/export-to-zenodo-1024x862.png)
 
  
 
@@ -153,7 +153,7 @@ minutes.
 
  
 
-.. image:: img/publications-collection.png
+![image info](img/publications-collection.png)
 
 Updated on April 25, 2023
  
@@ -177,7 +177,7 @@ ETH Zurich**. This export feature is only available to ETHZ members.
 
 To export data to the ETH Research Collection:
 
-.. image:: img/export-to-research-collection-1024x818.png
+![image info](img/export-to-research-collection-1024x818.png)
 
 1.  Go to **Utilities** -&gt; **Exports** -&gt; **Export to Research
     Collection**.
@@ -195,7 +195,7 @@ To export data to the ETH Research Collection:
 
  
 
-.. image:: img/publications-collection.png
+![image info](img/publications-collection.png)
 
  
 

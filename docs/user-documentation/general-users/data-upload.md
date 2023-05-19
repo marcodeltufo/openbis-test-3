@@ -14,7 +14,7 @@ Data upload via web UI
 
 1.Click the **Upload** button in the form, as shown below.
 
-.. image:: img/Screenshot-2022-02-25-at-16.32.27-1024x359.png
+![image info](img/Screenshot-2022-02-25-at-16.32.27-1024x359.png)
 
 2\. Select the dataset type (e.g. Attachment).
 
@@ -31,10 +31,8 @@ import** will be presented in the form.
 6\. **Save.**  
 
  
+
 ![image info](img/dataset-upload-UI-1024x951.png)
-
-
-.. image:: img/dataset-upload-UI-1024x951.png
 
  
 
@@ -87,7 +85,7 @@ The name of **Folder 1** can be generated from the ELN interface:
 
  
 
-.. image:: img/dataset-uploader-helper-tool-more-dropdown.png
+![image info](img/dataset-uploader-helper-tool-more-dropdown.png)
 
  
 
@@ -100,7 +98,7 @@ The name of **Folder 1** can be generated from the ELN interface:
 
  
 
-.. image:: img/dataset-uploader-helper-tool-1024x436.png
+![image info](img/dataset-uploader-helper-tool-1024x436.png)
 
  
 
@@ -109,7 +107,7 @@ copied from openBIS. Place your data in this folder.
 
  
 
-.. image:: img/data-structure-example-for-dropbox.png
+![image info](img/data-structure-example-for-dropbox.png)
 
  
 
@@ -223,7 +221,7 @@ data import.
 
  
 
-.. image:: img/dropbox-monitor-menu-1024x491.png
+![image info](img/dropbox-monitor-menu-1024x491.png)
 
  
 
@@ -233,7 +231,7 @@ the log with the error is shown.
 
  
 
-.. image:: img/dropbox-monitor-details-1024x457.png
+![image info](img/dropbox-monitor-details-1024x457.png)
 
  
 
@@ -254,7 +252,7 @@ is the folder with the openBIS-generated name. Inside this folder there
 is the metadata.json file, and the data, which consists of a few files
 and 2 folders.
 
-.. image:: img/dataset-upload-with-metadata-json.png
+![image info](img/dataset-upload-with-metadata-json.png)
 
  
 
@@ -279,11 +277,11 @@ the main menu.
 
  
 
-.. image:: img/download-metadata-template.png
+![image info](img/download-metadata-template.png)
 
  
 
-.. image:: img/Select-dataset.png
+![image info](img/Select-dataset.png)
 
  
 
@@ -294,6 +292,6 @@ future data upload, especially large data.
 
  
 
-.. image:: img/available-storage-1024x149.png
+![image info](img/available-storage-1024x149.png)
 
 Updated on April 26, 2023
