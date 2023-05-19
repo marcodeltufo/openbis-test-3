@@ -1,8 +1,8 @@
 Lab Notebook
 ====
  
-Register Projects
-----
+## Register Projects
+
 
 
 
