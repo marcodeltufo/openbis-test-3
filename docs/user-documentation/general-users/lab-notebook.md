@@ -1,6 +1,7 @@
 Lab Notebook
 ====
  
+# Register Projects
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -46,6 +47,7 @@ sizes="(max-width: 478px) 100vw, 478px" width="478" height="390" />
 
 Updated on April 25, 2023
  
+# Register Experiments
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -84,6 +86,7 @@ sizes="(max-width: 647px) 100vw, 647px" width="647" height="918" />
 
 Updated on April 25, 2023
  
+# Register Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -157,6 +160,7 @@ style="color: #000000;">
 
 Updated on April 25, 2023
  
+# Add parents and children to Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -441,6 +445,7 @@ sizes="(max-width: 720px) 100vw, 720px" width="720" height="405" /> 
 
 Updated on April 25, 2023
  
+# How to use protocols in Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -485,6 +490,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="233" />
 
 Updated on April 26, 2023
  
+# Move Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -522,6 +528,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="527" />
 
 Updated on April 25, 2023
  
+# Copy Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -555,6 +562,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="191" />
 
 Updated on April 25, 2023
  
+# Use templates for Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -590,6 +598,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="598" />
 
 Updated on December 8, 2022
  
+# Data Access
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -804,6 +813,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="329" />
 
 Updated on May 5, 2023
  
+# Move Datasets
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -847,6 +857,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="241" />
 
 Updated on April 25, 2023
  
+# Move one Experiment to a different Project
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -901,6 +912,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="120" />
 
 Updated on April 25, 2023
  
+# Project Overview
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -946,6 +958,7 @@ menu.
 
 Updated on April 25, 2023
  
+# Edit and Delete Projects, Experiments, Experimental Steps
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -992,6 +1005,7 @@ rel="noopener noreferrer">Changing the openBIS capability role map)
 
 Updated on April 25, 2023
  
+# Share Lab Notebooks and Projects
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

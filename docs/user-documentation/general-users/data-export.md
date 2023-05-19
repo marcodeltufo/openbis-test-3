@@ -1,6 +1,7 @@
 Data Export
 ====
  
+# Export to File
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -87,6 +88,7 @@ sizes="(max-width: 990px) 100vw, 990px" width="990" height="930" />
 
 Updated on April 25, 2023
  
+# Export to Zenodo
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -190,6 +192,7 @@ sizes="(max-width: 442px) 100vw, 442px" width="442" height="311" />
 
 Updated on April 25, 2023
  
+# Export to ETH Research Collection
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

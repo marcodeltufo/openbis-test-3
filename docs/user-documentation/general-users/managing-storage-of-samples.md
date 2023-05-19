@@ -1,6 +1,7 @@
 Managing Storage Of Samples
 ====
  
+# Allocate storage positions to samples
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -140,6 +141,7 @@ here: [SAMPLE-STORAGE\_POSITION-template.txt](https://wiki-bsse.ethz.ch/downloa
 
 Updated on April 26, 2023
  
+# Batch update storage positions
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -183,6 +185,7 @@ positions.
 
 Updated on April 25, 2023
  
+# Delete storage positions
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

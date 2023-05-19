@@ -1,6 +1,7 @@
 Additional Functionalities
 ====
  
+# Visualise Relationships
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -49,6 +50,7 @@ dropdown.
 
 Updated on March 4, 2022
  
+# Tables
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -310,6 +312,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="405" />
 
 Updated on April 26, 2023
  
+# Browse Entries by Type
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -359,6 +362,7 @@ sizes="(max-width: 810px) 100vw, 810px" width="810" height="374" />
 
 Updated on April 25, 2023
  
+# Trashcan
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -412,6 +416,7 @@ style="color: #000000;">
 
 Updated on October 9, 2022
  
+# Vocabulary Browser
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -443,6 +448,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="483" />
 
 Updated on April 25, 2023
  
+# Freeze Entities
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -913,6 +919,7 @@ x
 
 Updated on April 25, 2023
  
+# Navigation menu
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -1047,6 +1054,7 @@ see the menu in the state you last saved it.
 
 Updated on April 26, 2023
  
+# Custom Imports
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -1120,6 +1128,7 @@ sizes="(max-width: 888px) 100vw, 888px" width="888" height="664" />
 
 Updated on April 26, 2023
  
+# Entity history
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

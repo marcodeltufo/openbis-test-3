@@ -1,6 +1,7 @@
 Data Archiving
 ====
  
+# openBIS roles
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -119,6 +120,7 @@ admin UI.
 
 Updated on April 26, 2023
  
+# User Profile
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -164,6 +166,7 @@ class="alignnone size-full wp-image-3393" width="300" height="133" />
 
 Updated on June 28, 2022
  
+# Assign home space to a user
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

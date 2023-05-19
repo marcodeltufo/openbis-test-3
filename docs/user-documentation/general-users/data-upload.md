@@ -1,6 +1,7 @@
 Data Upload
 ====
  
+# Data upload via web UI
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -55,6 +56,7 @@ upon unarchive. To avoid this there are two options:
 
 Updated on March 23, 2023
  
+# Data upload via dropbox
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

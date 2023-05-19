@@ -1,6 +1,7 @@
 Tools For Analysis Of Data Stored In Openbis
 ====
  
+# Jupyter Notebooks
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -282,6 +283,7 @@ style="color: #000000;">
 
 Updated on April 25, 2023
  
+# MATLAB toolbox
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"

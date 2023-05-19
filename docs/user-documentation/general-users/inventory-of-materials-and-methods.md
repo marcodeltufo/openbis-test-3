@@ -1,6 +1,7 @@
 Inventory Of Materials And Methods
 ====
  
+# Customise Collection View
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -77,6 +78,7 @@ sizes="(max-width: 437px) 100vw, 437px" width="437" height="278" />
 
 Updated on April 25, 2023
  
+# Register single entries in a Collection
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -140,6 +142,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="300" />  
 
 Updated on April 25, 2023
  
+# Batch register entries in a Collection
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -367,6 +370,7 @@ compatibility and will be phased out. 
 
 Updated on April 25, 2023
  
+# Batch register entries in several Collections
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -463,6 +467,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="221" />
 
 Updated on April 25, 2023
  
+# Batch update entries in a Collection
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -607,6 +612,7 @@ class="alignnone size-full wp-image-3637" width="95" height="33" /> or
 
 Updated on April 25, 2023
  
+# Batch update entries in several Collections
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -706,6 +712,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="221" />
 
 Updated on April 25, 2023
  
+# Copy entries
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
@@ -743,6 +750,7 @@ sizes="(max-width: 438px) 100vw, 438px" width="438" height="292" />
 
 Updated on July 27, 2022
  
+# Move entries to a different Collection
 
 <a href="#"
 class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
