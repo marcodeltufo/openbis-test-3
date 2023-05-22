@@ -52,8 +52,6 @@ can be configured by an *Instance Admin)*.
 
 ![image info](img/storage-assign-positions-1024x355.png)
 
-###  
-
 ### Add additional metadata to storage positions
 
   
