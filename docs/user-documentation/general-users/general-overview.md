@@ -1,5 +1,7 @@
 # General Overview
 
+[](# "Print this article")
+
   
 The openBIS platform has three primary functionalities:  
   
@@ -30,9 +32,9 @@ also be linked to each other.
 step in different ways, depending on the size.
 
 Data can be exported to data repositories, such as
-Zenodo or the
-ETH
-Research Collection (for ETHZ users only).  
+[Zenodo](https://zenodo.org/) or the [ETH Research
+Collection](https://www.research-collection.ethz.ch/) (for ETHZ users
+only).  
   
 
 This allows to have the complete overview of workflows and information,

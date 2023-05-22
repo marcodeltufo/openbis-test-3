@@ -3,65 +3,42 @@ Additional Functionalities
  
 # Visualise Relationships
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
-Parent-child relationships between
-*Objects* can be visualised as trees or tables in the ELN.
+Parent-child relationships between *Objects* can be visualised as trees
+or tables in the ELN.
 
-To see the genealogical tree, select the
-**Hierarchy Graph** option from the **More…**dropdown in an entity
-form*.*
+To see the genealogical tree, select the **Hierarchy Graph** option from
+the **More…**dropdown in an entity form*.*
 
  
 
-![image info]()
-![image info](img/Screenshot-2020-03-10-at-11.14.21-300x229.png")
-class="alignnone wp-image-2122 size-medium"
 ![image info](img/Screenshot-2020-03-10-at-11.14.21-300x229.png)
-sizes="(max-width: 300px) 100vw, 300px" width="300" height="229" />
 
  
 
+Large trees can be pruned, by selecting how many levels of parents
+and/or children and which types to show.
 
-
-
-Large trees can be pruned, by selecting
-how many levels of parents and/or children and which types to
-show.
-
-
-![image info]()
-![image info](img/hierarchy-graph-1024x392.png")
-class="wp-image-217"
 ![image info](img/hierarchy-graph-1024x392.png)
-sizes="(max-width: 1024px) 100vw, 1024px" />
 
  
 
-To view the genealogy of an *Object* in a
-tabular format, select the **Hierarchy Table** option from the **More…**
-dropdown.
-
-
-
+To view the genealogy of an *Object* in a tabular format, select the
+**Hierarchy Table** option from the **More…** dropdown.
 
 Updated on March 4, 2022
  
 # Tables
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
   
-All tables in the ELN have a similar
-format and functionalities. The tables have been redesigned for the
-20.10.3 release of openBIS.
+All tables in the ELN have a similar format and functionalities. The
+tables have been redesigned for the 20.10.3 release of openBIS.
 
 Here we give an overview of the main functionalities of the tables.
 
@@ -69,25 +46,16 @@ Here we give an overview of the main functionalities of the tables.
 
 # Filters
 
-Two filter options are available form the
-**Filters** button: **Filter Per Column** and **Global Filter**. The
-first allows to filter on individual columns, or multiple columns,
-whereas the second filters terms across the entire table using the
-**AND** or **OR** operator. 
+Two filter options are available form the **Filters** button: **Filter
+Per Column** and **Global Filter**. The first allows to filter on
+individual columns, or multiple columns, whereas the second filters
+terms across the entire table using the **AND** or **OR** operator. 
 
 >  
 >
-![image info]()
-![image info](img/filter-per-column-tables-1024x248.png")
-> class="alignnone wp-image-3204 size-large"
 ![image info](img/filter-per-column-tables-1024x248.png)
-> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="248" />
 >
-![image info]()
-![image info](img/global-filter-tables-1024x219.png")
-> class="size-large wp-image-3203 alignnone"
 ![image info](img/global-filter-tables-1024x219.png)
-> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="219" />
 >
 >  
 
@@ -102,26 +70,18 @@ each column, as shown below.
 
  
 
-![image info]()
-![image info](img/multi-colums-sorting-1024x334.png")
-class="alignnone size-large wp-image-3273"
 ![image info](img/multi-colums-sorting-1024x334.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="334" />
 
 >  
 
 # Exports
 
-Tables can be exported in different ways,
-using the export button shown below.
+Tables can be exported in different ways, using the export button shown
+below.
 
 >  
 
-![image info]()
-![image info](img/export-tables-1024x419.png")
-class="alignnone size-large wp-image-4060"
 ![image info](img/export-tables-1024x419.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 
 >  
 >
@@ -139,9 +99,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 >
 >  
 >
-![image info]()
-![image info](img/export-tables-import-compatible.png")
-> class="alignnone size-full wp-image-4056" width="203" height="286" />
+![image info](img/export-tables-import-compatible.png)
 >
 >  
 >
@@ -156,9 +114,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 >             in accordance with the selection explained above for
 >             import compatibility.
 >
-![image info]()
-![image info](img/export-table-columns.png")
-> class="alignnone size-full wp-image-4057" width="193" height="277" />
+![image info](img/export-table-columns.png)
 >
 >  
 >
@@ -170,9 +126,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 >             3.  **Selected Rows**. Only selected rows in the table are
 >                 exported.
 >
-![image info]()
-![image info](img/export-table-rows.png")
-> class="alignnone size-full wp-image-4058" width="189" height="265" />
+![image info](img/export-table-rows.png)
 >
 > 4\. **Value**:
 >
@@ -181,11 +135,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 >             the export is import-compatible.
 >         2.  **Rich Text**. Text fields are exported in HTML format.
 >
-![image info]()
-![image info](img/export-table-values.png")
-> class="alignnone size-full wp-image-4059"
 ![image info](img/export-table-values.png)
-> sizes="(max-width: 211px) 100vw, 211px" width="211" height="314" />
 >
 >  
 >
@@ -200,20 +150,15 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 
 # Columns
 
-Users can select which properties to
-display in the table clicking on the **Columns** button. It is also
-possible to show all properties or hide all properties. The position of
-the columns can also be changed by placing the cursor next to the = sign
-in the list and moving the fields. This information is stored in the
-database for each user. 
+Users can select which properties to display in the table clicking on
+the **Columns** button. It is also possible to show all properties or
+hide all properties. The position of the columns can also be changed by
+placing the cursor next to the = sign in the list and moving the fields.
+This information is stored in the database for each user.
 
  
 
-![image info]()
-![image info](img/columns-in-tables-1024x571.png")
-class="alignnone size-large wp-image-3205"
 ![image info](img/columns-in-tables-1024x571.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="571" />
 
  
 
@@ -225,17 +170,9 @@ on the icon, the content of the spreadsheet can be expanded.  
 
 >  
 >
-![image info]()
-![image info](img/Screenshot-2022-03-02-at-00.16.41-1024x411.png")
-> class="alignnone wp-image-3111"
 ![image info](img/Screenshot-2022-03-02-at-00.16.41-1024x411.png)
-> sizes="(max-width: 800px) 100vw, 800px" width="800" height="321" />
 >
-![image info]()
-![image info](img/Screenshot-2022-03-02-at-00.17.26-1024x467.png")
-> class="alignnone wp-image-3112"
 ![image info](img/Screenshot-2022-03-02-at-00.17.26-1024x467.png)
-> sizes="(max-width: 800px) 100vw, 800px" width="800" height="365" />
 >
 >  
 
@@ -248,11 +185,7 @@ the text becomes visible by clicking on the icon.
 
 >  
 >
-![image info]()
-![image info](img/Screenshot-2022-03-01-at-23.57.58-1024x398.png")
-> class="alignnone size-large wp-image-3106"
 ![image info](img/Screenshot-2022-03-01-at-23.57.58-1024x398.png)
-> sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="398" />
 >
 >  
 
@@ -273,34 +206,25 @@ are selected. After selection of entries, some actions become available:
 
  
 
-![image info]()
-![image info](img/selection-entries-table-1024x425.png")
-class="alignnone size-large wp-image-3206"
 ![image info](img/selection-entries-table-1024x425.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="425" />
 
  
 
-In *Object* tables inside
-*Experiments/Collections* there is an **Operations** column, which allow
-users to perform certain tasks on an *Object*:
+In *Object* tables inside *Experiments/Collections* there is an
+**Operations** column, which allow users to perform certain tasks on an
+*Object*:
 
 > 1.  Upload a file to the *Object*
-> 2.  Move the *Object* to another
->     Experiment/Collection.
+> 2.  Move the *Object* to another Experiment/Collection.
 > 3.  Update Barcode.
-> 4.  Open the hierarchy graph. This is
->     the graph showing parent/child connections of the *Object*.
-> 5.  Open the hierarchy table. This is
->     the table showing parent/child connections of the *Object*.
+> 4.  Open the hierarchy graph. This is the graph showing parent/child
+>     connections of the *Object*.
+> 5.  Open the hierarchy table. This is the table showing parent/child
+>     connections of the *Object*.
 
  
 
-![image info]()
-![image info](img/operations-column-1024x405.png")
-class="alignnone size-large wp-image-3207"
 ![image info](img/operations-column-1024x405.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="405" />
 
  
 
@@ -314,47 +238,30 @@ Updated on April 26, 2023
  
 # Browse Entries by Type
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
-The **Object Browser** under the
-**Utilities** main menu allows to see all entries of the same type and
-all *Experimental Steps*, which may be contained in different
-*Experiments/Collections* and *Projects*. 
+The **Object Browser** under the **Utilities** main menu allows to see
+all entries of the same type and all *Experimental Steps*, which may be
+contained in different *Experiments/Collections* and *Projects*. 
 
-
-![image info]()
-![image info](img/Screenshot-2020-02-27-at-14.52.07-300x248.png")
-class="alignnone wp-image-1826 size-medium"
 ![image info](img/Screenshot-2020-02-27-at-14.52.07-300x248.png)
-sizes="(max-width: 300px) 100vw, 300px" width="300" height="248" />
 
-This is useful when there are entries of a
-certain type that belong to different *Collections* (e.g. protocols of
-the same type stored in two different protocol collections), or to have
-an overview of all *Experimental Steps*, independently of the
-*Experiment* they belong to.
+This is useful when there are entries of a certain type that belong to
+different *Collections* (e.g. protocols of the same type stored in two
+different protocol collections), or to have an overview of all
+*Experimental Steps*, independently of the *Experiment* they belong to.
 
  
 
-![image info]()
-![image info](img/exp-step-object-browser-1024x646.png")
-class="alignnone size-large wp-image-3238"
 ![image info](img/exp-step-object-browser-1024x646.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="646" />
 
 From the **Object Browser** page, it is also possible to **Batch
 register** or **Batch update** *Objects* using an XLS or TSV template.
 
  
 
-![image info]()
-![image info](img/batch-register-entries-object-browser-2.png")
-class="alignnone size-full wp-image-4028"
 ![image info](img/batch-register-entries-object-browser-2.png)
-sizes="(max-width: 810px) 100vw, 810px" width="810" height="374" />
 
  
 
@@ -364,16 +271,13 @@ Updated on April 25, 2023
  
 # Trashcan
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
-When *Experiments*, *Objects* and
-*Datasets* are deleted, they are moved to the openBIS **trashcan**,
-under the **Utilities** main menu. Items can be removed from the
-trashcan only by someone with *Space admin* or *Instance admin* role.
-Deletion from the trashcan is **IRREVERSIBLE**.
+When *Experiments*, *Objects* and *Datasets* are deleted, they are moved
+to the openBIS **trashcan**, under the **Utilities** main menu. Items
+can be removed from the trashcan only by someone with *Space admin* or
+*Instance admin* role. Deletion from the trashcan is **IRREVERSIBLE**.
 
  
 
@@ -382,8 +286,8 @@ not moved to the trashcan first.
 
  
 
-To empty the whole trashcan, click the
-blue **Empty Trash **button above the table.
+To empty the whole trashcan, click the blue **Empty Trash **button above
+the table.
 
 To delete permanently single entries choose one of two options from the
 Operations dropdown:
@@ -397,40 +301,27 @@ Operations dropdown:
 
  
 
-If one entity was unintentionally deleted,
-the operation can be reverted at this stage by choosing the** Revert
-Deletions** option from the **Operations** drop down in the
-table.
+If one entity was unintentionally deleted, the operation can be reverted
+at this stage by choosing the** Revert Deletions** option from
+the **Operations** drop down in the table.
 
  
 
-
-![image info]()
-![image info](img/trashcan-1024x302.png")
-class="alignnone size-large wp-image-3213"
 ![image info](img/trashcan-1024x302.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="302" />
-
-<span id="vocabularyviewer"
-style="color: #000000;">
 
 Updated on October 9, 2022
  
 # Vocabulary Browser
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
 The **Vocabulary browser** is accessible from the **Utilities** main
 menu. This shows all controlled vocabularies registered in openBIS and
 the terms they contain. Vocabularies are predefined lists of values to
 choose from in given fields. Vocabularies can be created/modified by an
-openBIS *Instance admin* (see <a
-href="https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/new-entity-type-registration/"
-target="_blank" rel="noopener noreferrer">New Entity Type
-Registration).
+openBIS *Instance admin* (see [New Entity Type
+Registration](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/new-entity-type-registration/)).
 
 This information is needed for filling the forms for **Batch
 Upload **or**Batch Update** of *Objects* via TSV file. If an *Object*
@@ -440,58 +331,45 @@ case for XLS Batch registration or update, where labels can be used.
 
  
 
-![image info]()
-![image info](img/vocabulary-browser-1024x483.png")
-class="alignnone size-large wp-image-4030"
 ![image info](img/vocabulary-browser-1024x483.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="483" />
 
 Updated on April 25, 2023
  
 # Freeze Entities
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
-Each level of the openBIS hierarchy
-(Space, Project, Experiment/Collection, Object, Dataset) can be frozen,
-so it can be no longer edited and/or deleted.
+Each level of the openBIS hierarchy (Space, Project,
+Experiment/Collection, Object, Dataset) can be frozen, so it can be no
+longer edited and/or deleted.
 
-At every level, everything contained
-underneath is selected by default to be frozen. E.g. if I choose to
-freeze a Space, everything contained in the Space is automatically
-selected to be frozen. Single entities can be manually
-unselected.
+At every level, everything contained underneath is selected by default
+to be frozen. E.g. if I choose to freeze a Space, everything contained
+in the Space is automatically selected to be frozen. Single entities can
+be manually unselected.
 
-A Space admin role is necessary to freeze
-entities in a given Space.  
+A Space admin role is necessary to freeze entities in a given Space.  
   
 
-**IMPORTANT: the freezing is
-IRREVERSIBLE!**  
+**IMPORTANT: the freezing is IRREVERSIBLE!**  
   
 
-This operation cannot be undone from any
-UI, not even by an *Instance admin.* Please freeze entities only when
-you are absolutely sure that they should not be further modified!
+This operation cannot be undone from any UI, not even by an *Instance
+admin.* Please freeze entities only when you are absolutely sure that
+they should not be further modified!
 
 ##  **How to freeze an entity**
 
   
-At each level of the openBIS hierarchy
-(*Space, Project, Experiment/Collection, Object, Dataset*) the **Freeze
-Entity** option is available under the **More..** dropdown menu. See the
-example for a *Space* below.
+At each level of the openBIS hierarchy (*Space, Project,
+Experiment/Collection, Object, Dataset*) the **Freeze Entity** option is
+available under the **More..** dropdown menu. See the example for a
+*Space* below.
 
  
 
-![image info]()
-![image info](img/freeze-space.png")
-class="alignnone size-full wp-image-4032"
 ![image info](img/freeze-space.png)
-sizes="(max-width: 995px) 100vw, 995px" width="995" height="330" />
 
  
 
@@ -499,26 +377,21 @@ sizes="(max-width: 995px) 100vw, 995px" width="995" height="330" />
 
  
 
-If you select this, a list of entities
-contained or connected to the one selected will be presented to you, as
-shown below. By default everything is selected, so you need to unselect
-entries that you do not want to freeze.
+If you select this, a list of entities contained or connected to the one
+selected will be presented to you, as shown below. By default everything
+is selected, so you need to unselect entries that you do not want to
+freeze.
 
  
 
  
 
-
-![image info]()
-![image info](img/freze-selection-1024x469.png")
-class="alignnone wp-image-651 size-large"
 ![image info](img/freze-selection-1024x469.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="469" />
 
  
 
-To freeze one or several entities, you
-need to provide your login password and save.
+To freeze one or several entities, you need to provide your login
+password and save.
 
 ##  
 
@@ -528,106 +401,7 @@ need to provide your login password and save.
 
 1.  **Freeze Space only**
 
-
-
-
- 
-Allowed
-Not allowed
-
-
-Create new Project
- 
-x
-
-
-Create new Experiment/Collection
-x
- 
-
-
-Create new Object
- 
-x
-
-
-Create new Dataset in existing
-Experiment/Collection
-x
- 
-
-
-Create new Dataset in existing Object
-x
- 
-
-
-Edit existing Project
-x
- 
-
-
-Edit existing Experiment/Collection
-x
- 
-
-
-Edit existing Object
-x
- 
-
-
-Edit existing Dataset
-x
- 
-
-
-Delete Space
- 
-x
-
-
-Delete Project
- 
-x
-
-
-Delete Experiment/Collection
-x
- 
-
-
-Delete Object
-x
- 
-
-
-Delete Dataset
-x
- 
-
-
-Move Experiment/Collection
-x
- 
-
-
-Move Object
-x
- 
-
-
-Copy Object
- 
-x
-
-
-Export
-x
- 
-
-
-
+[TABLE]
 
  
 
@@ -639,95 +413,7 @@ x
 
  
 
-
-
-
- 
-Allowed
-Not allowed
-
-
-Create new Experiment/Collection
- 
-x
-
-
-Create new Object
- 
-x
-
-
-Create new Dataset in existing Experiment/Collection
-x
- 
-
-
-Create new Dataset in existing Object
-x
- 
-
-
-Edit Project
- 
-x
-
-
-Edit existing Experiment/Collection
-x
- 
-
-
-Edit existing Object
-x
- 
-
-
-Edit existing Dataset
-x
- 
-
-
-Delete Project
- 
-x
-
-
-Delete Experiment/Collection
- 
-x
-
-
-Delete Object
- 
-x
-
-
-Delete Dataset
- 
-x
-
-
-Move Experiment/Collection
- 
-x
-
-
-Move Object
- 
-x
-
-
-Copy Object
- 
-x
-
-
-Export
-x
- 
-
-
-
+[TABLE]
 
  
 
@@ -739,80 +425,7 @@ x
 
  
 
-
-
-
- 
-Allowed
-Not allowed
-
-
-Create new Object
- 
-x
-
-
-Create new Dataset in existing Experiment/Collection
- 
-x
-
-
-Create new Dataset in existing Object
- 
-x
-
-
-Edit existing Experiment/Collection
- 
-x
-
-
-Edit existing Object
-x
- 
-
-
-Edit existing Dataset
-x
- 
-
-
-Delete Experiment/Collection
- 
-x
-
-
-Delete Object
- 
-x
-
-
-Delete Dataset
- 
-x
-
-
-Move Experiment/Collection
- 
-x
-
-
-Move Object
- 
-x
-
-
-Copy Object
- 
-x
-
-
-Export
-x
- 
-
-
-
+[TABLE]
 
  
 
@@ -824,55 +437,7 @@ x
 
  
 
-
-
-
- 
-Allowed
-Not allowed
-
-
-Create new Dataset in existing Object
- 
-x
-
-
-Edit existing Object
- 
-x
-
-
-Edit existing Dataset in Object
-x
- 
-
-
-Delete Object
- 
-x
-
-
-Delete Dataset
- 
-x
-
-
-Move Object
- 
-x
-
-
-Copy Object
-x (only if the Experiment is not frozen)
- 
-
-
-Export
-x
- 
-
-
-
+[TABLE]
 
  
 
@@ -885,35 +450,7 @@ x
 
  
 
-
-
-
- 
-Allowed
-Not allowed
-
-
-Edit existing Dataset
- 
-x
-
-
-Delete Dataset
- 
-x
-
-
-Move Dataset
- 
-x
-
-
-Export
-x
- 
-
-
-
+[TABLE]
 
 ##   
 
@@ -921,9 +458,7 @@ Updated on April 25, 2023
  
 # Navigation menu
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -931,11 +466,7 @@ openBIS 20.10.6 features a new navigation menu.
 
  
 
-![image info]()
-![image info](img/navigation-menu.png")
-class="alignnone size-full wp-image-4042"
 ![image info](img/navigation-menu.png)
-sizes="(max-width: 317px) 100vw, 317px" width="317" height="913" />
 
  
 
@@ -948,9 +479,6 @@ This has the following functionalities:
  
 
 ![image info](img/menu-filter.png)
-class="alignnone size-full wp-image-4048"
-![image info](img/menu-filter.png)
-sizes="(max-width: 315px) 100vw, 315px" width="315" height="177" />
 
  
 
@@ -962,11 +490,7 @@ root node, by clicking the icon shown in the picture below.
 
  
 
-![image info]()
-![image info](img/menu-select-root-node.png")
-class="alignnone size-full wp-image-4045"
 ![image info](img/menu-select-root-node.png)
-sizes="(max-width: 556px) 100vw, 556px" width="556" height="798" />
 
  
 
@@ -975,11 +499,7 @@ view, you can click on the root node icon shown below.
 
  
 
-![image info]()
-![image info](img/menu-selected-root-node.png")
-class="alignnone size-full wp-image-4046"
 ![image info](img/menu-selected-root-node.png)
-sizes="(max-width: 557px) 100vw, 557px" width="557" height="393" />
 
 **3. Sorting**. The default sorting of the menu is in alphabetical. It
 is now possible to sort separately individual sections of the menu
@@ -997,21 +517,13 @@ forms.
 
  
 
-![image info]()
-![image info](img/menu-change-sorting.png")
-class="alignnone size-full wp-image-4049"
 ![image info](img/menu-change-sorting.png)
-sizes="(max-width: 558px) 100vw, 558px" width="558" height="420" />
 
  
 
  
 
-![image info]()
-![image info](img/menu-sorting-options.png")
-class="alignnone size-full wp-image-4044"
 ![image info](img/menu-sorting-options.png)
-sizes="(max-width: 759px) 100vw, 759px" width="759" height="401" />
 
  
 
@@ -1024,11 +536,7 @@ expanded or collapsed, with the button shown below.
 
  
 
-![image info]()
-![image info](img/menu-collapse.png")
-class="alignnone size-full wp-image-4047"
 ![image info](img/menu-collapse.png)
-sizes="(max-width: 556px) 100vw, 556px" width="556" height="412" />
 
  
 
@@ -1040,11 +548,7 @@ scroll to the selected node in the menu, using the button shown below.
 
  
 
-![image info]()
-![image info](img/menu-scroll-to-selected-node-1.png")
-class="alignnone size-full wp-image-4051"
 ![image info](img/menu-scroll-to-selected-node-1.png)
-sizes="(max-width: 568px) 100vw, 568px" width="568" height="455" />
 
  
 
@@ -1056,9 +560,7 @@ Updated on April 26, 2023
  
 # Custom Imports
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -1076,9 +578,8 @@ as metadata in openBIS.
 
 Custom imports are not available by default, but need to be enabled on
 the server side by a *system admin*, and a dropbox script needs to be
-associated with an import (see
-<a href="https://unlimited.ethz.ch/display/openBISDoc2010/Custom+Import"
-target="_blank" rel="noopener noreferrer">Custom Imports).
+associated with an import (see [Custom
+Imports](https://unlimited.ethz.ch/display/openBISDoc2010/Custom+Import)).
 
  
 
@@ -1089,11 +590,7 @@ menu**.
 The available custom imports can be selected from the **Custom Import
 Service** drop down menu in the Custom Import page (see below)
 
-![image info]()
-![image info](img/custom-imports-1024x459.png")
-class="alignnone size-large wp-image-4139"
 ![image info](img/custom-imports-1024x459.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="459" />
 
  
 
@@ -1105,11 +602,7 @@ the Custom Import page.
 
  
 
-![image info]()
-![image info](img/custom-import-template.png")
-class="alignnone wp-image-3541 size-full"
 ![image info](img/custom-import-template.png)
-sizes="(max-width: 876px) 100vw, 876px" width="876" height="714" />
 
  
 
@@ -1118,11 +611,7 @@ download link is shown in the Custom Import page.
 
  
 
-![image info]()
-![image info](img/custom-import-no-template.png")
-class="alignleft wp-image-3540 size-full"
 ![image info](img/custom-import-no-template.png)
-sizes="(max-width: 888px) 100vw, 888px" width="888" height="664" />
 
  
 
@@ -1130,9 +619,7 @@ Updated on April 26, 2023
  
 # Entity history
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -1160,11 +647,7 @@ In a *Collection* page, the **History** can be accessed from the
 
  
 
-![image info]()
-![image info](img/history-collection-dropdown.png")
-class="alignnone size-full wp-image-3254"
 ![image info](img/history-collection-dropdown.png)
-sizes="(max-width: 766px) 100vw, 766px" width="766" height="393" />
 
  
 
@@ -1184,11 +667,7 @@ in the history table.
 
  
 
-![image info]()
-![image info](img/Screenshot-2022-02-28-at-22.57.24-1024x535.png")
-class="alignnone wp-image-3050"
 ![image info](img/Screenshot-2022-02-28-at-22.57.24-1024x535.png)
-sizes="(max-width: 600px) 100vw, 600px" width="600" height="313" />
 
  
 
@@ -1198,11 +677,7 @@ displayed in JSON format.
 
  
 
-![image info]()
-![image info](img/Screenshot-2022-03-04-at-12.47.18-1024x506.png")
-class="alignnone wp-image-3251"
 ![image info](img/Screenshot-2022-03-04-at-12.47.18-1024x506.png)
-sizes="(max-width: 600px) 100vw, 600px" width="600" height="297" />
 
  
 
@@ -1217,11 +692,7 @@ For every *Object*, the history of changes can be accessed from the
 
  
 
-![image info]()
-![image info](img/object-history-dropdown.png")
-class="alignnone size-full wp-image-3255"
 ![image info](img/object-history-dropdown.png)
-sizes="(max-width: 679px) 100vw, 679px" width="679" height="508" />
 
  
 
@@ -1243,11 +714,7 @@ For every dataset, the history of changes can be accessed from the
 
  
 
-![image info]()
-![image info](img/dataset-history-dropdown.png")
-class="alignnone size-full wp-image-3256"
 ![image info](img/dataset-history-dropdown.png)
-sizes="(max-width: 688px) 100vw, 688px" width="688" height="360" />
 
  
 

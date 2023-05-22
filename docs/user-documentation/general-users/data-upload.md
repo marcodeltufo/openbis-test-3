@@ -3,9 +3,7 @@ Data Upload
  
 # Data upload via web UI
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -15,12 +13,7 @@ title="Print this article">
 
 1.Click the **Upload** button in the form, as shown below.
 
-
-![image info]()
-![image info](img/Screenshot-2022-02-25-at-16.32.27-1024x359.png")
-class="alignnone wp-image-2993 size-large"
 ![image info](img/Screenshot-2022-02-25-at-16.32.27-1024x359.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="359" />
 
 2\. Select the dataset type (e.g. Attachment).
 
@@ -38,17 +31,13 @@ import** will be presented in the form.
 
  
 
-![image info]()
-![image info](img/dataset-upload-UI-1024x951.png")
-class="size-large wp-image-3326 aligncenter"
 ![image info](img/dataset-upload-UI-1024x951.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="951" />
 
  
 
-**Note for MacOS users: **the default
-MacOS archiver generates hidden folders that become visible in openBIS
-upon unarchive. To avoid this there are two options:
+**Note for MacOS users: **the default MacOS archiver generates hidden
+folders that become visible in openBIS upon unarchive. To avoid this
+there are two options:
 
 1.  Zip using  the following command on the command-line: *zip -r
      folder-name.zip folder-name/\*  -x “\*.DS\_Store”*
@@ -58,22 +47,19 @@ Updated on March 23, 2023
  
 # Data upload via dropbox
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
-Web upload of data files is only suitable
-for files of limited size (few GB). To upload larger data, openBIS uses
-dropbox scripts that run in the background (see
-<a href="https://unlimited.ethz.ch/display/openBISDoc2010/Dropboxes"
-target="_blank" rel="noopener noreferrer">Dropboxes). A default
-dropbox script is provided with the openBIS ELN-LIMS plugin, and the
-dropbox folder needs to be set up by a *system admin*. 
+Web upload of data files is only suitable for files of limited size (few
+GB). To upload larger data, openBIS uses dropbox scripts that run in the
+background (see
+[Dropboxes](https://unlimited.ethz.ch/display/openBISDoc2010/Dropboxes)).
+A default dropbox script is provided with the openBIS ELN-LIMS plugin,
+and the dropbox folder needs to be set up by a *system admin*.
 
-If this is available, users need to
-organise their data in a specific way:
+If this is available, users need to organise their data in a specific
+way:
 
  
 
@@ -90,18 +76,13 @@ The name of **Folder 1** can be generated from the ELN interface:
 
  
 
-1.  From the page where you want to upload data, select
-    **Dataset upload helper tool for
-    eln-lims dropbox** from the **More…** dropdown and follow the
-    instructions on screen.
+1.  From the page where you want to upload data, select **Dataset upload
+    helper tool for eln-lims dropbox** from the **More…** dropdown and
+    follow the instructions on screen.
 
  
 
-![image info]()
-![image info](img/dataset-uploader-helper-tool-more-dropdown.png")
-class="alignnone size-full wp-image-3972"
 ![image info](img/dataset-uploader-helper-tool-more-dropdown.png)
-sizes="(max-width: 621px) 100vw, 621px" width="621" height="500" />
 
  
 
@@ -114,11 +95,7 @@ sizes="(max-width: 621px) 100vw, 621px" width="621" height="500" />
 
  
 
-![image info]()
-![image info](img/dataset-uploader-helper-tool-1024x436.png")
-class="alignnone size-large wp-image-3973"
 ![image info](img/dataset-uploader-helper-tool-1024x436.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="436" />
 
  
 
@@ -127,11 +104,7 @@ copied from openBIS. Place your data in this folder.
 
  
 
-![image info]()
-![image info](img/data-structure-example-for-dropbox.png")
-class="alignnone size-full wp-image-3974"
 ![image info](img/data-structure-example-for-dropbox.png)
-sizes="(max-width: 653px) 100vw, 653px" width="653" height="148" />
 
  
 
@@ -153,12 +126,10 @@ done by a *system admin*. The process of data preparation is the same as
 described above, however in this case the data move to the openBIS final
 storage only starts when a markerfile is placed in the
 eln-lims-dropbox-marker folder. The marker file is an empty file with
-this name:
- **.MARKER\_is\_finished\_&lt;folder-to-upload-name&gt;.
-**Please note the “.” at the start of the
-name, which indicates that this is a hidden file. This file should also
-not have any extension. For example, if the folder to be uploaded
-has the following name:
+this name:  **.MARKER\_is\_finished\_&lt;folder-to-upload-name&gt;.
+**Please note the “.” at the start of the name, which indicates that
+this is a hidden file. This file should also not have any extension. For
+example, if the folder to be uploaded has the following name:
 
  
 
@@ -241,11 +212,7 @@ data import.
 
  
 
-![image info]()
-![image info](img/dropbox-monitor-menu-1024x491.png")
-class="alignnone size-large wp-image-4036"
 ![image info](img/dropbox-monitor-menu-1024x491.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="491" />
 
  
 
@@ -255,11 +222,7 @@ the log with the error is shown.
 
  
 
-![image info]()
-![image info](img/dropbox-monitor-details-1024x457.png")
-class="alignnone size-large wp-image-4037"
 ![image info](img/dropbox-monitor-details-1024x457.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="457" />
 
  
 
@@ -279,11 +242,7 @@ is the folder with the openBIS-generated name. Inside this folder there
 is the metadata.json file, and the data, which consists of a few files
 and 2 folders.
 
-![image info]()
-![image info](img/dataset-upload-with-metadata-json.png")
-class="alignnone size-full wp-image-3976"
 ![image info](img/dataset-upload-with-metadata-json.png)
-sizes="(max-width: 625px) 100vw, 625px" width="625" height="177" />
 
  
 
@@ -308,19 +267,11 @@ the main menu.
 
  
 
-![image info]()
-![image info](img/download-metadata-template.png")
-class="alignnone size-full wp-image-3975"
 ![image info](img/download-metadata-template.png)
-sizes="(max-width: 989px) 100vw, 989px" width="989" height="771" />
 
  
 
-![image info]()
-![image info](img/Select-dataset.png")
-class="alignnone wp-image-2711 size-full"
 ![image info](img/Select-dataset.png)
-sizes="(max-width: 984px) 100vw, 984px" width="984" height="705" />
 
  
 
@@ -331,10 +282,6 @@ future data upload, especially large data.
 
  
 
-![image info]()
-![image info](img/available-storage-1024x149.png")
-class="alignnone size-large wp-image-3977"
 ![image info](img/available-storage-1024x149.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="149" />
 
 Updated on April 26, 2023

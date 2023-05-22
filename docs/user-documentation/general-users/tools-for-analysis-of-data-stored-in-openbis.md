@@ -3,31 +3,24 @@ Tools For Analysis Of Data Stored In Openbis
  
 # Jupyter Notebooks
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
-Jupyter notebooks are web applications
-that combine text, code and output
-(<a href="https://jupyter.org/" target="_blank"
-rel="noopener noreferrer">https://jupyter.org/). Jupyter supports
+Jupyter notebooks are web applications that combine text, code and
+output ([https://jupyter.org/](https://jupyter.org/)). Jupyter supports
 over 40 programming languages.
 
-Jupyter notebooks can be used to analyze
-data stored in openBIS.  
+Jupyter notebooks can be used to analyze data stored in openBIS.  
   
 
-It is possible to connect to a JupyterHub
-server and launch Jupyter notebooks directly from the openBIS interface.
-This feature is not available by default, but needs to be enabled and
-configured by a *system admin*. JupyterHub docker containers are
-available from our download page:
-<a href="https://wiki-bsse.ethz.ch/display/bis/openBIS+Download+Page"
-target="_blank" rel="noopener noreferrer">openBIS download.
-Further documentation can be found here: <a
-href="https://unlimited.ethz.ch/display/openBISDoc2010/JupyterHub+for+openBIS"
-target="_blank" rel="noopener noreferrer">JupyterHub for openBIS  
+It is possible to connect to a JupyterHub server and launch Jupyter
+notebooks directly from the openBIS interface. This feature is not
+available by default, but needs to be enabled and configured by a
+*system admin*. JupyterHub docker containers are available from our
+download page: [openBIS
+download.](https://wiki-bsse.ethz.ch/display/bis/openBIS+Download+Page)
+Further documentation can be found here: [JupyterHub for
+openBIS](https://unlimited.ethz.ch/display/openBISDoc2010/JupyterHub+for+openBIS)  
   
 
 ##  
@@ -36,18 +29,13 @@ target="_blank" rel="noopener noreferrer">JupyterHub for openBIS
 
  
 
-Jupyter notebooks can be opened at every
-level of the openBIS hierarchy (*Space, Project, Experiment/Collection,
-Object, Dataset*) from the **More…** dropdown menu, as shown
-below.
+Jupyter notebooks can be opened at every level of the openBIS hierarchy
+(*Space, Project, Experiment/Collection, Object, Dataset*) from the
+**More…** dropdown menu, as shown below.
 
  
 
-![image info]()
-![image info](img/Screenshot-2020-05-29-at-09.31.49-300x202.png")
-class="alignnone wp-image-2222 size-medium"
 ![image info](img/Screenshot-2020-05-29-at-09.31.49-300x202.png)
-sizes="(max-width: 300px) 100vw, 300px" width="300" height="202" />
 
  
 
@@ -59,31 +47,19 @@ upgrade), because the user profile needs to be recreated.
 
  
 
-![image info]()
-![image info](img/Screenshot-2022-11-15-at-11.39.05.png")
-class="alignnone size-full wp-image-3707"
 ![image info](img/Screenshot-2022-11-15-at-11.39.05.png)
-sizes="(max-width: 419px) 100vw, 419px" width="419" height="125" />
 
 If you go to the Jupyter workspace, the user profile is re-created on
 the server. After this, you can open a notebook from any entity of the
-openBIS hierarchy as explained above
-(*Space, Project, Experiment/Collection,
-Object, Dataset*).
+openBIS hierarchy as explained above (*Space, Project,
+Experiment/Collection, Object, Dataset*).
 
  
 
- Jupyter notebooks can also be launched
-from the main menu, under **Utilities**, as shown below.
+ Jupyter notebooks can also be launched from the main menu, under
+**Utilities**, as shown below.
 
-
-
-
-![image info]()
-![image info](img/jupyter-navigation-menu.png")
-class="alignnone size-full wp-image-4026"
 ![image info](img/jupyter-navigation-menu.png)
-sizes="(max-width: 501px) 100vw, 501px" width="501" height="854" />
 
  
 
@@ -94,30 +70,21 @@ want to open it.
 
  
 
-When you launch a notebook from the **New
-Jupyter Notebook** in the main menu under **Utilities**, it is necessary
-to enter:  
+When you launch a notebook from the **New Jupyter Notebook** in the main
+menu under **Utilities**, it is necessary to enter:  
   
 
-1.  The **dataset(s)** needed for the
-    analysis. 
-2.  The **owner** of the Jupyter notebook.
-    Jupyter notebooks are saved back to openBIS as datasets, and these
-    belong either to an *Experiment/Collection* or to an *Object*. The
-    owner is the *Experiment/Collection* or *Object* where the notebook
-    should be stored.
-3.  The **directory name**. This is the
-    name of the folder that will be created on the JupyterHub
-    server.
-4.  **Notebook name**. This is the name of
-    the Jupyter notebook.
+1.  The **dataset(s)** needed for the analysis. 
+2.  The **owner** of the Jupyter notebook. Jupyter notebooks are saved
+    back to openBIS as datasets, and these belong either to an
+    *Experiment/Collection* or to an *Object*. The owner is the
+    *Experiment/Collection* or *Object* where the notebook should be
+    stored.
+3.  The **directory name**. This is the name of the folder that will be
+    created on the JupyterHub server.
+4.  **Notebook name**. This is the name of the Jupyter notebook.
 
-
-![image info]()
-![image info](img/jupyter-1024x316.png")
-class="wp-image-660"
 ![image info](img/jupyter-1024x316.png)
-sizes="(max-width: 1024px) 100vw, 1024px" />
 
 Jupyter notebooks can also be opened from a *Project*, *Experiment*,
 *Experimental Step* choosing the corresponding option in the **More**
@@ -131,42 +98,32 @@ If some are not needed, they can be deselected. 
 
 The Jupyter notebooks running on the JupyterHub server for openBIS
 support the following kernels: *Bash, Octave, Python 2, Python 3, R,
-SoS* (<a href="https://vatlab.github.io/sos-docs/" target="_blank"
-rel="noopener noreferrer">Script of Scripts).
+SoS* ([Script of Scripts).](https://vatlab.github.io/sos-docs/)
 
 When you open a Jupyter notebook from openBIS, the default kernel used
 is Python 3, but you can change to another language as shown below.
 
  
 
-![image info]()
-![image info](img/jupyter-kernels.png")
-class="alignnone size-full wp-image-3717"
 ![image info](img/jupyter-kernels.png)
-sizes="(max-width: 749px) 100vw, 749px" width="749" height="458" />
 
  
 
   
-The Jupyter notebook opened from the
-openBIS interface contains some pre-filled cells. All cells need to be
-run. The information of two cells should be modified: **Name of the
-dataset** where the notebook will be stored and **Notes** (in red
-below).
-
+The Jupyter notebook opened from the openBIS interface contains some
+pre-filled cells. All cells need to be run. The information of two cells
+should be modified: **Name of the dataset** where the notebook will be
+stored and **Notes** (in red below).
 
 ![image info](img/jupyter-1.png)
-class="wp-image-663 size-full alignnone"
-![image info](img/jupyter-1.png)
-sizes="(max-width: 1029px) 100vw, 1029px" width="1029" height="615" />
 
  
 
 If you are running a JupyterHub version released after July 2021
-(available at <a href="https://hub.docker.com/u/openbis" target="_blank"
-rel="noopener noreferrer">https://hub.docker.com/u/openbis) you do
-not need to enter username and password, as authentication uses the
-openBIS session token.
+(available at
+[https://hub.docker.com/u/openbis](https://hub.docker.com/u/openbis))
+you do not need to enter username and password, as authentication uses
+the openBIS session token.
 
  
 
@@ -180,11 +137,7 @@ bottom of the  error message you can see:
 
  
 
-![image info]()
-src="https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1024x58.jpg"
-class="alignnone size-large wp-image-3699"
-srcset="https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1024x58.jpg 1024w, https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-300x17.jpg 300w, https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-768x43.jpg 768w, https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1000x58.jpg 1000w, https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-700x39.jpg 700w, https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error.jpg 1029w"
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="58" />
+![](https://openbis.ch/wp-content/uploads/2022/03/invalid-session-token-error-1024x58.jpg)
 
  
 
@@ -193,11 +146,8 @@ shown below:
 
  
 
-![image info]()
-![image info](img/manual-session-token-1024x135.png")
-class="alignnone size-large wp-image-3700"
+           
 ![image info](img/manual-session-token-1024x135.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="135" />
 
  
 
@@ -214,31 +164,21 @@ and restart the server.
 
  
 
-Your script should be written in the
-section named *Process your data here*, that contains one empty cell
-(see below). You can, of course, add additional cells.
+Your script should be written in the section named *Process your data
+here*, that contains one empty cell (see below). You can, of course, add
+additional cells.
 
  
 
-![image info]()
-![image info](img/jupyter-2-1024x470.png")
-class="alignnone wp-image-662 size-large"
 ![image info](img/jupyter-2-1024x470.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="470" />
 
-After the analysis is done, the notebook
-can be saved back to openBIS, by running the last few cells which
-contain the information about where the notebook will be stored (as
-shown below).
+After the analysis is done, the notebook can be saved back to openBIS,
+by running the last few cells which contain the information about where
+the notebook will be stored (as shown below).
 
  
 
-
-![image info]()
-![image info](img/jupyter_notebook_save_dataset-1024x553.png")
-class="alignnone size-large wp-image-3719"
 ![image info](img/jupyter_notebook_save_dataset-1024x553.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="553" />
 
  
 
@@ -264,35 +204,22 @@ adds 3 buttons to a default notebook: 
 
  
 
-![image info]()
-![image info](img/jupyter-notebook-buttons.png")
-class="alignnone size-full wp-image-3720"
 ![image info](img/jupyter-notebook-buttons.png)
-sizes="(max-width: 763px) 100vw, 763px" width="763" height="136" />
 
-The JupyterLab openBIS extension is
-available from:
-<a href="https://www.npmjs.com/package/jupyterlab-openbis"
-target="_blank" rel="noopener noreferrer">JupyterLab openBIS
-extension
+The JupyterLab openBIS extension is available from: [JupyterLab openBIS
+extension](https://www.npmjs.com/package/jupyterlab-openbis)
 
  
-
-<span id="admin"
-style="color: #000000;">
 
 Updated on April 25, 2023
  
 # MATLAB toolbox
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
   
 The MATLAB toolbox for openBIS allows to access data stored in openBIS
-directly from MATALB. Full documentation can be found here: <a
-href="https://sissource.ethz.ch/sispub/openbis/-/tree/master/api-openbis-matlab"
-target="_blank" rel="noopener noreferrer">MATLAB API
+directly from MATALB. Full documentation can be found here: [MATLAB
+API](https://sissource.ethz.ch/sispub/openbis/-/tree/master/api-openbis-matlab)
 
 Updated on April 17, 2023

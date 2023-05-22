@@ -3,9 +3,7 @@ Inventory Of Materials And Methods
  
 # Customise Collection View
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -16,11 +14,7 @@ Depending on this selection, the collection view will be different.
 
  
 
-![image info]()
-![image info](img/customize-collection-view.png")
-class="alignnone size-full wp-image-3870"
 ![image info](img/customize-collection-view.png)
-sizes="(max-width: 830px) 100vw, 830px" width="830" height="507" />
 
  
 
@@ -30,11 +24,7 @@ sizes="(max-width: 830px) 100vw, 830px" width="830" height="507" />
 the table of objects. This view is useful when a user wants to see
 specific metadata for a *Collection*.
 
-![image info]()
-![image info](img/collections-form-view-1024x575.png")
-class="alignnone size-large wp-image-3876"
 ![image info](img/collections-form-view-1024x575.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="575" />
 
  
 
@@ -43,11 +33,7 @@ enable this by selecting **Show Objects** from the **More..** dropdown
 
  
 
-![image info]()
-![image info](img/collection-form-view-show-objects.png")
-class="alignnone size-full wp-image-3877"
 ![image info](img/collection-form-view-show-objects.png)
-sizes="(max-width: 684px) 100vw, 684px" width="684" height="404" />
 
  
 
@@ -56,11 +42,7 @@ view, but only the table of objects is shown.
 
  
 
-![image info]()
-![image info](img/collection-list-view-1024x408.png")
-class="alignnone size-large wp-image-3878"
 ![image info](img/collection-list-view-1024x408.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="408" />
 
  
 
@@ -70,28 +52,22 @@ In this case a user would need to click on **More..**, and **Edit**
 
  
 
-![image info]()
-![image info](img/collection-list-view-edit-collection.png")
-class="alignnone size-full wp-image-3879"
 ![image info](img/collection-list-view-edit-collection.png)
-sizes="(max-width: 437px) 100vw, 437px" width="437" height="278" />
 
 Updated on April 25, 2023
  
 # Register single entries in a Collection
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
  
 
-In this example, we will see how to
-register one *Object* of type **Sample** in the **Raw Samples**
-*Collection.* The same procedure should be followed to register any
-other *Object* in other *Collections*.
+In this example, we will see how to register one *Object* of type
+**Sample** in the **Raw Samples** *Collection.* The same procedure
+should be followed to register any other *Object* in other
+*Collections*.
 
  
 
@@ -109,16 +85,11 @@ not be present.
 
  
 
-![image info]()
-![image info](img/register-single-entry-collection-button-1024x299.png")
-class="alignnone size-large wp-image-3881"
 ![image info](img/register-single-entry-collection-button-1024x299.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="299" />
 
  
 
-To register a different object type in the
-Collection:
+To register a different object type in the Collection:
 
  
 
@@ -131,22 +102,13 @@ Collection:
 
  
 
-![image info]()
-![image info](img/register-single-entry-collection-more-1024x300.png")
-class="alignnone size-large wp-image-3882"
-![image info](img/register-single-entry-collection-more-1024x300.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="300" />  
-
-
-
+![image info](img/register-single-entry-collection-more-1024x300.png  )
 
 Updated on April 25, 2023
  
 # Batch register entries in a Collection
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -160,20 +122,12 @@ methods are currently available:
 
  
 
-![image info]()
-![image info](img/batch-register-entries-one-collection-1024x300.png")
-class="alignnone size-large wp-image-3886"
 ![image info](img/batch-register-entries-one-collection-1024x300.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="300" />
 
 #  
 
-![image info]()
-![image info](img/warning-sign-1024x904.png")
-class="wp-image-3740 alignnone"
 ![image info](img/warning-sign-1024x904.png)
-sizes="(max-width: 37px) 100vw, 37px" width="37" height="33" /> In
-openBIS versions prior to 20.10.6, the XLS batch registration is not
+In openBIS versions prior to 20.10.6, the XLS batch registration is not
 recommended to register several hundreds of entries. The use of the TSV
 batch upload to register several hundreds of entries is recommended in
 those cases.
@@ -184,8 +138,7 @@ those cases.
 
  
 
-To register several entries of the same
-type with an Excel file:
+To register several entries of the same type with an Excel file:
 
 1.  Navigate to the relevant collection (e.g.** Samples**).
 2.  Select **XLS Batch Register Object*****s*** from the
@@ -248,13 +201,10 @@ the keyboard shortcuts **Alt** + **Enter.**
 Example file:
 [SAMPLE-COLLECTION-REGISTRATION-ANTIBODY-STORAGE\_POSITION-template](https://openbis.ch/wp-content/uploads/2022/02/SAMPLE-COLLECTION-REGISTRATION-ANTIBODY-STORAGE_POSITION-template-1.xlsx)
 
-
-
-
  
 
-** Note:** no other separators (e.g “,”
-or  “;”) should be used, otherwise an error will be thrown.
+** Note:** no other separators (e.g “,” or  “;”) should be used,
+otherwise an error will be thrown.
 
  
 
@@ -274,11 +224,7 @@ to use the same value used in the **$ column** for antibody 1.
 
  
 
-![image info]()
-![image info](img/register-objects-assign-parents-in-same-transaction.png")
-class="alignnone size-full wp-image-3557"
-![image info](img/register-objects-assign-parents-in-same-transaction.png)
-sizes="(max-width: 701px) 100vw, 701px" width="701" height="163" /> 
+![image info](img/register-objects-assign-parents-in-same-transaction.png )
 
  
 
@@ -313,9 +259,6 @@ together, as shown in the template provided above:
 2.  Select the *Object* type (E.g. Sample or Storage)
 3.  Download the **template** file and fill in the relevant information
 4.  Upload the file
-
-
-
 
 ** **
 
@@ -372,9 +315,7 @@ Updated on April 25, 2023
  
 # Batch register entries in several Collections
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -393,11 +334,7 @@ Two options are available:
 
  
 
-![image info]()
-![image info](img/batch-register-entries-object-browser.png")
-class="alignnone size-full wp-image-3889"
 ![image info](img/batch-register-entries-object-browser.png)
-sizes="(max-width: 810px) 100vw, 810px" width="810" height="374" />
 
  
 
@@ -412,11 +349,7 @@ This option for batch registration is available since openBIS version
 You can select which types you want to register from the list of
 available types.
 
-![image info]()
-![image info](img/object-broswer-types-selection.png")
-class="alignnone size-full wp-image-3262"
 ![image info](img/object-broswer-types-selection.png)
-sizes="(max-width: 608px) 100vw, 608px" width="608" height="230" />
 
  
 
@@ -442,11 +375,7 @@ be phased out.
 
  
 
-![image info]()
-![image info](img/object-browse-batch-reister.png")
-class="alignnone size-full wp-image-3264"
 ![image info](img/object-browse-batch-reister.png)
-sizes="(max-width: 556px) 100vw, 556px" width="556" height="309" />
 
  
 
@@ -457,11 +386,7 @@ where identifiers can be automatically generated by openBIS.
 
  
 
-![image info]()
-![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png")
-class="alignnone size-large wp-image-3265"
 ![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="221" />
 
  
 
@@ -469,15 +394,12 @@ Updated on April 25, 2023
  
 # Batch update entries in a Collection
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
-It is possible to modify the values of one
-or more fields in several objects simultaneously via batch update. This
-can be done in two ways:
+It is possible to modify the values of one or more fields in several
+objects simultaneously via batch update. This can be done in two ways:
 
  
 
@@ -499,15 +421,10 @@ can be done in two ways:
 
  
 
-![image info]()
-![image info](img/Batch-update-entries-one-collection-column-selection-1024x584.png")
-class="alignnone size-large wp-image-3893"
 ![image info](img/Batch-update-entries-one-collection-column-selection-1024x584.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="584" />
 
-3\. If you have several entries you can filter the table (see <a
-href="https://openbis.ch/index.php/docs/user-documentation-20-10-3/additional-functionalities/tables/"
-target="_blank" rel="noopener noreferrer">Tables)
+3\. If you have several entries you can filter the table
+(see [Tables](https://openbis.ch/index.php/docs/user-documentation-20-10-3/additional-functionalities/tables/))
 
 4\. **Export** the table choosing the options **Import Compatible= YES;
 Selected Columns; All pages/Current page/Selected rows** (depending on
@@ -515,11 +432,7 @@ what you want to export)**.**
 
  
 
-![image info]()
-![image info](img/export-tables-1024x419.png")
-class="alignnone size-large wp-image-3894"
 ![image info](img/export-tables-1024x419.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 
 5\. Modify the file you just exported and save it.
 
@@ -527,11 +440,7 @@ sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="419" />
 
  
 
-![image info]()
-![image info](img/collection-XLS-batch-update-menu.png")
-class="alignnone size-full wp-image-3895"
 ![image info](img/collection-XLS-batch-update-menu.png)
-sizes="(max-width: 672px) 100vw, 672px" width="672" height="283" />
 
 6\. Upload the file you saved before and click **Accept**. Your entries
 will be updated.
@@ -544,9 +453,8 @@ If a column is removed from the file or a cell in a column is left empty
 the corresponding values of updated samples will be preserved.
 
 To delete a value or a parent/child connection from openBIS one needs to
-![image info](color: #ff0000;)
-![image info](img/Screenshot-2022-10-13-at-15.59.01.png")
-class="alignnone size-full wp-image-3634" width="95" height="33" />
+enter   
+![image info](img/Screenshot-2022-10-13-at-15.59.01.png)
   into the corresponding cell in the XLS file.
 
 ##  
@@ -561,11 +469,7 @@ class="alignnone size-full wp-image-3634" width="95" height="33" />
 
  
 
-![image info]()
-![image info](img/collection-TSV-batch-update-menu.png")
-class="alignnone size-full wp-image-3896"
 ![image info](img/collection-TSV-batch-update-menu.png)
-sizes="(max-width: 672px) 100vw, 672px" width="672" height="283" />
 
  
 
@@ -573,11 +477,7 @@ sizes="(max-width: 672px) 100vw, 672px" width="672" height="283" />
 
  
 
-![image info]()
-![image info](img/old-batch-update.png")
-class="alignnone size-full wp-image-3165"
 ![image info](img/old-batch-update.png)
-sizes="(max-width: 463px) 100vw, 463px" width="463" height="251" />
 
 4\. Download the available **template**
 
@@ -599,24 +499,15 @@ Objects** from the **More..** dropdown
 If a column is removed from the file or a cell in a column is left empty
 the corresponding values of updated samples will be preserved.
 
-![image info]()
-![image info](img/Screenshot-2022-10-13-at-15.59.01-1.png")
-class="alignnone size-full wp-image-3637" width="95" height="33" /> or
+To delete a value/connection from openBIS one needs to enter
+![image info](img/Screenshot-2022-10-13-at-15.59.01-1.png or)
 **\_ \_DELETE\_ \_** into the corresponding cell in the file.
-
-
-
-
-
-
 
 Updated on April 25, 2023
  
 # Batch update entries in several Collections
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -633,11 +524,7 @@ Two options are available:
 
  
 
-![image info]()
-![image info](img/batch-register-entries-object-browser-1.png")
-class="alignnone size-full wp-image-3898"
 ![image info](img/batch-register-entries-object-browser-1.png)
-sizes="(max-width: 810px) 100vw, 810px" width="810" height="374" />
 
 ## 
 
@@ -652,11 +539,7 @@ different *Collections*.
 You can select which types you want to update from the list of available
 types.
 
-![image info]()
-![image info](img/object-browser-xls-batch-update.png")
-class="alignnone size-full wp-image-3269"
 ![image info](img/object-browser-xls-batch-update.png)
-sizes="(max-width: 587px) 100vw, 587px" width="587" height="222" />
 
  
 
@@ -686,11 +569,7 @@ be phased out.
 
  
 
-![image info]()
-![image info](img/object-browser-batch-update.png")
-class="alignnone size-full wp-image-3271"
 ![image info](img/object-browser-batch-update.png)
-sizes="(max-width: 531px) 100vw, 531px" width="531" height="324" />
 
  
 
@@ -702,11 +581,7 @@ are unique in openBIS, by providing them openBIS will know which
 
  
 
-![image info]()
-![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png")
-class="alignnone size-large wp-image-3265"
 ![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="221" />
 
  
 
@@ -714,47 +589,36 @@ Updated on April 25, 2023
  
 # Copy entries
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
  
 
-To create a copy of an existing entry,
-select **Copy** from the **More..** drop down menu in the *Collection*
-page. 
+To create a copy of an existing entry, select **Copy** from the
+**More..** drop down menu in the *Collection* page.
 
  
 
 ![image info](img/copy-menu.png)
-class="alignnone wp-image-2741 size-full"
-![image info](img/copy-menu.png)
-sizes="(max-width: 553px) 100vw, 553px" width="553" height="472" />
 
  
 
-  When an entry is copied, the user has
-the option to **link parents**, **copy children into the Parents’
-collection** and **copy the comments log**.
+  When an entry is copied, the user has the option to **link parents**,
+**copy children into the Parents’ collection** and **copy the comments
+log**.
 
 All these options are disabled by default.
 
  
 
 ![image info](img/copy-entry.png)
-class="alignnone wp-image-2742 size-full"
-![image info](img/copy-entry.png)
-sizes="(max-width: 438px) 100vw, 438px" width="438" height="292" />
 
 Updated on July 27, 2022
  
 # Move entries to a different Collection
 
-<a href="#"
-class="wedocs-print-article wedocs-hide-print wedocs-hide-mobile"
-title="Print this article">
+[](# "Print this article")
 
  
 
@@ -767,16 +631,12 @@ form or from a *Collection* table.
 
  
 
-To move entries to a different
-*Collection*, select **Move** from the **More…** drop down menu in the
-entry form.
+To move entries to a different *Collection*, select **Move** from the
+**More…** drop down menu in the entry form.
 
  
 
 ![image info](img/move-menu.png)
-class="alignnone wp-image-2746 size-full"
-![image info](img/move-menu.png)
-sizes="(max-width: 553px) 100vw, 553px" width="553" height="472" />
 
  
 
@@ -785,11 +645,7 @@ new *Collection*.
 
  
 
-![image info]()
-![image info](img/move-options.png")
-class="alignnone wp-image-2749 size-full"
 ![image info](img/move-options.png)
-sizes="(max-width: 1347px) 100vw, 1347px" width="1347" height="347" />
 
  
 
@@ -806,11 +662,7 @@ new one.
 
  
 
-![image info]()
-![image info](img/move-from-table-1-1024x412.png")
-class="alignnone size-large wp-image-3172"
 ![image info](img/move-from-table-1-1024x412.png)
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="412" />
 
  
 
