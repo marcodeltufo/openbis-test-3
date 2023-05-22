@@ -1,4 +1,4 @@
-## Managing Lab Stocks and Orders
+# Managing Lab Stocks and Orders
 
 [](## "Print this article")
 
