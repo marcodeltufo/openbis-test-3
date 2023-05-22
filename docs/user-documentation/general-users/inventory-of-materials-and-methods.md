@@ -102,7 +102,7 @@ To register a different object type in the Collection:
 
  
 
-![image info](img/register-single-entry-collection-more-1024x300.png  )
+![image info](img/register-single-entry-collection-more-1024x300.png)
 
 Updated on April 25, 2023
  
@@ -224,7 +224,7 @@ to use the same value used in the **$ column** for antibody 1.
 
  
 
-![image info](img/register-objects-assign-parents-in-same-transaction.png )
+![image info](img/register-objects-assign-parents-in-same-transaction.png)
 
  
 
@@ -500,7 +500,7 @@ If a column is removed from the file or a cell in a column is left empty
 the corresponding values of updated samples will be preserved.
 
 To delete a value/connection from openBIS one needs to enter
-![image info](img/Screenshot-2022-10-13-at-15.59.01-1.png or)
+![image info](img/Screenshot-2022-10-13-at-15.59.01-1.png)
 **\_ \_DELETE\_ \_** into the corresponding cell in the file.
 
 Updated on April 25, 2023

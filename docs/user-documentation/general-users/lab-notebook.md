@@ -178,7 +178,7 @@ type:
 The parent will be added only when you **save** the entity.
 
  
-![image info](img/exp-step-search-parent-1024x201.png )
+![image info](img/exp-step-search-parent-1024x201.png)
 
 ###  
 
@@ -344,7 +344,7 @@ below.
 
  
 
-![image info](img/ELN-new-exp-step-from-experiment.png )
+![image info](img/ELN-new-exp-step-from-experiment.png)
 
 Updated on April 25, 2023
  
@@ -731,7 +731,7 @@ the More.. drop down.
 
  
 
-![image info](img/show-experiments-objects-in-projects.png dropdown)
+![image info](img/show-experiments-objects-in-projects.png)
 menu.
 
  
