@@ -1,6 +1,6 @@
 ## Managing Lab Stocks and Orders
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 It is possible to use openBIS to manage stocks of products and create
@@ -12,7 +12,7 @@ person responsible for purchases in the lab. The orders created with
 openBIS contain the information that can be sent to the suppliers.
 
   
-![image info](img/stock-navigation-menu.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-navigation-menu.png)
 
  
 
@@ -54,7 +54,7 @@ the lab:
 >
 >  
 
-![image info](img/stock-new-supplier.png)
+#### ![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-supplier.png)
 
 To register several suppliers at once, follow the steps described in
 [Batch register entries in a
@@ -71,7 +71,7 @@ To build the catalog of all products purchased in the lab:
 > 2.  Click the **+ New Product** button in the *Collection* page.
 
 
-![image info](img/stock-new-product-1.png)
+### ![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-product-1.png)
 
 >  
 >
@@ -84,7 +84,7 @@ To build the catalog of all products purchased in the lab:
 >  
 
 
-![image info](img/stock-new-product.png)
+### ![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-product.png)
 
  
 
@@ -106,7 +106,7 @@ ordered:
 
  
 
-![image info](img/stock-new-request-1.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-request-1.png)
 
 >        3. When you fill in the form the following information needs to
 > be provided:
@@ -140,7 +140,7 @@ Please note that only 1 product can be added to 1 request.
 
  
 
-![image info](img/stock-new-request.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-request.png)
 
 > 4. Click **Save** on top of the form.
 
@@ -163,7 +163,7 @@ To create orders of products from requests created in the Stock Catalog:
 >     **Stock Orders***-&gt;* **Orders** in the main menu.
 > 2.  Click the **+ New Order** button in the *Collection* page.
 
-![image info](img/stock-new-order-1.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-1.png)
 
 >  
 >
@@ -174,7 +174,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-![image info](img/stock-new-order-identification-info.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-identification-info.png)
 
  
 
@@ -182,7 +182,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-![image info](img/stock-new-order-code.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/stock-new-order-code.png)
 
  
 
@@ -199,7 +199,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-![image info](img/create-new-order.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/create-new-order.png)
 
 > 4\. Enter the **Order Status.** This field is mandatory. Available
 > options are **Delivered**, **Paid**, **Ordered**, **Not yet ordered**.
@@ -214,7 +214,7 @@ To create orders of products from requests created in the Stock Catalog:
 
  
 
-![image info](img/order-form-1-1024x556.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/order-form-1-1024x556.png)
 
 If the price information is available in the products, the total cost of
 the order is calculated by openBIS and displayed in the order form, as

@@ -2,7 +2,7 @@ Search
 ====
  
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -26,13 +26,13 @@ below). To save the search, click the **Save** button and enter:
 
 Searches are stored in *Experiments/Collections*.
 
-![image info](img/advanced-search-create-and-save-query.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/advanced-search-create-and-save-query.png)
  
 
 Saved searches are available from the **load a saved search** drop down
 menu, at the top of the **Advanced Search** page.  
 
-![image info](img/advanced-search-load-saved-query.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/advanced-search-load-saved-query.png)
  
 
 Updated on July 28, 2022

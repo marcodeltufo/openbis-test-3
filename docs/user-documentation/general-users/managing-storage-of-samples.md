@@ -1,9 +1,9 @@
 Managing Storage Of Samples
 ====
  
-# Allocate storage positions to samples
+## Allocate storage positions to samples
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 If we want to track the storage position of samples, openBIS provides a
@@ -21,7 +21,7 @@ This can be done in two ways:
 2.  batch register storage positions for several samples  
       
 
-##  Register storage position for a single sample
+###  Register storage position for a single sample
 
  
 
@@ -29,7 +29,7 @@ This can be done in two ways:
 form. Click the **+ New Storage Positions** above the table, as shown
 below:
 
-![image info](img/add-strorage-position.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/add-strorage-position.png)
 
   
 2. In the widget that opens, select the appropriate **Storage** from the
@@ -37,7 +37,7 @@ dropdown menu. Storage must be configured by a lab manager or group
 admin as explained in [Configure Lab
 Storages](https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/configure-lab-storage/)
 
-![image info](img/storage-selection-1024x202.png)
+![](https://openbis.ch/wp-content/uploads/2018/08/storage-selection-1024x202.png)
 
 3\. Select the **position** in the storage (shelf and rack).
 
@@ -50,10 +50,10 @@ can be configured by an *Instance Admin)*.
 
 7\. Click **Accept.**
 
-![image info](img/storage-assign-positions-1024x355.png)
+![](https://openbis.ch/wp-content/uploads/2018/08/storage-assign-positions-1024x355.png)
 
 
-### Add additional metadata to storage positions
+#### Add additional metadata to storage positions
 
   
 By default, the storage only keeps track of locations. If the **Storage
@@ -64,16 +64,16 @@ after saving the sample.
 
  
 
-![image info](img/storage-position-table-in-sample-1024x248.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/storage-position-table-in-sample-1024x248.png)
 
  
 
 The additional information can be entered in the **Storage Position**
 *Object* form.
 
-##  Batch register storage positions
+###  Batch register storage positions
 
-### XLS Batch Registration
+#### XLS Batch Registration
 
 With the new XLS batch registration, samples and their storage positions
 can be registered in one transaction using the XLS template file, as
@@ -82,7 +82,7 @@ Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-ma
 
  
 
-### Batch Registration with TSV file
+#### Batch Registration with TSV file
 
   
 Storage positions are modelled in openBIS as children of other entries.
@@ -108,9 +108,9 @@ here: [SAMPLE-STORAGE\_POSITION-template.txt](https://wiki-bsse.ethz.ch/downloa
 
 Updated on April 26, 2023
  
-# Batch update storage positions
+## Batch update storage positions
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -122,7 +122,7 @@ from the Object Browser:
 1.  Go to the **Object Browser** under **Utilities** in the main menu
 2.  Select the object type **Storage Position** from the dropdown menu
     (see picture)
-![image info](img/Batch-update-storage-positions.png)
+    ![](https://openbis.ch/wp-content/uploads/2022/07/Batch-update-storage-positions.png)
 3.  Use the table **Filter** to select the storage positions you want to
     update
     (see [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/))
@@ -132,7 +132,7 @@ from the Object Browser:
     box, change the storage, change a box position, change box size etc)
 6.  Select **XLS Batch Update Objects** from the **More..** dropdown.
 
-![image info](img/batch-update-entries-object-browser.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/batch-update-entries-object-browser.png)
 
 7\. Import the file you modified before and update the storage
 positions.
@@ -141,14 +141,14 @@ positions.
 
 Updated on April 25, 2023
  
-# Delete storage positions
+## Delete storage positions
 
-[](# "Print this article")
+[](## "Print this article")
 
 
  
 
-# Delete single storage positions
+## Delete single storage positions
 
  
 
@@ -162,7 +162,7 @@ To delete a single storage position from a sample:
     in the picture
 4.  Save the sample
 
-![image info](img/storage-position-single-delete-1024x634.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/storage-position-single-delete-1024x634.png)
 
  
 
@@ -175,7 +175,7 @@ from the trashcan (see
 
  
 
-# Remove one of multiple positions in the same box
+## Remove one of multiple positions in the same box
 
  
 
@@ -196,11 +196,11 @@ steps:
 
  
 
-![image info](img/delete-storage-positions.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/delete-storage-positions.png)
 
  
 
-# Delete multiple storage positions
+## Delete multiple storage positions
 
  
 
@@ -214,7 +214,7 @@ the **Object Browser**.
 
  
 
-![image info](img/Batch-update-storage-positions.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/Batch-update-storage-positions.png)
 
  
 
@@ -233,7 +233,7 @@ should be removed from there to be permanently deleted (see
 
  
 
-![image info](img/storage-positions-multiple-delete-from-table-1024x582.png)
+![](https://openbis.ch/wp-content/uploads/2022/07/storage-positions-multiple-delete-from-table-1024x582.png)
 
  
 

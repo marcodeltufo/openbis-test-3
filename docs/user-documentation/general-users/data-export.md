@@ -1,12 +1,12 @@
 Data Export
 ====
  
-# Export to File
+## Export to File
 
-[](# "Print this article")
+[](## "Print this article")
 
 
-## Export Lab Notebooks
+### Export Lab Notebooks
 
   
 All levels of the *Lab Notebook* and *Inventory* can be exported, using
@@ -15,7 +15,7 @@ possible to export metadata only, or metadata and data (up to 10 GBs). 
 
  
 
-![image info](img/export-space.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/export-space.png)
 
  
 
@@ -29,7 +29,7 @@ corresponding *Project, Experiment, Object and Datasets* (see below).
 
  
 
-![image info](img/exported-space-1024x302.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/exported-space-1024x302.png)
 
   
 A link to download the zip file is sent via email to the user. Email
@@ -42,7 +42,7 @@ Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Admini
 In a similar way, it is possible to export *Projects*, *Experiments,
 Objects, Dataset*s.
 
-##  Export Builder
+###  Export Builder
 
   
 It is also possible to export the content of openBIS using the
@@ -59,13 +59,13 @@ email, as described above.
 
  
 
-![image info](img/export-to-zip.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/export-to-zip.png)
 
 Updated on April 25, 2023
  
-# Export to Zenodo
+## Export to Zenodo
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Currently openBIS offers an integration with the **Zenodo** data
@@ -81,7 +81,7 @@ If this is configured, a lab manager, who has admin rights for the
 Transfer to Data
 Repositories](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/enable-transfer-to-data-repositories/)**.**
 
-##  Create Zenodo Personal Access Token
+###  Create Zenodo Personal Access Token
 
   
 In order to be able to export data to Zenodo, you need a valid Zenodo
@@ -89,9 +89,9 @@ account. You also need to create a **personal access token.** This can
 be done from the **Applications** under **Settings** in Zenodo, as shown
 below:
 
-![image info](img/generate-zenodo-token-1024x498.png)
+![](https://openbis.ch/wp-content/uploads/2019/09/generate-zenodo-token-1024x498.png)
 
-## Save Zenodo Personal Access Token in openBIS
+### Save Zenodo Personal Access Token in openBIS
 
   
 After creating the personal access token in Zenodo, this needs to be
@@ -104,10 +104,10 @@ stored in openBIS, with the following procedure:
 
  
 
-![image info](img/user-profile-session-token.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/user-profile-session-token.png)
 
 
-## Export data to Zenodo
+### Export data to Zenodo
 
   
 To export data to Zenodo:
@@ -124,7 +124,7 @@ To export data to Zenodo:
 
  
 
-![image info](img/export-to-zenodo-1024x862.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/export-to-zenodo-1024x862.png)
 
  
 
@@ -137,13 +137,13 @@ minutes.
 
  
 
-![image info](img/publications-collection.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/publications-collection.png)
 
 Updated on April 25, 2023
  
-# Export to ETH Research Collection
+## Export to ETH Research Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -160,7 +160,7 @@ ETH Zurich**. This export feature is only available to ETHZ members.
 
 To export data to the ETH Research Collection:
 
-![image info](img/export-to-research-collection-1024x818.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/export-to-research-collection-1024x818.png)
 
 1.  Go to **Utilities** -&gt; **Exports** -&gt; **Export to Research
     Collection**.
@@ -178,7 +178,7 @@ To export data to the ETH Research Collection:
 
  
 
-![image info](img/publications-collection.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/publications-collection.png)
 
  
 

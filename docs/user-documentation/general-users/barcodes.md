@@ -2,13 +2,13 @@ Barcodes
 ====
  
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
 
 
-# Printers
+## Printers
 
 There are several manufacturers of printers and different kinds of
 barcodes and paper to adapt to different use cases. Most manufacturers
@@ -23,7 +23,7 @@ Preview (Mac).
 
  
 
-## Printer Configuration
+### Printer Configuration
 
 There are different types of printer drivers. The two types we can
 define as generic are **PS** (PostScript) (recommended) and **PCL**
@@ -43,7 +43,7 @@ possible to indicate the size of the barcode, so it can fit.
 
  
 
-## Printer testing
+### Printer testing
 
 We provide two example documents that can be used to test the printer.
 
@@ -66,7 +66,7 @@ enough to verify that the printer can print those files.
 
 
 
-## Printer Advice before purchasing
+### Printer Advice before purchasing
 
 Before purchasing a printer, we recommend to check with the manufacturer
 that the barcode printer provides a general driver and that it can print
@@ -74,14 +74,14 @@ one of the documents provided as example above.
 
  
 
-## Tested Printers
+### Tested Printers
 
 -   Zebra ZD420
 
  
 
 
-# Scanners
+## Scanners
 
 There are several manufacturers of barcode scanners. In most cases
 scanners act as a keyboard for the computer, so when the barcode scanner
@@ -89,14 +89,14 @@ scans a barcode it will type whatever has been scanned.
 
  
 
-## Scanner Configuration
+### Scanner Configuration
 
 The scanner keyboard layout should be the same as the computer used. If
 not this could cause problems if there are any special characters.
 
  
 
-## Scanner testing
+### Scanner testing
 
 Open a notepad and scan the barcodes provided in the examples below. The
 scanner should read them and type the correct output.
@@ -119,7 +119,7 @@ scanner should read them and type the correct output.
  
 
 
-## Scanner Advice before purchasing
+### Scanner Advice before purchasing
 
 Before purchasing a scanner, ensure that the barcode scanner provides a
 keyboard driver and ask the manufacturer’s support to scan the examples
@@ -127,7 +127,7 @@ above.
 
  
 
-## Tested Scanners
+### Tested Scanners
 
 -   Honeywell 1902G-BF
 

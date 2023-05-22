@@ -1,9 +1,9 @@
 Inventory Of Materials And Methods
 ====
  
-# Customise Collection View
+## Customise Collection View
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -14,7 +14,7 @@ Depending on this selection, the collection view will be different.
 
  
 
-![image info](img/customize-collection-view.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/customize-collection-view.png)
 
  
 
@@ -24,7 +24,7 @@ Depending on this selection, the collection view will be different.
 the table of objects. This view is useful when a user wants to see
 specific metadata for a *Collection*.
 
-![image info](img/collections-form-view-1024x575.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/collections-form-view-1024x575.png)
 
  
 
@@ -33,7 +33,7 @@ enable this by selecting **Show Objects** from the **More..** dropdown
 
  
 
-![image info](img/collection-form-view-show-objects.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/collection-form-view-show-objects.png)
 
  
 
@@ -42,7 +42,7 @@ view, but only the table of objects is shown.
 
  
 
-![image info](img/collection-list-view-1024x408.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/collection-list-view-1024x408.png)
 
  
 
@@ -52,13 +52,13 @@ In this case a user would need to click on **More..**, and **Edit**
 
  
 
-![image info](img/collection-list-view-edit-collection.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/collection-list-view-edit-collection.png)
 
 Updated on April 25, 2023
  
-# Register single entries in a Collection
+## Register single entries in a Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -85,7 +85,7 @@ not be present.
 
  
 
-![image info](img/register-single-entry-collection-button-1024x299.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/register-single-entry-collection-button-1024x299.png)
 
  
 
@@ -102,13 +102,13 @@ To register a different object type in the Collection:
 
  
 
-![image info](img/register-single-entry-collection-more-1024x300.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/register-single-entry-collection-more-1024x300.png)  
 
 Updated on April 25, 2023
  
-# Batch register entries in a Collection
+## Batch register entries in a Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -122,10 +122,10 @@ methods are currently available:
 
  
 
-![image info](img/batch-register-entries-one-collection-1024x300.png)
+## ![](https://openbis.ch/wp-content/uploads/2022/02/batch-register-entries-one-collection-1024x300.png)
 
 
-![image info](img/warning-sign-1024x904.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/warning-sign-1024x904.png)
 In openBIS versions prior to 20.10.6, the XLS batch registration is not
 recommended to register several hundreds of entries. The use of the TSV
 batch upload to register several hundreds of entries is recommended in
@@ -133,7 +133,7 @@ those cases.
 
  
 
-# Batch registration via Excel template file 
+## Batch registration via Excel template file 
 
  
 
@@ -149,7 +149,7 @@ To register several entries of the same type with an Excel file:
 
  
 
-### **Codes**
+#### **Codes**
 
  
 
@@ -166,7 +166,7 @@ generated code.*” 
 
  
 
-### **Controlled vocabularies**
+#### **Controlled vocabularies**
 
  
 
@@ -181,7 +181,7 @@ Codes and labels of vocabulary terms can be seen under
 
  
 
-### Assign parents
+#### Assign parents
 
  
 
@@ -223,17 +223,17 @@ to use the same value used in the **$ column** for antibody 1.
 
  
 
-![image info](img/register-objects-assign-parents-in-same-transaction.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/register-objects-assign-parents-in-same-transaction.png) 
 
  
 
-### Date format
+#### Date format
 
 For date fields, the expected format is YYYY-MM-DD.
 
  
 
-## Register storage positions and samples in the same XLS file
+### Register storage positions and samples in the same XLS file
 
  
 
@@ -249,7 +249,7 @@ together, as shown in the template provided above:
 
  
 
-# Batch registration via TSV template file
+## Batch registration via TSV template file
 
  
 
@@ -261,7 +261,7 @@ together, as shown in the template provided above:
 
 ** **
 
-## **Rules to follow to fill in the template .tsv file**
+### **Rules to follow to fill in the template .tsv file**
 
  
 
@@ -286,7 +286,7 @@ together, as shown in the template provided above:
 5.  **Date fields**. The expected syntax for dates is YYYY-MM-DD.
 
 
-# Advantages of XLS batch registration vs the old batch registration
+## Advantages of XLS batch registration vs the old batch registration
 
  
 
@@ -311,9 +311,9 @@ compatibility and will be phased out. 
 
 Updated on April 25, 2023
  
-# Batch register entries in several Collections
+## Batch register entries in several Collections
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -332,11 +332,11 @@ Two options are available:
 
  
 
-![image info](img/batch-register-entries-object-browser.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/batch-register-entries-object-browser.png)
 
  
 
-## XLS Batch Register Objects
+### XLS Batch Register Objects
 
  
 
@@ -347,7 +347,7 @@ This option for batch registration is available since openBIS version
 You can select which types you want to register from the list of
 available types.
 
-![image info](img/object-broswer-types-selection.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/object-broswer-types-selection.png)
 
  
 
@@ -360,7 +360,7 @@ in this example file:
 
  
 
-## TSV Batch Register Objects
+### TSV Batch Register Objects
 
  
 
@@ -373,7 +373,7 @@ be phased out.
 
  
 
-![image info](img/object-browse-batch-reister.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/object-browse-batch-reister.png)
 
  
 
@@ -384,15 +384,15 @@ where identifiers can be automatically generated by openBIS.
 
  
 
-![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/Screenshot-tsv-file-batch-upload-1024x221.png)
 
  
 
 Updated on April 25, 2023
  
-# Batch update entries in a Collection
+## Batch update entries in a Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -408,7 +408,7 @@ objects simultaneously via batch update. This can be done in two ways:
 
  
 
-## XLS Batch Update Objects
+### XLS Batch Update Objects
 
  
 
@@ -419,7 +419,7 @@ objects simultaneously via batch update. This can be done in two ways:
 
  
 
-![image info](img/Batch-update-entries-one-collection-column-selection-1024x584.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/Batch-update-entries-one-collection-column-selection-1024x584.png)
 
 3\. If you have several entries you can filter the table
 (see [Tables](https://openbis.ch/index.php/docs/user-documentation-20-10-3/additional-functionalities/tables/))
@@ -430,7 +430,7 @@ what you want to export)**.**
 
  
 
-![image info](img/export-tables-1024x419.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/export-tables-1024x419.png)
 
 5\. Modify the file you just exported and save it.
 
@@ -438,7 +438,7 @@ what you want to export)**.**
 
  
 
-![image info](img/collection-XLS-batch-update-menu.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/collection-XLS-batch-update-menu.png)
 
 6\. Upload the file you saved before and click **Accept**. Your entries
 will be updated.
@@ -452,11 +452,11 @@ the corresponding values of updated samples will be preserved.
 
 To delete a value or a parent/child connection from openBIS one needs to
 enter   
-![image info](img/Screenshot-2022-10-13-at-15.59.01.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/Screenshot-2022-10-13-at-15.59.01.png)
   into the corresponding cell in the XLS file.
 
 
-## TSV Batch Update Objects
+### TSV Batch Update Objects
 
  
 
@@ -466,7 +466,7 @@ enter   
 
  
 
-![image info](img/collection-TSV-batch-update-menu.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/collection-TSV-batch-update-menu.png)
 
  
 
@@ -474,7 +474,7 @@ enter   
 
  
 
-![image info](img/old-batch-update.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/old-batch-update.png)
 
 4\. Download the available **template**
 
@@ -497,14 +497,14 @@ If a column is removed from the file or a cell in a column is left empty
 the corresponding values of updated samples will be preserved.
 
 To delete a value/connection from openBIS one needs to enter
-![image info](img/Screenshot-2022-10-13-at-15.59.01-1.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/Screenshot-2022-10-13-at-15.59.01-1.png) or
 **\_ \_DELETE\_ \_** into the corresponding cell in the file.
 
 Updated on April 25, 2023
  
-# Batch update entries in several Collections
+## Batch update entries in several Collections
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -521,11 +521,11 @@ Two options are available:
 
  
 
-![image info](img/batch-register-entries-object-browser-1.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/batch-register-entries-object-browser-1.png)
 
 
 
-## XLS Batch Update Objects
+### XLS Batch Update Objects
 
 This option for batch update is available since openBIS version 20.10.3.
 It allows to update *Objects* of different types that belong to
@@ -534,7 +534,7 @@ different *Collections*.
 You can select which types you want to update from the list of available
 types.
 
-![image info](img/object-browser-xls-batch-update.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/object-browser-xls-batch-update.png)
 
  
 
@@ -551,7 +551,7 @@ are unique in openBIS, by providing them openBIS will know which
 
  
 
-## TSV Batch Update Objects
+### TSV Batch Update Objects
 
  
 
@@ -564,7 +564,7 @@ be phased out.
 
  
 
-![image info](img/object-browser-batch-update.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/object-browser-batch-update.png)
 
  
 
@@ -576,15 +576,15 @@ are unique in openBIS, by providing them openBIS will know which
 
  
 
-![image info](img/Screenshot-tsv-file-batch-upload-1024x221.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/Screenshot-tsv-file-batch-upload-1024x221.png)
 
  
 
 Updated on April 25, 2023
  
-# Copy entries
+## Copy entries
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -595,7 +595,7 @@ To create a copy of an existing entry, select **Copy** from the
 
  
 
-![image info](img/copy-menu.png)
+### ![](https://openbis.ch/wp-content/uploads/2022/02/copy-menu.png)
 
  
 
@@ -607,13 +607,13 @@ All these options are disabled by default.
 
  
 
-![image info](img/copy-entry.png)
+### ![](https://openbis.ch/wp-content/uploads/2022/02/copy-entry.png)
 
 Updated on July 27, 2022
  
-# Move entries to a different Collection
+## Move entries to a different Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -622,7 +622,7 @@ form or from a *Collection* table.
 
  
 
-## Move from entry form
+### Move from entry form
 
  
 
@@ -631,7 +631,7 @@ To move entries to a different *Collection*, select **Move** from the
 
  
 
-![image info](img/move-menu.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/move-menu.png)
 
  
 
@@ -640,11 +640,11 @@ new *Collection*.
 
  
 
-![image info](img/move-options.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/move-options.png)
 
  
 
-## Move from Collection Table
+### Move from Collection Table
 
  
 
@@ -657,7 +657,7 @@ new one.
 
  
 
-![image info](img/move-from-table-1-1024x412.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/move-from-table-1-1024x412.png)
 
  
 

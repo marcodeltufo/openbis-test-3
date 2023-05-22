@@ -1,9 +1,9 @@
 Additional Functionalities
 ====
  
-## Visualise Relationships
+### Visualise Relationships
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Parent-child relationships between *Objects* can be visualised as trees
@@ -14,14 +14,14 @@ the **More…**dropdown in an entity form*.*
 
  
 
-![image info](img/Screenshot-2020-03-10-at-11.14.21-300x229.png)
+![](https://openbis.ch/wp-content/uploads/2019/09/Screenshot-2020-03-10-at-11.14.21-300x229.png)
 
  
 
 Large trees can be pruned, by selecting how many levels of parents
 and/or children and which types to show.
 
-![image info](img/hierarchy-graph-1024x392.png)
+![](https://openbis.ch/wp-content/uploads/2018/08/hierarchy-graph-1024x392.png)
 
  
 
@@ -30,9 +30,9 @@ To view the genealogy of an *Object* in a tabular format, select the
 
 Updated on March 4, 2022
  
-## Tables
+### Tables
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -44,7 +44,7 @@ Here we give an overview of the main functionalities of the tables.
 
  
 
-## Filters
+### Filters
 
 Two filter options are available form the **Filters** button: **Filter
 Per Column** and **Global Filter**. The first allows to filter on
@@ -53,15 +53,15 @@ terms across the entire table using the **AND** or **OR** operator. 
 
 >  
 >
-![image info](img/filter-per-column-tables-1024x248.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/filter-per-column-tables-1024x248.png)
 >
-![image info](img/global-filter-tables-1024x219.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/global-filter-tables-1024x219.png)
 >
 >  
 
 >  
 
-## Sorting
+### Sorting
 
 It is possible to sort individual columns or also multiple columns. For
 multi-column sorting, you should click on the column header and press
@@ -70,18 +70,18 @@ each column, as shown below.
 
  
 
-![image info](img/multi-colums-sorting-1024x334.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/multi-colums-sorting-1024x334.png)
 
 >  
 
-## Exports
+### Exports
 
 Tables can be exported in different ways, using the export button shown
 below.
 
 >  
 
-![image info](img/export-tables-1024x419.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/export-tables-1024x419.png)
 
 >  
 >
@@ -99,7 +99,7 @@ below.
 >
 >  
 >
-![image info](img/export-tables-import-compatible.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/export-tables-import-compatible.png)
 >
 >  
 >
@@ -114,7 +114,7 @@ below.
 >             in accordance with the selection explained above for
 >             import compatibility.
 >
-![image info](img/export-table-columns.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/export-table-columns.png)
 >
 >  
 >
@@ -126,7 +126,7 @@ below.
 >             3.  **Selected Rows**. Only selected rows in the table are
 >                 exported.
 >
-![image info](img/export-table-rows.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/export-table-rows.png)
 >
 > 4\. **Value**:
 >
@@ -135,7 +135,7 @@ below.
 >             the export is import-compatible.
 >         2.  **Rich Text**. Text fields are exported in HTML format.
 >
-![image info](img/export-table-values.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/export-table-values.png)
 >
 >  
 >
@@ -148,7 +148,7 @@ below.
 >
 >  
 
-## Columns
+### Columns
 
 Users can select which properties to display in the table clicking on
 the **Columns** button. It is also possible to show all properties or
@@ -158,11 +158,11 @@ This information is stored in the database for each user.
 
  
 
-![image info](img/columns-in-tables-1024x571.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/columns-in-tables-1024x571.png)
 
  
 
-### **Spreadsheets**
+#### **Spreadsheets**
 
 If a table contains *Objects* which have a spreadsheet field which is
 filled in, a spreadsheet icon is displayed in the table. Upon clicking
@@ -170,13 +170,13 @@ on the icon, the content of the spreadsheet can be expanded.  
 
 >  
 >
-![image info](img/Screenshot-2022-03-02-at-00.16.41-1024x411.png)
+>  ![](https://openbis.ch/wp-content/uploads/2022/02/Screenshot-2022-03-02-at-00.16.41-1024x411.png)
 >
-![image info](img/Screenshot-2022-03-02-at-00.17.26-1024x467.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/Screenshot-2022-03-02-at-00.17.26-1024x467.png)
 >
 >  
 
-### Text fields
+#### Text fields
 
 If a table contains Objects which have long text fields, only the
 beginning of the text is shown and can be expanded. If the text contains
@@ -185,11 +185,11 @@ the text becomes visible by clicking on the icon.
 
 >  
 >
-![image info](img/Screenshot-2022-03-01-at-23.57.58-1024x398.png)
+> ![](https://openbis.ch/wp-content/uploads/2022/02/Screenshot-2022-03-01-at-23.57.58-1024x398.png)
 >
 >  
 
-## **Selection of entries in table**
+### **Selection of entries in table**
 
 Single entries in a table can be selected using the checkbox in the row.
 By clicking the checkbox in the table header, all entries of the table
@@ -206,7 +206,7 @@ are selected. After selection of entries, some actions become available:
 
  
 
-![image info](img/selection-entries-table-1024x425.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/selection-entries-table-1024x425.png)
 
  
 
@@ -224,7 +224,7 @@ In *Object* tables inside *Experiments/Collections* there is an
 
  
 
-![image info](img/operations-column-1024x405.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/operations-column-1024x405.png)
 
  
 
@@ -236,16 +236,16 @@ In *Object* tables inside *Experiments/Collections* there is an
 
 Updated on April 26, 2023
  
-## Browse Entries by Type
+### Browse Entries by Type
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 The **Object Browser** under the **Utilities** main menu allows to see
 all entries of the same type and all *Experimental Steps*, which may be
 contained in different *Experiments/Collections* and *Projects*. 
 
-![image info](img/Screenshot-2020-02-27-at-14.52.07-300x248.png)
+![](https://openbis.ch/wp-content/uploads/2019/09/Screenshot-2020-02-27-at-14.52.07-300x248.png)
 
 This is useful when there are entries of a certain type that belong to
 different *Collections* (e.g. protocols of the same type stored in two
@@ -254,14 +254,14 @@ different protocol collections), or to have an overview of all
 
  
 
-![image info](img/exp-step-object-browser-1024x646.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/exp-step-object-browser-1024x646.png)
 
 From the **Object Browser** page, it is also possible to **Batch
 register** or **Batch update** *Objects* using an XLS or TSV template.
 
  
 
-![image info](img/batch-register-entries-object-browser-2.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/batch-register-entries-object-browser-2.png)
 
  
 
@@ -269,9 +269,9 @@ register** or **Batch update** *Objects* using an XLS or TSV template.
 
 Updated on April 25, 2023
  
-## Trashcan
+### Trashcan
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 When *Experiments*, *Objects* and *Datasets* are deleted, they are moved
@@ -307,13 +307,13 @@ the **Operations** drop down in the table.
 
  
 
-![image info](img/trashcan-1024x302.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/trashcan-1024x302.png)
 
 Updated on October 9, 2022
  
-## Vocabulary Browser
+### Vocabulary Browser
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 The **Vocabulary browser** is accessible from the **Utilities** main
@@ -331,13 +331,13 @@ case for XLS Batch registration or update, where labels can be used.
 
  
 
-![image info](img/vocabulary-browser-1024x483.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/vocabulary-browser-1024x483.png)
 
 Updated on April 25, 2023
  
-## Freeze Entities
+### Freeze Entities
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Each level of the openBIS hierarchy (Space, Project,
@@ -359,7 +359,7 @@ This operation cannot be undone from any UI, not even by an *Instance
 admin.* Please freeze entities only when you are absolutely sure that
 they should not be further modified!
 
-###  **How to freeze an entity**
+####  **How to freeze an entity**
 
   
 At each level of the openBIS hierarchy (*Space, Project,
@@ -369,7 +369,7 @@ available under the **More..** dropdown menu. See the example for a
 
  
 
-![image info](img/freeze-space.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/freeze-space.png)
 
  
 
@@ -386,7 +386,7 @@ freeze.
 
  
 
-![image info](img/freze-selection-1024x469.png)
+![](https://openbis.ch/wp-content/uploads/2019/06/freze-selection-1024x469.png)
 
  
 
@@ -454,9 +454,9 @@ password and save.
 
 Updated on April 25, 2023
  
-## Navigation menu
+### Navigation menu
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -464,7 +464,7 @@ openBIS 20.10.6 features a new navigation menu.
 
  
 
-![image info](img/navigation-menu.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/navigation-menu.png)
 
  
 
@@ -476,7 +476,7 @@ This has the following functionalities:
 
  
 
-![image info](img/menu-filter.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-filter.png)
 
  
 
@@ -488,7 +488,7 @@ root node, by clicking the icon shown in the picture below.
 
  
 
-![image info](img/menu-select-root-node.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-select-root-node.png)
 
  
 
@@ -497,7 +497,7 @@ view, you can click on the root node icon shown below.
 
  
 
-![image info](img/menu-selected-root-node.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-selected-root-node.png)
 
 **3. Sorting**. The default sorting of the menu is in alphabetical. It
 is now possible to sort separately individual sections of the menu
@@ -515,13 +515,13 @@ forms.
 
  
 
-![image info](img/menu-change-sorting.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-change-sorting.png)
 
  
 
  
 
-![image info](img/menu-sorting-options.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-sorting-options.png)
 
  
 
@@ -534,7 +534,7 @@ expanded or collapsed, with the button shown below.
 
  
 
-![image info](img/menu-collapse.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-collapse.png)
 
  
 
@@ -546,7 +546,7 @@ scroll to the selected node in the menu, using the button shown below.
 
  
 
-![image info](img/menu-scroll-to-selected-node-1.png)
+![](https://openbis.ch/wp-content/uploads/2022/03/menu-scroll-to-selected-node-1.png)
 
  
 
@@ -556,9 +556,9 @@ see the menu in the state you last saved it.
 
 Updated on April 26, 2023
  
-## Custom Imports
+### Custom Imports
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -588,7 +588,7 @@ menu**.
 The available custom imports can be selected from the **Custom Import
 Service** drop down menu in the Custom Import page (see below)
 
-![image info](img/custom-imports-1024x459.png)
+![](https://openbis.ch/wp-content/uploads/2022/08/custom-imports-1024x459.png)
 
  
 
@@ -600,7 +600,7 @@ the Custom Import page.
 
  
 
-![image info](img/custom-import-template.png)
+![](https://openbis.ch/wp-content/uploads/2022/08/custom-import-template.png)
 
  
 
@@ -609,15 +609,15 @@ download link is shown in the Custom Import page.
 
  
 
-![image info](img/custom-import-no-template.png)
+![](https://openbis.ch/wp-content/uploads/2022/08/custom-import-no-template.png)
 
  
 
 Updated on April 26, 2023
  
-## Entity history
+### Entity history
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -636,7 +636,7 @@ core UI.
 
  
 
-### History table for Collections
+#### History table for Collections
 
  
 
@@ -645,7 +645,7 @@ In a *Collection* page, the **History** can be accessed from the
 
  
 
-![image info](img/history-collection-dropdown.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/history-collection-dropdown.png)
 
  
 
@@ -665,7 +665,7 @@ in the history table.
 
  
 
-![image info](img/Screenshot-2022-02-28-at-22.57.24-1024x535.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/Screenshot-2022-02-28-at-22.57.24-1024x535.png)
 
  
 
@@ -675,13 +675,13 @@ displayed in JSON format.
 
  
 
-![image info](img/Screenshot-2022-03-04-at-12.47.18-1024x506.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/Screenshot-2022-03-04-at-12.47.18-1024x506.png)
 
  
 
  
 
-### History table for Objects
+#### History table for Objects
 
  
 
@@ -690,7 +690,7 @@ For every *Object*, the history of changes can be accessed from the
 
  
 
-![image info](img/object-history-dropdown.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/object-history-dropdown.png)
 
  
 
@@ -703,7 +703,7 @@ shown in the history table.
 
  
 
-### History table for Datasets
+#### History table for Datasets
 
  
 
@@ -712,7 +712,7 @@ For every dataset, the history of changes can be accessed from the
 
  
 
-![image info](img/dataset-history-dropdown.png)
+![](https://openbis.ch/wp-content/uploads/2022/02/dataset-history-dropdown.png)
 
  
 
