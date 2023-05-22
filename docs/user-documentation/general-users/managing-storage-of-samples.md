@@ -146,8 +146,6 @@ Updated on April 25, 2023
 
 [](# "Print this article")
 
-# 
-
  
 
 # Delete single storage positions
