@@ -1,9 +1,9 @@
 Managing Storage Of Samples
 ====
  
-## Allocate storage positions to samples
+# Allocate storage positions to samples
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 If we want to track the storage position of samples, openBIS provides a
@@ -21,7 +21,7 @@ This can be done in two ways:
 2.  batch register storage positions for several samples  
       
 
-###  Register storage position for a single sample
+##  Register storage position for a single sample
 
  
 
@@ -52,9 +52,8 @@ can be configured by an *Instance Admin)*.
 
 ![image info](img/storage-assign-positions-1024x355.png)
 
-####  
 
-#### Add additional metadata to storage positions
+### Add additional metadata to storage positions
 
   
 By default, the storage only keeps track of locations. If the **Storage
@@ -72,9 +71,9 @@ after saving the sample.
 The additional information can be entered in the **Storage Position**
 *Object* form.
 
-###  Batch register storage positions
+##  Batch register storage positions
 
-#### XLS Batch Registration
+### XLS Batch Registration
 
 With the new XLS batch registration, samples and their storage positions
 can be registered in one transaction using the XLS template file, as
@@ -83,7 +82,7 @@ Collection](https://openbis.ch/index.php/docs/user-documentation/inventory-of-ma
 
  
 
-#### Batch Registration with TSV file
+### Batch Registration with TSV file
 
   
 Storage positions are modelled in openBIS as children of other entries.
@@ -109,9 +108,9 @@ here: [SAMPLE-STORAGE\_POSITION-template.txt](https://wiki-bsse.ethz.ch/downloa
 
 Updated on April 26, 2023
  
-## Batch update storage positions
+# Batch update storage positions
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -142,14 +141,14 @@ positions.
 
 Updated on April 25, 2023
  
-## Delete storage positions
+# Delete storage positions
 
-[](## "Print this article")
+[](# "Print this article")
 
 
  
 
-## Delete single storage positions
+# Delete single storage positions
 
  
 
@@ -176,7 +175,7 @@ from the trashcan (see
 
  
 
-## Remove one of multiple positions in the same box
+# Remove one of multiple positions in the same box
 
  
 
@@ -201,7 +200,7 @@ steps:
 
  
 
-## Delete multiple storage positions
+# Delete multiple storage positions
 
  
 

@@ -3,7 +3,7 @@ Additional Functionalities
  
 ## Visualise Relationships
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 Parent-child relationships between *Objects* can be visualised as trees
@@ -32,7 +32,7 @@ Updated on March 4, 2022
  
 ## Tables
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -238,7 +238,7 @@ Updated on April 26, 2023
  
 ## Browse Entries by Type
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 The **Object Browser** under the **Utilities** main menu allows to see
@@ -271,7 +271,7 @@ Updated on April 25, 2023
  
 ## Trashcan
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 When *Experiments*, *Objects* and *Datasets* are deleted, they are moved
@@ -313,7 +313,7 @@ Updated on October 9, 2022
  
 ## Vocabulary Browser
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 The **Vocabulary browser** is accessible from the **Utilities** main
@@ -337,7 +337,7 @@ Updated on April 25, 2023
  
 ## Freeze Entities
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 Each level of the openBIS hierarchy (Space, Project,
@@ -393,7 +393,6 @@ freeze.
 To freeze one or several entities, you need to provide your login
 password and save.
 
-###  
 
 **Rules for freezing**
 
@@ -452,13 +451,12 @@ password and save.
 
 [TABLE]
 
-###   
 
 Updated on April 25, 2023
  
 ## Navigation menu
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -560,7 +558,7 @@ Updated on April 26, 2023
  
 ## Custom Imports
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -619,7 +617,7 @@ Updated on April 26, 2023
  
 ## Entity history
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 

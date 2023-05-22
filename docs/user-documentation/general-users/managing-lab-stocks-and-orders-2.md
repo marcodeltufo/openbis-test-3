@@ -1,6 +1,6 @@
 ## Managing Lab Stocks and Orders
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 It is possible to use openBIS to manage stocks of products and create
@@ -30,7 +30,6 @@ responsible for purchases, has *Space Admin* rights to this Space.
 Orders can be created based on the requests placed in the **Stock
 Catalog**. 
 
-###  
 
 ## STOCK CATALOG
 
@@ -38,7 +37,6 @@ Catalog**. 
 
 ### Building the catalog of products and suppliers
 
-###  
 
 #### Catalog of suppliers
 
@@ -72,7 +70,6 @@ To build the catalog of all products purchased in the lab:
 >     **Stock Catalog***-&gt;* **Products** in the main menu.
 > 2.  Click the **+ New Product** button in the *Collection* page.
 
-###  
 
 ![image info](img/stock-new-product-1.png)
 
@@ -95,7 +92,6 @@ To register several suppliers at once, follow the steps described in
 [Batch register entries in a
 Collection.](https://openbis.ch/index.php/docs/user-documentation-20-10-3/inventory-of-materials-and-methods/batch-register-entries-in-a-collection/)
 
-####  
 
 ### Creating requests for products to order
 
@@ -148,7 +144,6 @@ Please note that only 1 product can be added to 1 request.
 
 > 4. Click **Save** on top of the form.
 
-##  
 
 ## STOCK ORDERS
 

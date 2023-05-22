@@ -1,9 +1,9 @@
 Data Upload
 ====
  
-## Data upload via web UI
+# Data upload via web UI
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -45,9 +45,9 @@ there are two options:
 
 Updated on March 23, 2023
  
-## Data upload via dropbox
+# Data upload via dropbox
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -116,7 +116,7 @@ on the eln-lims-dropbox folder.
 
  
 
-## Dropbox with markerfile
+# Dropbox with markerfile
 
  
 
@@ -143,13 +143,13 @@ The marker file should be named:
 
 .MARKER\_is\_finished\_O+BARILLAC+PROJECT\_1+EXP1+RAW\_DATA+test
 
-###
- 
 
  
 
-###
-### **How to create the Marker file in Windows**
+ 
+
+
+## **How to create the Marker file in Windows**
 
  
 
@@ -165,8 +165,8 @@ You can create the Marker file in Windows using a text editor such as
 
  
 
-###
-### **How to create the Marker file on Mac**
+
+## **How to create the Marker file on Mac**
 
  
 
@@ -191,7 +191,7 @@ other text editor will also work.
 
  
 
-## Dropbox monitor
+# Dropbox monitor
 
  
 
@@ -223,7 +223,7 @@ the log with the error is shown.
 
  
 
-## Registration of metadata for datasets via dropbox
+# Registration of metadata for datasets via dropbox
 
  
 

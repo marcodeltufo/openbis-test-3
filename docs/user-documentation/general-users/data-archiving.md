@@ -6,7 +6,7 @@ Data Archiving
 
  
 
-### Space/Project Power User
+## Space/Project Power User
 
 Extends *Space/Projec*t User permissions with some deleting, editing and
 processing functionality. Permissions are limited to specified
@@ -25,7 +25,7 @@ Please note that this role cannot be assigned via the ELN UI, only via
 admin UI.
 
 
-### Space/Project Admin
+## Space/Project Admin
 
 Extends Space/Project Power User permissions allowing to manage roles
 and projects inside given *Space(s)* or *Project(s)*.
@@ -36,7 +36,7 @@ Can do everything that Space/Project Power User and additionally:
 
  
 
-### Instance Admin
+## Instance Admin
 
 Has the full access to given openBIS instance.
 

@@ -1,9 +1,9 @@
 Lab Notebook
 ====
  
-## Register Projects
+# Register Projects
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 In a personal folder, users can register one or more *Projects* they
@@ -34,9 +34,9 @@ in the Project folder, as shown below.
 
 Updated on April 25, 2023
  
-## Register Experiments
+# Register Experiments
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 Inside one *Project*, a user can register several *Experiments*, which
@@ -64,9 +64,9 @@ To register one Experiment:
 
 Updated on April 25, 2023
  
-## Register Experimental Steps
+# Register Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 As mentioned above, the various steps executed when performing an
@@ -104,7 +104,7 @@ To register a default *Experimental Step* or *Entry*:
 
  
 
-### **Comments Log**
+## **Comments Log**
 
   
 Several comments can be added by different users who have write-access
@@ -114,15 +114,13 @@ to a given user Space:
 2.  Enter the **comment**.
 3.  Click **Save***.*
 
-###  
 
-###  
 
 Updated on April 25, 2023
  
-## Add parents and children to Experimental Steps
+# Add parents and children to Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -146,17 +144,15 @@ is customisable by the *lab manager* or *group admin* as described in
 [Customise Parents and Children Sections in Object
 Forms](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/customise-parents-and-children-sections-in-object-forms/)
 
-##  
 
-## Adding a parent 
+# Adding a parent 
 
  
 
 ![image info](img/Screenshot-2021-09-21-at-19.00.58.png)
 
-###  
 
-### Adding a parent of a predefined type in the form
+## Adding a parent of a predefined type in the form
 
  
 
@@ -166,7 +162,7 @@ type:
 
  
 
-#### **1. Search**
+### **1. Search**
 
  
 
@@ -180,11 +176,10 @@ The parent will be added only when you **save** the entity.
  
 ![image info](img/exp-step-search-parent-1024x201.png)
 
-####  
 
 ![image info](img/exp-step-parent-added-after-search-1024x332.png)
 
-#### **2. Paste**
+### **2. Paste**
 
  
 
@@ -200,11 +195,9 @@ The parent will be added only when you **save** the entity.
 ![image info](img/Screenshot-2021-09-21-at-19.29.33-1024x186.png)
    
 
-###  
 
-###  
 
-### Adding parent of any available type
+## Adding parent of any available type
 
  
 
@@ -218,11 +211,9 @@ to **Parents.**
 
 ![image info](img/Screenshot-2021-09-21-at-19.40.53.png)
 
-####  
 
-####  
 
-#### 1. Search Any
+### 1. Search Any
 
  
 
@@ -231,9 +222,8 @@ to **Parents.**
 3.  Search by **code** or **name** as explained above
 4.  Click the **+ Add** button
 
-####  
 
-#### 2. Paste Any
+### 2. Paste Any
 
  
 
@@ -254,9 +244,8 @@ will become visible. You can copy the identifiers and paste them in the
 
  
 
-###  
 
-### Adding parent via barcodes
+## Adding parent via barcodes
 
 If you want to add a parent that is registered in openBIS and has a
 barcode associated with it by scanning the barcode:
@@ -281,7 +270,7 @@ barcode associated with it by scanning the barcode:
 
  
 
-## Removing a parent 
+# Removing a parent 
 
  
 
@@ -292,9 +281,8 @@ down in the parent table, as shown below.
 
 ![image info](img/remove-parents-1024x313.png)
 
-##  
 
-## **Adding and Removing Children**
+# **Adding and Removing Children**
 
  
 
@@ -310,9 +298,8 @@ Forms)](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/cu
 The procedure for adding and removing children is the same as explained
 for parents.
 
-###  
 
-### Children Generator
+## Children Generator
 
 The **Children Generator** creates a matrix of all the parents entered
 in the* Experimental Step*, as shown below. Combinations of parents
@@ -323,7 +310,7 @@ openBIS upon registration of the *Experimental Step*.
 
 ![image info](img/children-generator-1024x477.png)
 
-## Parent-child relationships between entries in lab notebook
+# Parent-child relationships between entries in lab notebook
 
 In the Lab Notebook section, if you create a new *Object* from an
 existing *Object*, independently of the type, this will be automatically
@@ -336,7 +323,6 @@ Experimental Step (measurement 4) from an existing Experimental Step
 
 ![image info](img/ELN-new-exp-step-from-exp-step-1.png)
 
-###  
 
 If you do not wish to have this relationship established, you need to
 create the new Object starting from the Experiment level, as shown
@@ -348,9 +334,9 @@ below.
 
 Updated on April 25, 2023
  
-## How to use protocols in Experimental Steps
+# How to use protocols in Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -383,13 +369,12 @@ protocol stored in the *Inventory*:
 
 ![image info](img/copy-protocol-exp-step-1024x233.png)
 
-###  
 
 Updated on April 26, 2023
  
-## Move Experimental Steps
+# Move Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -414,9 +399,9 @@ can move to an existing *Experiment*/*Collection* or create a new one.
 
 Updated on April 25, 2023
  
-## Copy Experimental Steps
+# Copy Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -437,9 +422,9 @@ comments log.** The *Experimental Step* is copied inside the same
 
 Updated on April 25, 2023
  
-## Use templates for Experimental Steps
+# Use templates for Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -460,13 +445,12 @@ like to have default values for those parameters.  
 
 ![image info](img/Exp-Ste-templates-1024x598.png)
 
-###  
 
 Updated on December 8, 2022
  
-## Data Access
+# Data Access
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 *Datasets* are displayed on the left hand-side of the
@@ -483,7 +467,7 @@ such as [Cyberduck](https://cyberduck.io/) or other.
 Please check our documentation for SFTP server
 configuration: [Installation and Administrators Guide of the openBIS
 Data Store
-Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server##InstallationandAdministratorsGuideoftheopenBISDataStoreServer-ExampleSFTPclientconfiguration)
+Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server#InstallationandAdministratorsGuideoftheopenBISDataStoreServer-ExampleSFTPclientconfiguration)
 
  
 
@@ -498,9 +482,8 @@ the following:
     higher: [https://mountainduck.io](https://mountainduck.io/)
 -   Kubuntu: Default Dolphin File Manager with SFTP support
 
-###  
 
-###  Example of SFTP Net Drive connection:
+##  Example of SFTP Net Drive connection:
 
 1\. open SFTP Net Drive and click on **New**:
 
@@ -564,7 +547,7 @@ available to Windows.
 
  
 
-### Example of Cyber Duck configuration
+## Example of Cyber Duck configuration
 
  
 
@@ -595,7 +578,7 @@ you can navigate to your data from there.
 
 ![image info](img/cyberduck-navigation.png)
 
-### Example of  Dolphin File Manager configuration
+## Example of  Dolphin File Manager configuration
 
 ![image info](img/dolphin.png)
 
@@ -604,7 +587,7 @@ Dataset code or Name (if provided).
 
  
 
-### SFTP access via session token
+## SFTP access via session token
 
 To access via session token (for example when using SSO authentication)
 you need to provide the following credentials:
@@ -628,9 +611,9 @@ The session token can be copied from the **User Profile** under
 
 Updated on May 5, 2023
  
-## Move Datasets
+# Move Datasets
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -662,9 +645,9 @@ another *Experiment/Object*.
 
 Updated on April 25, 2023
  
-## Move one Experiment to a different Project
+# Move one Experiment to a different Project
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -703,9 +686,9 @@ there.
 
 Updated on April 25, 2023
  
-## Project Overview
+# Project Overview
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 All *Experiments* and *Experimental Ste*ps have a **Show in project
@@ -737,9 +720,9 @@ menu.
 
 Updated on April 25, 2023
  
-## Edit and Delete Projects, Experiments, Experimental Steps
+# Edit and Delete Projects, Experiments, Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -768,13 +751,13 @@ Please be aware that, by default, only users with *Space Admin and
 Instance Admin*  role have permission to delete. Default permissions can
 be modified only by a *system admin* (see [Changing the openBIS
 capability role
-map](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server##InstallationandAdministratorGuideoftheopenBISServer-ChangingtheCapability-Rolemap))
+map](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server#InstallationandAdministratorGuideoftheopenBISServer-ChangingtheCapability-Rolemap))
 
 Updated on April 25, 2023
  
-## Share Lab Notebooks and Projects
+# Share Lab Notebooks and Projects
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 It is possible to share either a complete lab notebook or single
