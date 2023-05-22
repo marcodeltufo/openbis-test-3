@@ -1,7 +1,7 @@
 Managing Storage Of Samples
 ====
  
-# Allocate storage positions to samples
+## Allocate storage positions to samples
 
 [](# "Print this article")
 
@@ -51,8 +51,6 @@ can be configured by an *Instance Admin)*.
 7\. Click **Accept.**
 
 ![image info](img/storage-assign-positions-1024x355.png)
-
-###  
 
 ### Add additional metadata to storage positions
 
@@ -145,8 +143,6 @@ Updated on April 25, 2023
 # Delete storage positions
 
 [](# "Print this article")
-
-# 
 
  
 
