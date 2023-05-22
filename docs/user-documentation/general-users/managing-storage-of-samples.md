@@ -1,7 +1,7 @@
 Managing Storage Of Samples
 ====
  
-# Allocate storage positions to samples
+## Allocate storage positions to samples
 
 [](# "Print this article")
 
