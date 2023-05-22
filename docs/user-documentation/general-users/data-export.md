@@ -1,13 +1,13 @@
 Data Export
 ====
  
-# Export to File
+## Export to File
 
-[](# "Print this article")
+[](## "Print this article")
 
-##  
+###  
 
-## Export Lab Notebooks
+### Export Lab Notebooks
 
   
 All levels of the *Lab Notebook* and *Inventory* can be exported, using
@@ -39,12 +39,12 @@ installation, as explained in [Configure Data Store
 Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
 [.](https://wiki-bsse.ethz.ch/display/openBISDoc1906/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server)
 
-##  
+###  
 
 In a similar way, it is possible to export *Projects*, *Experiments,
 Objects, Dataset*s.
 
-##  Export Builder
+###  Export Builder
 
   
 It is also possible to export the content of openBIS using the
@@ -65,9 +65,9 @@ email, as described above.
 
 Updated on April 25, 2023
  
-# Export to Zenodo
+## Export to Zenodo
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Currently openBIS offers an integration with the **Zenodo** data
@@ -83,7 +83,7 @@ If this is configured, a lab manager, who has admin rights for the
 Transfer to Data
 Repositories](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/enable-transfer-to-data-repositories/)**.**
 
-##  Create Zenodo Personal Access Token
+###  Create Zenodo Personal Access Token
 
   
 In order to be able to export data to Zenodo, you need a valid Zenodo
@@ -93,7 +93,7 @@ below:
 
 ![image info](img/generate-zenodo-token-1024x498.png)
 
-## Save Zenodo Personal Access Token in openBIS
+### Save Zenodo Personal Access Token in openBIS
 
   
 After creating the personal access token in Zenodo, this needs to be
@@ -108,9 +108,9 @@ stored in openBIS, with the following procedure:
 
 ![image info](img/user-profile-session-token.png)
 
-##  
+###  
 
-## Export data to Zenodo
+### Export data to Zenodo
 
   
 To export data to Zenodo:
@@ -144,9 +144,9 @@ minutes.
 
 Updated on April 25, 2023
  
-# Export to ETH Research Collection
+## Export to ETH Research Collection
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 

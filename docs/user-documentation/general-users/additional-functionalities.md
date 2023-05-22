@@ -1,9 +1,9 @@
 Additional Functionalities
 ====
  
-# Visualise Relationships
+## Visualise Relationships
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Parent-child relationships between *Objects* can be visualised as trees
@@ -30,9 +30,9 @@ To view the genealogy of an *Object* in a tabular format, select the
 
 Updated on March 4, 2022
  
-# Tables
+## Tables
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -44,7 +44,7 @@ Here we give an overview of the main functionalities of the tables.
 
  
 
-# Filters
+## Filters
 
 Two filter options are available form the **Filters** button: **Filter
 Per Column** and **Global Filter**. The first allows to filter on
@@ -61,7 +61,7 @@ terms across the entire table using the **AND** or **OR** operator. 
 
 >  
 
-# Sorting
+## Sorting
 
 It is possible to sort individual columns or also multiple columns. For
 multi-column sorting, you should click on the column header and press
@@ -74,7 +74,7 @@ each column, as shown below.
 
 >  
 
-# Exports
+## Exports
 
 Tables can be exported in different ways, using the export button shown
 below.
@@ -148,7 +148,7 @@ below.
 >
 >  
 
-# Columns
+## Columns
 
 Users can select which properties to display in the table clicking on
 the **Columns** button. It is also possible to show all properties or
@@ -162,7 +162,7 @@ This information is stored in the database for each user.
 
  
 
-## **Spreadsheets**
+### **Spreadsheets**
 
 If a table contains *Objects* which have a spreadsheet field which is
 filled in, a spreadsheet icon is displayed in the table. Upon clicking
@@ -176,7 +176,7 @@ on the icon, the content of the spreadsheet can be expanded.  
 >
 >  
 
-## Text fields
+### Text fields
 
 If a table contains Objects which have long text fields, only the
 beginning of the text is shown and can be expanded. If the text contains
@@ -189,7 +189,7 @@ the text becomes visible by clicking on the icon.
 >
 >  
 
-# **Selection of entries in table**
+## **Selection of entries in table**
 
 Single entries in a table can be selected using the checkbox in the row.
 By clicking the checkbox in the table header, all entries of the table
@@ -236,9 +236,9 @@ In *Object* tables inside *Experiments/Collections* there is an
 
 Updated on April 26, 2023
  
-# Browse Entries by Type
+## Browse Entries by Type
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 The **Object Browser** under the **Utilities** main menu allows to see
@@ -269,9 +269,9 @@ register** or **Batch update** *Objects* using an XLS or TSV template.
 
 Updated on April 25, 2023
  
-# Trashcan
+## Trashcan
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 When *Experiments*, *Objects* and *Datasets* are deleted, they are moved
@@ -311,9 +311,9 @@ the **Operations** drop down in the table.
 
 Updated on October 9, 2022
  
-# Vocabulary Browser
+## Vocabulary Browser
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 The **Vocabulary browser** is accessible from the **Utilities** main
@@ -335,9 +335,9 @@ case for XLS Batch registration or update, where labels can be used.
 
 Updated on April 25, 2023
  
-# Freeze Entities
+## Freeze Entities
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Each level of the openBIS hierarchy (Space, Project,
@@ -359,7 +359,7 @@ This operation cannot be undone from any UI, not even by an *Instance
 admin.* Please freeze entities only when you are absolutely sure that
 they should not be further modified!
 
-##  **How to freeze an entity**
+###  **How to freeze an entity**
 
   
 At each level of the openBIS hierarchy (*Space, Project,
@@ -393,7 +393,7 @@ freeze.
 To freeze one or several entities, you need to provide your login
 password and save.
 
-##  
+###  
 
 **Rules for freezing**
 
@@ -452,13 +452,13 @@ password and save.
 
 [TABLE]
 
-##   
+###   
 
 Updated on April 25, 2023
  
-# Navigation menu
+## Navigation menu
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -558,9 +558,9 @@ see the menu in the state you last saved it.
 
 Updated on April 26, 2023
  
-# Custom Imports
+## Custom Imports
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -617,9 +617,9 @@ download link is shown in the Custom Import page.
 
 Updated on April 26, 2023
  
-# Entity history
+## Entity history
 
-[](# "Print this article")
+[](## "Print this article")
 
  
 
@@ -638,7 +638,7 @@ core UI.
 
  
 
-## History table for Collections
+### History table for Collections
 
  
 
@@ -683,7 +683,7 @@ displayed in JSON format.
 
  
 
-## History table for Objects
+### History table for Objects
 
  
 
@@ -705,7 +705,7 @@ shown in the history table.
 
  
 
-## History table for Datasets
+### History table for Datasets
 
  
 

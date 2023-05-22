@@ -1,9 +1,9 @@
 Tools For Analysis Of Data Stored In Openbis
 ====
  
-# Jupyter Notebooks
+## Jupyter Notebooks
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 Jupyter notebooks are web applications that combine text, code and
@@ -23,9 +23,9 @@ Further documentation can be found here: [JupyterHub for
 openBIS](https://unlimited.ethz.ch/display/openBISDoc2010/JupyterHub+for+openBIS)  
   
 
-##  
+###  
 
-## How to use Jupyter notebooks from openBIS
+### How to use Jupyter notebooks from openBIS
 
  
 
@@ -92,9 +92,9 @@ drop down menu. When opening notebooks from an *Experiment* or
 *Experimental Step*, all connected datasets are automatically selected.
 If some are not needed, they can be deselected. 
 
-##  
+###  
 
-## Overview of Jupyter notebook opened from openBIS.
+### Overview of Jupyter notebook opened from openBIS.
 
 The Jupyter notebooks running on the JupyterHub server for openBIS
 support the following kernels: *Bash, Octave, Python 2, Python 3, R,
@@ -127,7 +127,7 @@ the openBIS session token.
 
  
 
-### What to do in case of invalid session token
+#### What to do in case of invalid session token
 
  
 
@@ -192,7 +192,7 @@ the pre-filled cell shown above.
 
  
 
-# Using a local Jupyter installation with openBIS
+## Using a local Jupyter installation with openBIS
 
 It is also possible to use a local Jupyter installation with openBIS. In
 this case, it is possible to download an extension for JupyterLab that
@@ -213,9 +213,9 @@ extension](https://www.npmjs.com/package/jupyterlab-openbis)
 
 Updated on April 25, 2023
  
-# MATLAB toolbox
+## MATLAB toolbox
 
-[](# "Print this article")
+[](## "Print this article")
 
   
 The MATLAB toolbox for openBIS allows to access data stored in openBIS
