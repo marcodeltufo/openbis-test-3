@@ -1,39 +1,4 @@
-        Relationships](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships/)
-    -   [Tables](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables/)
-    -   [Browse Entries by
-        Type](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type/)
-    -   [Trashcan](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan/)
-    -   [Vocabulary
-        Browser](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser/)
-    -   [Freeze
-        Entities](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities/)
-    -   [Navigation
-        menu](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu/)
-    -   [Custom
-        Imports](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports/)
-    -   [Entity
-        history](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history/)
-    -   [Spreadsheet](https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet/)
--   [Managing Lab Stocks and
-    Orders](https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2/)
--   [Tools for Analysis of Data Stored in
-    openBIS](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/)
-    -   [Jupyter
-        Notebooks](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/jupyter-notebooks/)
-    -   [MATLAB
-        toolbox](https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis/matlab-toolbox/)
-
-1.  
-2.  [Home](https://openbis.ch/)
-3.  
-4.  [Docs](https://openbis.ch/?page_id=36)
-5.  
-6.  [User
-    Documentation](https://openbis.ch/index.php/docs/user-documentation/)
-7.  
-8.  Managing Lab Stocks and Orders
-
-## Managing Lab Stocks and Orders
+# Managing Lab Stocks and Orders
 
 [](# "Print this article")
 
