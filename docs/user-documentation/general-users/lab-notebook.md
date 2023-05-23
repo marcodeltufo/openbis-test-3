@@ -14,7 +14,7 @@ field, no additional fields can be added.
 
 1.  Navigate to the relevant *Space* in the *Lab Notebook* menu and
     click the **+ New Project**
-    button. ![](https://openbis.ch/wp-content/uploads/2022/03/ELN-new-project.png)
+![image info](img/ELN-new-project.png)
 2.  Should you have an empty page, select **Show Identification Info**
     and **Show Description** from the **More…** dropdown
 3.  *Projects* do not have a **Name** field, but only **Code**. Codes
@@ -23,14 +23,14 @@ field, no additional fields can be added.
 4.  Enter a **Description** for the project.
 5.  Click **Save** on top of the form.
 
-![](https://openbis.ch/wp-content/uploads/2022/03/ELN-create-project.png)
+![image info](img/ELN-create-project.png)
 
 In the **More…** dropdown you have additional options on what you can do
 in the Project folder, as shown below.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/project-more-dropdown.png)
+![image info](img/project-more-dropdown.png)
 
 Updated on April 25, 2023
  
@@ -52,13 +52,13 @@ To register one Experiment:
 2.  Select **Default Experiment** from the **+New** dropdown, as shown
     below. *Please note that your openBIS instance might have different
     types of Experiments, depending on
-    customisation*. ![](https://openbis.ch/wp-content/uploads/2022/03/ELN-register-experiments.png)
+![image info](img/ELN-register-experiments.png)
 3.  Fill in the relevant fields in the form.
 4.  Select **Show in project overview = true** if the *Experiment* is
     important and should be shown in the *Project* form.
 5.  Click **Save*** *on top of the form.
 
-### ![](https://openbis.ch/wp-content/uploads/2022/03/default-experiment-form.png)  
+![image info](img/default-experiment-form.png)
 
  
 
@@ -75,7 +75,7 @@ Steps or Entries.*
 
 The default *Experimental Step* has pre-defined fields, as shown below:
 
-![](https://openbis.ch/wp-content/uploads/2019/09/Screenshot-2020-02-28-at-15.29.17.png)
+![image info](img/Screenshot-2020-02-28-at-15.29.17.png)
 
  
 
@@ -83,7 +83,7 @@ An *Entry*, is a blank page, with no pre-defined fields:
 
  
 
-![](https://openbis.ch/wp-content/uploads/2019/09/Screenshot-2020-02-28-at-15.29.33.png)
+![image info](img/Screenshot-2020-02-28-at-15.29.33.png)
 
   
 To register a default *Experimental Step* or *Entry*:  
@@ -98,7 +98,7 @@ To register a default *Experimental Step* or *Entry*:
     Step* or *Entry* will be displayed on the *Project* page.
 5.  Click **Save** on top of the form. 
 
-![](https://openbis.ch/wp-content/uploads/2022/03/ELN-register-exp-step.png)
+![image info](img/ELN-register-exp-step.png)
 
  
 
@@ -149,7 +149,7 @@ Forms](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4/cus
 
  
 
-![](https://openbis.ch/wp-content/uploads/2021/09/Screenshot-2021-09-21-at-19.00.58.png)
+![image info](img/Screenshot-2021-09-21-at-19.00.58.png)
 
 
 ### Adding a parent of a predefined type in the form
@@ -174,10 +174,10 @@ type:
 The parent will be added only when you **save** the entity.
 
  
-![](https://openbis.ch/wp-content/uploads/2022/03/exp-step-search-parent-1024x201.png) 
+![image info](img/exp-step-search-parent-1024x201.png)
 
 
-#### ![](https://openbis.ch/wp-content/uploads/2022/03/exp-step-parent-added-after-search-1024x332.png)
+![image info](img/exp-step-parent-added-after-search-1024x332.png)
 
 #### **2. Paste**
 
@@ -192,7 +192,7 @@ The parent will be added only when you **save** the entity.
  
 
  
-![](https://openbis.ch/wp-content/uploads/2021/09/Screenshot-2021-09-21-at-19.29.33-1024x186.png)
+![image info](img/Screenshot-2021-09-21-at-19.29.33-1024x186.png)
    
 
 
@@ -209,7 +209,7 @@ to **Parents.**
 
  
 
-![](https://openbis.ch/wp-content/uploads/2021/09/Screenshot-2021-09-21-at-19.40.53.png)
+![image info](img/Screenshot-2021-09-21-at-19.40.53.png)
 
 
 
@@ -240,7 +240,7 @@ will become visible. You can copy the identifiers and paste them in the
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/search-and-paste-parents-1024x572.png)
+![image info](img/search-and-paste-parents-1024x572.png)
 
  
 
@@ -254,11 +254,11 @@ barcode associated with it by scanning the barcode:
 
 1.Click on the **barcode** icon in the Parents section
 
-![](https://openbis.ch/wp-content/uploads/2022/03/add-parent-via-barcode.png)
+![image info](img/add-parent-via-barcode.png)
 
 2\. A **Barcode Reader** window opens
 
-![](https://openbis.ch/wp-content/uploads/2022/03/add-parent-via-barcode-2.png)
+![image info](img/add-parent-via-barcode-2.png)
 
 3\. Scan the barcode of the entry you want to add as parent
 
@@ -279,7 +279,7 @@ down in the parent table, as shown below.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/remove-parents-1024x313.png)
+![image info](img/remove-parents-1024x313.png)
 
 
 ## **Adding and Removing Children**
@@ -308,7 +308,7 @@ needed to generate children can then be selected by the user. The
 to be specified. The children will then be automatically generated by
 openBIS upon registration of the *Experimental Step*.
 
-![](https://openbis.ch/wp-content/uploads/2018/08/children-generator-1024x477.png)
+![image info](img/children-generator-1024x477.png)
 
 ## Parent-child relationships between entries in lab notebook
 
@@ -321,7 +321,7 @@ Experimental Step (measurement 4) from an existing Experimental Step
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/ELN-new-exp-step-from-exp-step-1.png)
+![image info](img/ELN-new-exp-step-from-exp-step-1.png)
 
 
 If you do not wish to have this relationship established, you need to
@@ -330,7 +330,7 @@ below.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/ELN-new-exp-step-from-experiment.png) 
+![image info](img/ELN-new-exp-step-from-experiment.png)
 
 Updated on April 25, 2023
  
@@ -367,7 +367,7 @@ protocol stored in the *Inventory*:
 
  
 
-### ![](https://openbis.ch/wp-content/uploads/2022/03/copy-protocol-exp-step-1024x233.png)
+![image info](img/copy-protocol-exp-step-1024x233.png)
 
 
 Updated on April 26, 2023
@@ -383,7 +383,7 @@ To move an *Experimental Step* to a different *Experiment*, choose
 
  
 
-![](https://openbis.ch/wp-content/uploads/2021/09/Screenshot-2021-09-21-at-18.40.02.png)
+![image info](img/Screenshot-2021-09-21-at-18.40.02.png)
 
  
 
@@ -395,7 +395,7 @@ can move to an existing *Experiment*/*Collection* or create a new one.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/move-objects-from-object-table-in-collection-1024x527.png)
+![image info](img/move-objects-from-object-table-in-collection-1024x527.png)
 
 Updated on April 25, 2023
  
@@ -408,7 +408,7 @@ Updated on April 25, 2023
 To copy an *Experimental Step*, select **Copy** from the **More…** drop
 down menu, as shown below.
 
-![](https://openbis.ch/wp-content/uploads/2022/03/ELN-copy-exp-step.png)
+![image info](img/ELN-copy-exp-step.png)
 
  
 
@@ -418,7 +418,7 @@ parents, copy children to the current Experiment** and **copy the
 comments log.** The *Experimental Step* is copied inside the same
 *Experiment*.
 
-### ![](https://openbis.ch/wp-content/uploads/2022/03/copy-object-options-1024x191.png)
+![image info](img/copy-object-options-1024x191.png)
 
 Updated on April 25, 2023
  
@@ -443,7 +443,7 @@ like to have default values for those parameters.  
 
  
 
-![](https://openbis.ch/wp-content/uploads/2021/09/Exp-Ste-templates-1024x598.png)
+![image info](img/Exp-Ste-templates-1024x598.png)
 
 
 Updated on December 8, 2022
@@ -456,7 +456,7 @@ Updated on December 8, 2022
 *Datasets* are displayed on the left hand-side of the
 *Experiment/Object* form, as shown below.
 
-![](https://openbis.ch/wp-content/uploads/2022/03/data-navigation-driver-icon.png)  
+![image info](img/data-navigation-driver-icon.png)
 
 To navigate and open data registered in openBIS via Finder or Explorer,
 open the *Dataset* folder and click on the drive icon next to the
@@ -489,7 +489,7 @@ the following:
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/win-sftp-1.png)
+![image info](img/win-sftp-1.png)
 
 2\. Edit the drive with the following info, as shown below:
 
@@ -516,14 +516,14 @@ folder.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/win-sftp-2.png)
+![image info](img/win-sftp-2.png)
 
  
 
 3\. After saving the drive, select it in the drivers’ window and click
 **Connect**.
 
-![](https://openbis.ch/wp-content/uploads/2022/03/win-sftp-3.png)
+![image info](img/win-sftp-3.png)
 
  
 
@@ -533,7 +533,7 @@ you want to access.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/win-sftp-4.png)
+![image info](img/win-sftp-4.png)
 
  
 
@@ -565,7 +565,7 @@ Create a new connection in cyberduck:
     openBIS
 7.  **SSH** private Key: none
 
-![](https://openbis.ch/wp-content/uploads/2022/03/cyberduck-config.png)
+![image info](img/cyberduck-config.png)
 
  
 
@@ -576,11 +576,11 @@ you can navigate to your data from there.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/cyberduck-navigation.png)
+![image info](img/cyberduck-navigation.png)
 
 ### Example of  Dolphin File Manager configuration
 
-![](https://openbis.ch/wp-content/uploads/2019/01/dolphin.png)
+![image info](img/dolphin.png)
 
 To access the Dataset form and edit the Dataset metadata, click on the
 Dataset code or Name (if provided).
@@ -607,7 +607,7 @@ The session token can be copied from the **User Profile** under
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/session-token-1024x329.png)
+![image info](img/session-token-1024x329.png)
 
 Updated on May 5, 2023
  
@@ -629,13 +629,13 @@ another *Experiment/Object*.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/12/move-dataset-more-dropdown.png)
+![image info](img/move-dataset-more-dropdown.png)
 
  
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/12/move-dataset-1-1024x241.png)
+![image info](img/move-dataset-1-1024x241.png)
 
  
 
@@ -667,7 +667,7 @@ To move one Experiment from one Project to another:
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/09/move-experiments-to-other-project-1024x373.png)
+![image info](img/move-experiments-to-other-project-1024x373.png)
 
  
 
@@ -676,13 +676,13 @@ Experiment. If you start typing the code, openBIS will prompt you with a
 list of available options and you can select the appropriate one from
 there.
 
-![](https://openbis.ch/wp-content/uploads/2022/09/move-experiment-1024x168.png)
+![image info](img/move-experiment-1024x168.png)
 
  
 
 4\. Click **Accept**
 
-![](https://openbis.ch/wp-content/uploads/2022/09/move-experiment-accept-1024x120.png)
+![image info](img/move-experiment-accept-1024x120.png)
 
 Updated on April 25, 2023
  
@@ -703,7 +703,7 @@ the most important findings.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/project-overview-1-1024x516.png)
+![image info](img/project-overview-1-1024x516.png)
 
  
 
@@ -713,7 +713,7 @@ the More.. drop down.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/show-experiments-objects-in-projects.png) dropdown
+![image info](img/show-experiments-objects-in-projects.png)
 menu.
 
  
@@ -737,7 +737,7 @@ the **Delete** option under **More** tab in the toolbar.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/edit-delete-forms.png)
+![image info](img/edit-delete-forms.png)
 
  
 
@@ -766,7 +766,7 @@ dropdown of a *Space* or *Project* page, as shown below.
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/mangae-access-space-dropdown.png)
+![image info](img/mangae-access-space-dropdown.png)
 
  
 
@@ -790,11 +790,11 @@ The roles can be granted to:
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/manage-access-labnotebook-space.png)
+![image info](img/manage-access-labnotebook-space.png)
 
  
 
-![](https://openbis.ch/wp-content/uploads/2022/03/manage-access-project.png)
+![image info](img/manage-access-project.png)
 
  
 
