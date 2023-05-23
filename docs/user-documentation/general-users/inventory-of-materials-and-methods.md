@@ -1,5 +1,6 @@
-Inventory Of Materials And Methods
-====
+---
+title: Inventory Of Materials And Methods
+...
  
 ## Customise Collection View
 
