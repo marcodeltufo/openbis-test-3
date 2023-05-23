@@ -2,7 +2,7 @@ Barcodes
 ====
  
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 

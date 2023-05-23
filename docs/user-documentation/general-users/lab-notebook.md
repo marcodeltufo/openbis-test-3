@@ -3,7 +3,7 @@ Lab Notebook
  
 ## Register Projects
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 In a personal folder, users can register one or more *Projects* they
@@ -36,7 +36,7 @@ Updated on April 25, 2023
  
 ## Register Experiments
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 Inside one *Project*, a user can register several *Experiments*, which
@@ -66,7 +66,7 @@ Updated on April 25, 2023
  
 ## Register Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 As mentioned above, the various steps executed when performing an
@@ -120,7 +120,7 @@ Updated on April 25, 2023
  
 ## Add parents and children to Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -336,7 +336,7 @@ Updated on April 25, 2023
  
 ## How to use protocols in Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -374,7 +374,7 @@ Updated on April 26, 2023
  
 ## Move Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -401,7 +401,7 @@ Updated on April 25, 2023
  
 ## Copy Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -424,7 +424,7 @@ Updated on April 25, 2023
  
 ## Use templates for Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -450,7 +450,7 @@ Updated on December 8, 2022
  
 ## Data Access
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 *Datasets* are displayed on the left hand-side of the
@@ -467,7 +467,7 @@ such as [Cyberduck](https://cyberduck.io/) or other.
 Please check our documentation for SFTP server
 configuration: [Installation and Administrators Guide of the openBIS
 Data Store
-Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server##InstallationandAdministratorsGuideoftheopenBISDataStoreServer-ExampleSFTPclientconfiguration)
+Server](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrators+Guide+of+the+openBIS+Data+Store+Server#InstallationandAdministratorsGuideoftheopenBISDataStoreServer-ExampleSFTPclientconfiguration)
 
  
 
@@ -613,7 +613,7 @@ Updated on May 5, 2023
  
 ## Move Datasets
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -647,7 +647,7 @@ Updated on April 25, 2023
  
 ## Move one Experiment to a different Project
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -688,7 +688,7 @@ Updated on April 25, 2023
  
 ## Project Overview
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 All *Experiments* and *Experimental Ste*ps have a **Show in project
@@ -722,7 +722,7 @@ Updated on April 25, 2023
  
 ## Edit and Delete Projects, Experiments, Experimental Steps
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -751,13 +751,13 @@ Please be aware that, by default, only users with *Space Admin and
 Instance Admin*  role have permission to delete. Default permissions can
 be modified only by a *system admin* (see [Changing the openBIS
 capability role
-map](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server##InstallationandAdministratorGuideoftheopenBISServer-ChangingtheCapability-Rolemap))
+map](https://unlimited.ethz.ch/display/openBISDoc2010/Installation+and+Administrator+Guide+of+the+openBIS+Server#InstallationandAdministratorGuideoftheopenBISServer-ChangingtheCapability-Rolemap))
 
 Updated on April 25, 2023
  
 ## Share Lab Notebooks and Projects
 
-[](## "Print this article")
+[](# "Print this article")
 
   
 It is possible to share either a complete lab notebook or single

@@ -3,7 +3,7 @@ Inventory Of Materials And Methods
  
 ## Customise Collection View
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -58,7 +58,7 @@ Updated on April 25, 2023
  
 ## Register single entries in a Collection
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -108,7 +108,7 @@ Updated on April 25, 2023
  
 ## Batch register entries in a Collection
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -313,7 +313,7 @@ Updated on April 25, 2023
  
 ## Batch register entries in several Collections
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -392,7 +392,7 @@ Updated on April 25, 2023
  
 ## Batch update entries in a Collection
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -504,7 +504,7 @@ Updated on April 25, 2023
  
 ## Batch update entries in several Collections
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -584,7 +584,7 @@ Updated on April 25, 2023
  
 ## Copy entries
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
@@ -613,7 +613,7 @@ Updated on July 27, 2022
  
 ## Move entries to a different Collection
 
-[](## "Print this article")
+[](# "Print this article")
 
  
 
