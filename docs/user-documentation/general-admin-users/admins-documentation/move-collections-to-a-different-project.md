@@ -1,7 +1,6 @@
-Move Collections to a different Project
-=======================================
+# Move Collections to a different Project
 
-
+[](# "Print this article")
 
  
 

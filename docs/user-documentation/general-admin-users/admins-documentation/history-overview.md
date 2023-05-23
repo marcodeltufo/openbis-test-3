@@ -1,10 +1,9 @@
 History Overview
 ====
  
-History of deletions
-----
+## History of deletions
 
-
+[](# "Print this article")
 
  
 
@@ -50,10 +49,9 @@ For each deleted entry, the table shows:
 
 Updated on October 9, 2022
  
-History of freezing
-----
+## History of freezing
 
-
+[](# "Print this article")
 
  
 

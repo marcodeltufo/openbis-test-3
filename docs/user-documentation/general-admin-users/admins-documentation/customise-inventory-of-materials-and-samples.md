@@ -1,42 +1,34 @@
 Customise Inventory Of Materials And Samples
 ====
  
-Create Collections of Materials
-----
+## Create Collections of Materials
 
-
-
- 
-
-*Collections* are folders used to organise
-*Objects* in the **Materials** Inventory. Such *Objects* can be
-different types of samples and materials (e.g. chemicals, antibodies,
-batteries, environmental samples). 
+[](# "Print this article")
 
  
 
-*Collections* need to be created inside
-another folder, called *Project*, in the **Materials** inventory.
+*Collections* are folders used to organise *Objects* in the
+**Materials** Inventory. Such *Objects* can be different types of
+samples and materials (e.g. chemicals, antibodies, batteries,
+environmental samples).
 
+ 
+
+*Collections* need to be created inside another folder, called
+*Project*, in the **Materials** inventory.
 
  
 
 For example, if we want to create a collection of raw samples, we need
 to adopt the following steps:
 
-1.  Create an *Object* *type* called <span
-    style="color: #3366ff;">Sample. This can only be done by an
+1.  Create an *Object* *type* called Sample. This can only be done by an
     *Instance admin*, from the admin interface, as explained here: [New
     Entity Type
     Registration](https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/)
-2.  Create a first folder called <span
-    style="color: #3366ff;">Samples <span
-    style="color: #333399;">inside the
-    **Materials** folder <span
-    style="color: #000000;">*(Project)*
-3.  Create a second folder called Raw
-    Samples<span
-    style="color: #3366ff;">** ***(Collection)*
+2.  Create a first folder called Samples inside the **Materials** folder
+    *(Project)*
+3.  Create a second folder called Raw Samples** ***(Collection)*
 
  
 
@@ -44,21 +36,14 @@ to adopt the following steps:
 
 To create the *Project* folder:
 
-> 1.  Click on the
->     **Materials** folder
->
-> 2.  Click the **+ New Project** button
->     in the form. 
+> 1.  Click on the **Materials** folder
+> 2.  Click the **+ New Project** button in the form.
 >
 ![image info](img/create-project-materials-1024x286.png)
->
-> 3.  Provide a description, if wanted.
->     This is not mandatory.
->
-> 4.  Enter the **Code**. This will be the
->     name of the folder, in this case <span
->     style="color: #333399;">SAMPLES. Codes only take
->     alphanumeric characters and no spaces. 
+> 3.  Provide a description, if wanted. This is not mandatory.
+> 4.  Enter the **Code**. This will be the name of the folder, in this
+>     case SAMPLES. Codes only take alphanumeric characters and no
+>     spaces. 
 
  
 
@@ -68,24 +53,21 @@ To create the *Project* folder:
 
  
 
-To register the *Collection* folder,
-inside the *Project* folder:
+To register the *Collection* folder, inside the *Project* folder:
 
-> 1.  Click on the *Project* folder, in
->     this case **Samples**. 
-> 2.  Click the **+ New** button in the
->     main form and choose **Collection** from the dropdown.
+> 1.  Click on the *Project* folder, in this case **Samples**.
+> 2.  Click the **+ New** button in the main form and choose
+>     **Collection** from the dropdown.
+>
 ![image info](img/create-collection-materials-1024x403.png)
-> 3.  Replace the automatically generated
->     **Code** with something pertinent to the collection (e.g <span
->     style="color: #3366ff;">RAW\_SAMPLES)
-> 4.  Fill in the **Name** field (e.g.
->     Raw Samples). Note that by
+> 3.  Replace the automatically generated **Code** with something
+>     pertinent to the collection (e.g RAW\_SAMPLES)
+> 4.  Fill in the **Name** field (e.g. Raw Samples). Note that by
 >     default, the navigation menu on the left shows the name. If the
 >     name is not provided, the code is shown.
-> 5.  Select the **Default object type**
->     from the list of available types. This is the *Object* for which
->     the *Collection* is used. In this case, **Sample**.
+> 5.  Select the **Default object type** from the list of available
+>     types. This is the *Object* for which the *Collection* is used. In
+>     this case, **Sample**.
 > 6.  Select the **Default collection view** (see **[Customise
 >     Collection
 >     View](https://openbis.ch/index.php/docs/user-documentation-20-10-3/lab-notebook/customise-collection-view/))**
@@ -100,10 +82,9 @@ inside the *Project* folder:
 
 Updated on April 26, 2023
  
-Delete Collections
-----
+## Delete Collections
 
-
+[](# "Print this article")
 
  
 
@@ -127,10 +108,9 @@ To delete an existing Collection:
 
 Updated on February 6, 2023
  
-Enable Storage Widget on Sample Forms
-----
+## Enable Storage Widget on Sample Forms
 
-
+[](# "Print this article")
 
   
 When a new *Object type* is created by an *Instance admin (*see [New
@@ -167,22 +147,21 @@ For this, follow the steps below:
 
 Updated on April 26, 2023
  
-Configure Lab Storage
-----
+## Configure Lab Storage
 
-
+[](# "Print this article")
 
   
-Fridges and freezers can be configured in
-the **Settings**, under **Utilities**.
+Fridges and freezers can be configured in the **Settings**, under
+**Utilities**.
 
  
 
 1.  Go to **Settings**
 2.  Click **Edit**
 3.  Scroll down to the **Storages** section
-4.  Click the **+ New Storage** button
-    above the storage table, as shown below.
+4.  Click the **+ New Storage** button above the storage table, as shown
+    below.
 5.  Fill in the **Storage Form** as explained below
 
 ![image info](img/settings-new-lab-storage-1024x498.png)
@@ -190,45 +169,35 @@ the **Settings**, under **Utilities**.
   
 **How to fill in Storage Form:**
 
-> 1.  **Code**. It is advisable to provide
->     a meaningful code for the storage, rather than using the default,
->     because this information is needed when registering storage
->     positions in Batch mode. For example <span
->     style="color: #3366ff;"> MINUS80\_ROOM\_A1
-> 2.  **Name**. The name is what is shown
->     in most parts of the ELN. E.g. 
+> 1.  **Code**. It is advisable to provide a meaningful code for the
+>     storage, rather than using the default, because this information
+>     is needed when registering storage positions in Batch mode. For
+>     example MINUS80\_ROOM\_A1
+> 2.  **Name**. The name is what is shown in most parts of the ELN. E.g.
 >     Minus 80°C in Room A1
-> 3.  **Number of rows**. This is the
->     number of shelves.
-> 4.  **Number of columns**. This is the
->     number of racks per shelf.
-> 5.  **Allowed number of boxes in a
->     rack**. This is the maximum number per rack. Enter a very high
->     number if this is not important.
-> 6.  **Rack space warning**. Enter space
->     as percentage. E.g. 80, means
+> 3.  **Number of rows**. This is the number of shelves.
+> 4.  **Number of columns**. This is the number of racks per shelf.
+> 5.  **Allowed number of boxes in a rack**. This is the maximum number
+>     per rack. Enter a very high number if this is not important.
+> 6.  **Rack space warning**. Enter space as percentage. E.g. 80, means
 >     that the system will give a warning when 80% of a rack is
 >     occupied.
-> 7.  **Box space warning**. Enter space
->     as percentage. E.g. 80, means
->     that the system will give a warning when 80% of a box is
->     occupied.
-> 8.  **Validation level**. This is the
->     minimum level of information required about the storage:
->     1.  **Rack validation**. The
->         position in the shelf and rack needs to be specified.
->     2.  **Box validation**. In addition
->         to **a**, a box name needs to be specified.
->     3.  **Box position validation**. In
->         addition to **a** and **b**, the position in the box needs to
+> 7.  **Box space warning**. Enter space as percentage. E.g. 80, means
+>     that the system will give a warning when 80% of a box is occupied.
+> 8.  **Validation level**. This is the minimum level of information
+>     required about the storage:
+>     1.  **Rack validation**. The position in the shelf and rack needs
+>         to be specified.
+>     2.  **Box validation**. In addition to **a**, a box name needs to
 >         be specified.
+>     3.  **Box position validation**. In addition to **a** and **b**,
+>         the position in the box needs to be specified.
 
 Updated on April 26, 2023
  
-Add metadata to Storage Positions
-----
+## Add metadata to Storage Positions
 
-
+[](# "Print this article")
 
  
 

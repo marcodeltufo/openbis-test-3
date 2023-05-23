@@ -1,7 +1,6 @@
-Database navigation in admin UI
-===============================
+# Database navigation in admin UI
 
-
+[](# "Print this article")
 
  
 
@@ -22,13 +21,11 @@ openBIS version.
 
  
 
-Features
-----
+## Features
 
  
 
-Filter
-^^^^
+### Filter
 
 It is possible to filter the menu by code or name of the desired entity.
 
@@ -38,8 +35,7 @@ It is possible to filter the menu by code or name of the desired entity.
 
  
 
-Navigation
-^^^^
+### Navigation
 
 To navigate the menu, the nodes have to be opened individually.
 
@@ -62,8 +58,7 @@ menu, as show in the picture below.
 
  
 
-Sorting
-^^^^
+### Sorting
 
 Each level of the hierarchy except for *Spaces* (*Projects, Collections,
 Objects, Datasets*) can be sorted separately, using the buttons shown in
@@ -75,7 +70,7 @@ ascending date; sorting by descending date.
 
  
 
-![image info](img/Screenshot-2022-11-30-at-17.25.24.png)
+![image info](img/Screenshot-2022-11-30-at-17.25.06.png)
 
  
 

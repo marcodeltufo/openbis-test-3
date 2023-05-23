@@ -1,10 +1,9 @@
 Customise Inventory Of Protocols
 ====
  
-Create Collections of Protocols
-----
+## Create Collections of Protocols
 
-
+[](# "Print this article")
 
   
 *Collections* are folders used to organise *Objects* in the **Methods**
@@ -12,26 +11,21 @@ Inventory. In this case, *Objects* are protocols.
 
  
 
-*Collections* need to be created inside
-another folder, called *Project*, in the **Methods** *Space* in the
-inventory.
+*Collections* need to be created inside another folder, called
+*Project*, in the **Methods** *Space* in the inventory.
 
  
 
-For example, if we want to create a
-collection of lab protocols for microscopy and Mass spec, we need to
-adopt the following steps:
+For example, if we want to create a collection of lab protocols for
+microscopy and Mass spec, we need to adopt the following steps:
 
-1.  Register a first *Project* folder called <span
-    style="color: #3366ff;">LAB\_PROTOCOLS <span
-    style="color: #000000;">in the **Methods** *Space*.
+1.  Register a first *Project* folder called LAB\_PROTOCOLS in the
+    **Methods** *Space*.
 
 ![image info](img/create-project-methods.png)
 
 1.  In the **Lab** **Protocols** folder, register two additional
-    Collections called Microscopy
-    Protocols and MS
-    Protocols
+    Collections called Microscopy Protocols and MS Protocols
 
  
 
@@ -47,10 +41,9 @@ Materials](https://openbis.ch/index.php/docs/admin-documentation-openbis-19-06-4
 
 Updated on April 26, 2023
  
-Enable Protocols in Settings
-----
+## Enable Protocols in Settings
 
-
+[](# "Print this article")
 
   
 If a new *Object type* for a protocol is created by an *Instance admin*

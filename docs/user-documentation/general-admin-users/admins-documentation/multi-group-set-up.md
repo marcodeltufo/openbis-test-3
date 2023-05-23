@@ -1,10 +1,9 @@
 Multi Group Set Up
 ====
  
-General ELN Settings
-----
+## General ELN Settings
 
-
+[](# "Print this article")
 
  
 
@@ -70,8 +69,7 @@ and **Horizon**, **Snf** do not belong to any group in the Lab notebook.
 
  
 
-Instance Settings
-----
+## Instance Settings
 
  
 
@@ -91,8 +89,7 @@ Instance Settings
 
  
 
-Group Settings
-----
+## Group Settings
 
  
 
@@ -153,10 +150,9 @@ By unchecking this option, these sections will be shown by default.
 
 Updated on April 26, 2023
  
-Group ELN Settings
-----
+## Group ELN Settings
 
-
+[](# "Print this article")
 
  
 

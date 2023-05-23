@@ -1,7 +1,6 @@
-Create Templates for Objects
-============================
+# Create Templates for Objects
 
-
+[](# "Print this article")
 
   
 It is possible to create templates for *Objects*. Templates are useful

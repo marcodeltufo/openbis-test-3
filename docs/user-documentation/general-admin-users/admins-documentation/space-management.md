@@ -1,10 +1,9 @@
 Space Management
 ====
  
-Create new Inventory Spaces
-----
+## Create new Inventory Spaces
 
-
+[](# "Print this article")
 
   
 The default Inventory contains two
@@ -14,8 +13,7 @@ Additional *Spaces* can be created by an *Instance admin*.
 
  
 
-Create a new Inventory Space from the ELN UI
-----
+## Create a new Inventory Space from the ELN UI
 
  
 
@@ -36,10 +34,7 @@ To create a new *Space* under the Inventory:
  
 
 3\. Enter the **Code** for the *Space*, e.g. EQUIPMENT. Please note that
-codes only accept alphanumeric
-characters, –, <span
-style="color: #ff0000;">. , <span
-style="color: #ff0000;">\_.
+codes only accept alphanumeric characters, –, . , \_.
 
 4\. **Save**
 
@@ -49,8 +44,7 @@ style="color: #ff0000;">\_.
 
  
 
-Multi-group instances
-^^^^
+### Multi-group instances
 
  
 
@@ -77,8 +71,7 @@ create a new *Space*:
 
  
 
-Create a new Inventory Space from the core UI
-----
+## Create a new Inventory Space from the core UI
 
  
 
@@ -97,11 +90,8 @@ In the core UI:
 
 ![image info](img/spaces-admin-UI-300x158.png)
 
- 
--
 
-Set Inventory Spaces
-^^^^
+### Set Inventory Spaces
 
   
 When new *Spaces* are created in the core UI, they are automatically
@@ -128,16 +118,12 @@ It is possible to move a new *Space* to the Inventory, by editing the
 
 Updated on April 26, 2023
  
-Create new ELN Spaces
-----
+## Create new ELN Spaces
+
+[](# "Print this article")
 
 
-
- 
-=
-
-Create a new Lab Notebook Space from the ELN UI
-----
+## Create a new Lab Notebook Space from the ELN UI
 
  
 
@@ -157,20 +143,15 @@ from the ELN interface. To create a new Space under the Inventory:
  
 
 3\. Enter the **Code** for the *Space*. Please note that codes only
-accept alphanumeric characters,
-–, <span
-style="color: #ff0000;">. , <span
-style="color: #ff0000;">\_.
+accept alphanumeric characters, –, . , \_.
 
 4\. **Save**    
 
  
 
 ![image info](img/create-space.png)
-   
 
-Multi-group instances
-^^^^
+### Multi-group instances
 
  
 
@@ -215,8 +196,7 @@ assigned by an *Instance admin*.
 
  
 
-Create a new Lab Notebook Space from the core UI
-----
+## Create a new Lab Notebook Space from the core UI
 
  
 
@@ -240,10 +220,9 @@ Notebook part of the ELN UI.
 
 Updated on April 26, 2023
  
-Delete Spaces
-----
+## Delete Spaces
 
-
+[](# "Print this article")
 
  
 
@@ -284,10 +263,9 @@ previously belonging to the *Space* are in the trashcan.
 
 Updated on April 26, 2023
  
-Move Spaces between Lab Notebook and Inventory
-----
+## Move Spaces between Lab Notebook and Inventory
 
-
+[](# "Print this article")
 
  
 

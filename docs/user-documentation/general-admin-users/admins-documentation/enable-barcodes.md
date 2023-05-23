@@ -1,7 +1,6 @@
-Enable Barcodes
-===============
+# Enable Barcodes
 
-
+[](# "Print this article")
 
 In order to be able to add custom barcodes to *Objects*, an *Instance
 Admin* needs to add the $BARCODE property to the object type for which

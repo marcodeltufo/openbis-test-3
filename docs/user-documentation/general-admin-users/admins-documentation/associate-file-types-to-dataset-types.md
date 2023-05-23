@@ -1,7 +1,6 @@
-Associate File Types to Dataset Types
-=====================================
+# Associate File Types to Dataset Types
 
-
+[](# "Print this article")
 
   
 It is possible to associate given file types to given *Dataset* *types*.

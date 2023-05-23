@@ -1,7 +1,6 @@
-Customise Parents and Children Sections in Object Forms
-=======================================================
+# Customise Parents and Children Sections in Object Forms
 
-
+[](# "Print this article")
 
  
 

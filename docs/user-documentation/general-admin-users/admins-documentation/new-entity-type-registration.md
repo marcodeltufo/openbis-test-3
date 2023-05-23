@@ -1,10 +1,9 @@
 New Entity Type Registration
 ====
  
-Enable Rich Text Editor or Spreadsheet Widgets
-----
+## Enable Rich Text Editor or Spreadsheet Widgets
 
-
+[](# "Print this article")
 
   
 For certain fields, it is possible to enable the use of a Rich Text
@@ -36,10 +35,9 @@ Procedure:
 
 Updated on October 19, 2022
  
-Enable Objects in dropdowns
-----
+## Enable Objects in dropdowns
 
-
+[](# "Print this article")
 
  
 
@@ -59,10 +57,9 @@ show in dropdown menus can be customised from the Settings.
 
 Updated on October 19, 2022
  
-Register masterdata via Excel
-----
+## Register masterdata via Excel
 
-
+[](# "Print this article")
 
  
 
@@ -100,8 +97,7 @@ everything in one single spreadsheet.
 
  
 
-Modifying existing types
-^^^^
+### Modifying existing types
 
 If you wish to add a new property to an existing
 *Collection/Object/Dataset* type, you need to:
@@ -131,10 +127,9 @@ metadata registration can be found
 
 Updated on January 13, 2023
  
-Properties overview
-----
+## Properties overview
 
-
+[](# "Print this article")
 
  
 
@@ -148,10 +143,9 @@ admin UI, as shown below.
 
 Updated on March 1, 2022
  
-Internal properties and vocabularies
-----
+## Internal properties and vocabularies
 
-
+[](# "Print this article")
 
  
 

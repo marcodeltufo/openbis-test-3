@@ -1,15 +1,14 @@
 User Registration
 ====
  
-openBIS roles
-----
+## openBIS roles
 
+[](# "Print this article")
 
 
  
 
-Observer
-^^^^
+### Observer
 
 This role can be assigned to the whole openBIS instance (*Instance
 Observer*) or to specific *Spaces* or *Projects* (*Space* or *Project
@@ -23,8 +22,7 @@ datasets. They cannot modify nor delete anything.
 
  
 
-Space/Project User
-^^^^
+### Space/Project User
 
 Extends Observer permissions with some creating and editing
 functionality. Permissions are limited to specified *Space(s)* or
@@ -42,8 +40,7 @@ Can do everything that Observer and additionally:
 
  
 
-Space/Project Power User
-^^^^
+### Space/Project Power User
 
 Extends *Space/Projec*t User permissions with some deleting, editing and
 processing functionality. Permissions are limited to specified
@@ -61,8 +58,8 @@ Can do everything that *Space/Project* User and additionally:
 Please note that this role cannot be assigned via the ELN UI, only via
 admin UI.
 
-Space/Project Admin
-^^^^
+
+### Space/Project Admin
 
 Extends Space/Project Power User permissions allowing to manage roles
 and projects inside given *Space(s)* or *Project(s)*.
@@ -73,8 +70,7 @@ Can do everything that Space/Project Power User and additionally:
 
  
 
-Instance Admin
-^^^^
+### Instance Admin
 
 Has the full access to given openBIS instance.
 
@@ -116,12 +112,12 @@ admin UI.
 
  
 
+
 Updated on April 26, 2023
  
-User Profile
-----
+## User Profile
 
-
+[](# "Print this article")
 
 In the User Profile, a user who is logged in into openBIS can find the
 following information:
@@ -158,10 +154,9 @@ here, from the **Change Password** option under the **More..** dropdown.
 
 Updated on June 28, 2022
  
-Assign home space to a user
-----
+## Assign home space to a user
 
-
+[](# "Print this article")
 
  
 

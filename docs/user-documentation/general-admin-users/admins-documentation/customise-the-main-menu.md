@@ -1,12 +1,10 @@
-Customise the Main Menu
-=======================
+# Customise the Main Menu
 
-
+[](# "Print this article")
 
  
 
-Main Menu Sections
-----
+## Main Menu Sections
 
   
 The main menu can be customised from the **Settings**, under
@@ -86,8 +84,7 @@ The main menu can be customised from the **Settings**, under
 
  
 
-Lab Notebook menu
-----
+## Lab Notebook menu
 
  
 

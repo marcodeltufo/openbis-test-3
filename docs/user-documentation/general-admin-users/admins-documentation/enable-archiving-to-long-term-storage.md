@@ -1,14 +1,14 @@
-Enable archiving to Long Term Storage
-=====================================
+# Enable archiving to Long Term Storage
 
-
+[](# "Print this article")
 
  
 
  
 
 openBIS supports archiving of datasets to Strongbox and StronLink
-() as described in [Datasets
+([https://www.strongboxdata.com/](https://www.strongboxdata.com/)) as
+described in [Datasets
 Archiving](https://unlimited.ethz.ch/display/openBISDoc2010/Archiving+Datasets)
 
  

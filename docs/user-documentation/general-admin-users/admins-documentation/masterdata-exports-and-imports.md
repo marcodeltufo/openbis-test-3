@@ -1,7 +1,6 @@
-Masterdata exports and imports
-==============================
+# Masterdata exports and imports
 
-
+[](# "Print this article")
 
  
 
@@ -10,8 +9,7 @@ one openBIS instance and import it in another one via the admin UI.
 
  
 
-Masterdata export
-----
+## Masterdata export
 
  
 
@@ -53,8 +51,7 @@ openBIS.
 
  
 
-Masterdata import
-----
+## Masterdata import
 
  
 
