@@ -1,5 +1,5 @@
 Additional Functionalities
-====
+==========================
  
 ## Visualise Relationships
 
@@ -34,7 +34,6 @@ Updated on March 4, 2022
 
 [](# "Print this article")
 
- 
 
   
 All tables in the ELN have a similar format and functionalities. The
